@@ -1,0 +1,27 @@
+:root {
+	/* backgrounds */
+	--clr-bg-nav: hsl(144, 51%, 10%);
+	--clr-bg-hero: hsl(153, 40%, 30%);
+	--clr-bg-page: hsl(43, 41%, 97%);
+	--clr-bg-alt: hsl(37, 39%, 94%);
+	--clr-bg-stats: hsl(144, 50%, 20%);
+
+	/* font colors */
+	--clr-ft-primary: hsl(37, 39%, 94%);
+	--clr-ft-heading: hsl(144, 50%, 20%);
+	--clr-ft-body: hsl(0, 0%, 24%);
+	--clr-ft-labels: hsl(60, 5%, 45%);
+	--clr-ft-accent: hsl(44, 54%, 54%);
+	--clr-ft-highlight: hsl(152, 41%, 52%);
+
+	/* borders */
+	--gold-border: rgba(201, 168, 76, 0.35);
+	--green-border: rgba(42, 105, 78, 0.25);
+	--quote-border: 3px solid #c9a84c;
+	--card-border: 3px solid #2d6a4f;
+	--nav-border: 1px solid var(--gold-border);
+}
+
+body {
+	border-bottom: var(--nav-border);
+}

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Taiba Moské — Islamisk Geometrisk Mønster</title>
+  <desc>Traditional Islamic geometric pattern using circles, polygons and star forms. For use as hero background overlay or decorative element.</desc>
+
+  <!-- Base fill — transparent so it overlays any background -->
+  <rect width="800" height="800" fill="none"/>
+
+  <g stroke="#C9A84C" stroke-width="0.8" fill="none" opacity="1">
+
+    <!-- ── Outer rings ── -->
+    <circle cx="400" cy="400" r="390"/>
+    <circle cx="400" cy="400" r="340"/>
+    <circle cx="400" cy="400" r="290"/>
+    <circle cx="400" cy="400" r="240"/>
+    <circle cx="400" cy="400" r="190"/>
+    <circle cx="400" cy="400" r="140"/>
+    <circle cx="400" cy="400" r="90"/>
+    <circle cx="400" cy="400" r="44"/>
+
+    <!-- ── Primary axes ── -->
+    <line x1="400" y1="10"  x2="400" y2="790"/>
+    <line x1="10"  y1="400" x2="790" y2="400"/>
+
+    <!-- ── Diagonal axes ── -->
+    <line x1="124" y1="124" x2="676" y2="676"/>
+    <line x1="676" y1="124" x2="124" y2="676"/>
+
+    <!-- ── 22.5° offset axes (creates 16-fold symmetry) ── -->
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(22.5 400 400)"/>
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(45 400 400)"/>
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(67.5 400 400)"/>
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(112.5 400 400)"/>
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(135 400 400)"/>
+    <line x1="400" y1="10"  x2="400" y2="790" transform="rotate(157.5 400 400)"/>
+
+    <!-- ── 12-point outer star polygon ── -->
+    <polygon points="
+      400,10
+      469,144  620,55  531,206
+      790,200  676,331
+      790,400  676,469
+      790,600  620,545  531,594
+      400,790
+      269,656  180,745  269,594
+      10,600   124,469
+      10,400   124,331
+      10,200   180,255  269,206
+      400,10
+    "/>
+
+    <!-- ── 8-point star (inner) ── -->
+    <polygon points="
+      400,80
+      447,180  520,120  480,220
+      580,180  530,270
+      720,260  610,340
+      720,400  610,460
+      720,540  580,520  530,610
+      480,580  520,680  447,620
+      400,720
+      353,620  280,680  320,580
+      220,610  270,520  180,540
+      80,460
+      190,400
+      80,340  180,260  270,270  220,180
+      320,220  280,120  353,180
+      400,80
+    "/>
+
+    <!-- ── Hexagonal frame ── -->
+    <polygon points="400,60 676,220 676,580 400,740 124,580 124,220"/>
+
+    <!-- ── Inner hexagon ── -->
+    <polygon points="400,160 600,275 600,525 400,640 200,525 200,275"/>
+
+    <!-- ── Diamond (rotated square) at centre ── -->
+    <rect x="250" y="250" width="300" height="300" transform="rotate(45 400 400)"/>
+    <rect x="290" y="290" width="220" height="220" transform="rotate(22.5 400 400)"/>
+    <rect x="320" y="320" width="160" height="160" transform="rotate(45 400 400)"/>
+
+    <!-- ── Petal / arabesque circles ── -->
+    <!-- 8 petals arranged around centre -->
+    <circle cx="400" cy="210" r="80"/>
+    <circle cx="400" cy="590" r="80"/>
+    <circle cx="210" cy="400" r="80"/>
+    <circle cx="590" cy="400" r="80"/>
+    <circle cx="243" cy="243" r="80"/>
+    <circle cx="557" cy="243" r="80"/>
+    <circle cx="243" cy="557" r="80"/>
+    <circle cx="557" cy="557" r="80"/>
+
+    <!-- ── Outer corner arabesque circles ── -->
+    <circle cx="124" cy="124" r="60"/>
+    <circle cx="676" cy="124" r="60"/>
+    <circle cx="124" cy="676" r="60"/>
+    <circle cx="676" cy="676" r="60"/>
+
+    <!-- ── Outer edge mid arabesque circles ── -->
+    <circle cx="400" cy="80"  r="50"/>
+    <circle cx="400" cy="720" r="50"/>
+    <circle cx="80"  cy="400" r="50"/>
+    <circle cx="720" cy="400" r="50"/>
+
+    <!-- ── Fine inner detail star (16-point) ── -->
+    <polygon points="
+      400,310 415,355 444,322 438,370
+      480,358 460,400 480,442
+      438,430 444,478 415,445
+      400,490 385,445 356,478
+      362,430 320,442 340,400
+      320,358 362,370 356,322
+      385,355
+    "/>
+
+    <!-- ── Tiny centre rosette ── -->
+    <circle cx="400" cy="400" r="24"/>
+    <circle cx="400" cy="400" r="14"/>
+    <line x1="400" y1="376" x2="400" y2="424"/>
+    <line x1="376" y1="400" x2="424" y2="400"/>
+    <line x1="383" y1="383" x2="417" y2="417"/>
+    <line x1="417" y1="383" x2="383" y2="417"/>
+
+  </g>
+
+  <!-- ── Subtle dot grid at corners ── -->
+  <g fill="#C9A84C" opacity="0.5">
+    <circle cx="400" cy="400" r="3"/>
+    <circle cx="400" cy="80"  r="2.5"/>
+    <circle cx="400" cy="720" r="2.5"/>
+    <circle cx="80"  cy="400" r="2.5"/>
+    <circle cx="720" cy="400" r="2.5"/>
+    <circle cx="124" cy="124" r="2"/>
+    <circle cx="676" cy="124" r="2"/>
+    <circle cx="124" cy="676" r="2"/>
+    <circle cx="676" cy="676" r="2"/>
+  </g>
+
+</svg>

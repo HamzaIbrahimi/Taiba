@@ -21,7 +21,3 @@
 	--card-border: 3px solid #2d6a4f;
 	--nav-border: 1px solid var(--gold-border);
 }
-
-body {
-	border-bottom: var(--nav-border);
-}

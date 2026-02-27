@@ -1,18 +1,53 @@
+@font-face {
+	font-family: '_Cinzel';
+	src:
+		local('_Cinzel'),
+		url('fonts/Cinzel-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: '_Cormo-garamond';
+	src:
+		local('_Cormo-garamond'),
+		url('fonts/CormorantGaramond-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: '_Lato-light';
+	src:
+		local('_Lato-light'),
+		url('fonts/Lato-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: '_Lato-regular';
+	src:
+		local('_Lato-regular'),
+		url('fonts/Lato-Regular.woff2') format('woff2');
+}
+
 :root {
 	/* backgrounds */
-	--clr-bg-nav: hsl(144, 51%, 10%);
-	--clr-bg-hero: hsl(153, 40%, 30%);
-	--clr-bg-page: hsl(43, 41%, 97%);
-	--clr-bg-alt: hsl(37, 39%, 94%);
-	--clr-bg-stats: hsl(144, 50%, 20%);
+	--clr-bg-nav: #0d2818;
+	--clr-bg-emerald: #1a4d2e;
+	--clr-bg-jade: #2d6a4f;
+	--clr-bg-hero: linear-gradient(
+		160deg,
+		var(--clr-bg-nav) 0%,
+		var(--clr-bg-emerald) 60%,
+		var(--clr-bg-jade) 100%
+	);
+	--clr-bg-page: #faf8f3;
+	--clr-bg-alt: #f5f0e8;
+	--clr-bg-stats: #1a4d2e;
 
 	/* font colors */
-	--clr-ft-primary: hsl(37, 39%, 94%);
-	--clr-ft-heading: hsl(144, 50%, 20%);
-	--clr-ft-body: hsl(0, 0%, 24%);
-	--clr-ft-labels: hsl(60, 5%, 45%);
-	--clr-ft-accent: hsl(44, 54%, 54%);
-	--clr-ft-highlight: hsl(152, 41%, 52%);
+	--clr-ft-primary: #f6f1ea;
+	--clr-ft-heading: #194d2e;
+	--clr-ft-body: #3d3d3d;
+	--clr-ft-labels: #78786d;
+	--clr-ft-accent: #c9a74a;
+	--clr-ft-highlight: #52b788;
 
 	/* borders */
 	--gold-border: rgba(201, 168, 76, 0.35);

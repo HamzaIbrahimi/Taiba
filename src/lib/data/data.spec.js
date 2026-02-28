@@ -20,3 +20,11 @@ describe('Check the prayer times for a given date', () => {
 		expect(times['28-2']['isha']).toBe('19:43');
 	});
 });
+
+describe('Checks for data against current date', () => {
+	it('Should return data for today', () => {
+		const date = new Date();
+		const key = `${date.getDay()}-${date.getMonth() + 1}`;
+		expect(times[key]).toBeDefined();
+	});
+});

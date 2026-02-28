@@ -42,12 +42,18 @@
 	--clr-bg-stats: #1a4d2e;
 
 	/* font colors */
-	--clr-ft-primary: #f6f1ea;
-	--clr-ft-heading: #194d2e;
-	--clr-ft-body: #3d3d3d;
-	--clr-ft-labels: #78786d;
-	--clr-ft-accent: #c9a74a;
-	--clr-ft-highlight: #52b788;
+	--fc-primary: #f6f1ea;
+	--fc-heading: #194d2e;
+	--fc-body: #3d3d3d;
+	--fc-labels: #78786d;
+	--fc-accent: #c9a74a;
+	--fc-highlight: #52b788;
+
+	/* fonts */
+	--ff-body: '_Lato-light', sans-serif;
+	--ff-lato-regular: '_Lato-regular', sans-serif;
+	--ff-heading: '_Cormo-garamond', serif;
+	--ff-nav-links: '_Cinzel', serif;
 
 	/* borders */
 	--gold-border: rgba(201, 168, 76, 0.35);
@@ -55,4 +61,31 @@
 	--quote-border: 3px solid #c9a84c;
 	--card-border: 3px solid #2d6a4f;
 	--nav-border: 1px solid var(--gold-border);
+
+	/* Font sizes */
+	--fs-hero: 1.375rem;
+	--fs-stats: 1.375rem;
+	--fs-nav-links-mobile: 1.5rem;
+	--fs-section-head: 1.125rem;
+	--fs-card-title: 0.5rem;
+	--fs-body: 0.5625rem;
+	--fs-footer: 0.5rem;
+	--fs-labels: 0.4375rem;
+
+	/* todo: make the sizes responsive with nested media queries */
+	@media (min-width: 768px) {
+		--fs-hero: 1.75rem;
+		--fs-body: 0.625rem;
+	}
+
+	@media (min-width: 1280px) {
+		--fs-hero: 2.125rem;
+		--fs-body: 0.6875rem;
+	}
+}
+
+body {
+	font-family: var(--ff-body);
+	color: var(--fc-body);
+	font-size: var(--fs-body);
 }

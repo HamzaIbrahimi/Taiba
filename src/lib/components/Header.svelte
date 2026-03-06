@@ -1,10 +1,20 @@
 <script>
 	import { page } from '$app/state';
+	import Sidebar from './Sidebar.svelte';
+	import burger from '$lib/assets/hamburger-menu.svg';
+	import close from '$lib/assets/close.svg';
+	import { fade } from 'svelte/transition';
+
+	//State the contro
+	let open = $state(false);
 </script>
 
 <header>
 	<nav>
-		<a class="nav-logo" href="/">TAIBA<span>MOSKÉ · EST. 2000</span></a>
+		<a class="nav-logo" href="/"
+			>TAIBA<span class="lg-view">MOSKÉ · EST. 2000</span>
+			<span class="sm-view">MOSKÉ</span></a
+		>
 		<ul>
 			<li><a href="/">FORSIDE</a></li>
 			<li><a href="/About">OM OS</a></li>
@@ -16,20 +26,60 @@
 			href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
 			target="_blank">Donér nu</a
 		>
+		<button
+			transition:fade
+			class="burger-button"
+			onclick={() => (open = !open)}
+		>
+			<img src={open ? close : burger} alt="burger menu button" />
+		</button>
 	</nav>
 </header>
+{#if open}
+	<Sidebar />
+{/if}
 
 <style>
 	header {
-		padding: 1rem 2rem;
+		padding: 1rem 2.5rem;
 		background-color: var(--clr-bg-nav);
 		border-bottom: 1px solid var(--clr-gold);
+		min-width: 100%;
 	}
+
 	nav {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		font-size: var(--fs-nav-links);
+	}
+
+	.nav-logo {
+		color: var(--clr-gold);
+		font-family: var(--ff-nav-links);
+	}
+
+	.nav-logo span {
+		color: var(--clr-bg-jade);
+		font-family: var(--ff-lato-regular);
+	}
+
+	.donate-link {
+		background: var(--clr-gold);
+		padding: 0.375rem 0.75rem;
+		border-radius: 0.125rem;
+		font-family: var(--ff-nav-links);
+		color: var(--clr-bg-nav);
+	}
+
+	.donate-link:hover {
+		text-decoration: underline;
+	}
+
+	img {
+		width: 40px;
+		height: 40px;
+		color: var(--clr-gold);
 	}
 
 	ul {
@@ -39,7 +89,6 @@
 	}
 
 	a {
-		font-size: var(--fs-nav-links);
 		color: var(--clr-bg-alt);
 		text-decoration: none;
 		letter-spacing: 0.2rem;
@@ -56,33 +105,42 @@
 		transition: 200ms ease-in;
 	}
 
+	.burger-button {
+		color: var(--clr-gold);
+		background: var(--clr-bg-nav);
+		border: none;
+		outline: none;
+		cursor: pointer;
+		display: none;
+	}
+
 	span {
 		display: block;
 	}
-
-	.nav-logo {
-		color: var(--clr-gold);
-		font-family: var(--ff-nav-links);
+	.sm-view {
+		display: none;
 	}
 
-	.nav-logo span {
-		color: var(--clr-bg-jade);
-		font-family: var(--ff-lato-regular);
-		font-size: 0.8rem;
-	}
+	@media (max-width: 850px) {
+		ul {
+			flex-wrap: wrap;
+		}
 
-	.donate-link {
-		background: var(--clr-gold);
-		padding: 0.375rem 0.75rem;
-		border-radius: 0.125rem;
-		font-family: var(--ff-nav-links);
-		color: var(--clr-bg-nav);
+		.sm-view {
+			display: block;
+		}
+		.lg-view {
+			display: none;
+		}
 	}
+	@media (max-width: 550px) {
+		.burger-button {
+			display: block;
+		}
 
-	.donate-link:hover {
-		text-decoration: underline;
-	}
-
-	@media (max-width: 768px) {
+		ul,
+		.donate-link {
+			display: none;
+		}
 	}
 </style>

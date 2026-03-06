@@ -67,11 +67,11 @@
 	/* Font sizes */
 	--fs-hero: 1.375rem;
 	--fs-stats: 1.375rem;
-	--fs-nav-links: 1rem;
+	--fs-nav-links: 0.7rem;
 	--fs-nav-links-burger: 1.5rem;
 	--fs-section-head: 1.125rem;
 	--fs-card-title: 0.5rem;
-	--fs-body: 0.5625rem;
+	--fs-body: 1rem;
 	--fs-footer: 0.5rem;
 	--fs-labels: 0.4375rem;
 
@@ -81,17 +81,15 @@
 		--fs-stats: 1.625rem;
 		--fs-section-head: 1.375rem;
 		--fs-card-title: 0.5625rem;
-		--fs-body: 0.625rem;
 		--fs-footer: 0.5625rem;
 	}
 
-	@media (min-width: 1280px) {
+	@media (min-width: 1000px) {
 		--fs-hero: 2.125rem;
 		--fs-stats: 1.875rem;
 		--fs-nav-links: 1rem;
 		--fs-section-head: 1.625rem;
 		--fs-card-title: 0.625rem;
-		--fs-body: 0.6875rem;
 		--fs-footer: 0.625rem;
 		--fs-labels: 0.5rem;
 	}

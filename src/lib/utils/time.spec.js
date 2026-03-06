@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import times from '$lib/data/times.json';
-import { addOneHour, todaysPrayerTimes } from './time';
+import todaysPrayerTimes, { addOneHour } from './time';
 
 describe('General time tests', () => {
 	it('adds one hour if we are in day light saving time otherwise returns normal time', () => {

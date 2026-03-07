@@ -5,7 +5,6 @@
 	import close from '$lib/assets/close.svg';
 	import { fade } from 'svelte/transition';
 
-	//State the contro
 	let open = $state(false);
 </script>
 
@@ -36,7 +35,9 @@
 	</nav>
 </header>
 {#if open}
-	<Sidebar />
+	<div transition:fade>
+		<Sidebar changeState={() => (open = !open)} />
+	</div>
 {/if}
 
 <style>
@@ -90,7 +91,6 @@
 
 	a {
 		color: var(--clr-bg-alt);
-		text-decoration: none;
 		letter-spacing: 0.2rem;
 	}
 
@@ -141,6 +141,9 @@
 		ul,
 		.donate-link {
 			display: none;
+		}
+		.nav-logo {
+			font-size: 1.1rem;
 		}
 	}
 </style>

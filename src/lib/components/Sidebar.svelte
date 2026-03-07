@@ -4,13 +4,14 @@
 	import pattern from '$lib/assets/taiba-geometric-pattern.svg';
 	import { page } from '$app/state';
 	import todaysPrayerTimes from '$lib/utils/time';
+	import { fly } from 'svelte/transition';
 	let currentPage = $state(page.url.pathname);
 	let prayerNames = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let prayerTimes = todaysPrayerTimes();
 	let { changeState } = $props();
 </script>
 
-<div class="sidebar-container">
+<div class="sidebar-container" transition:fly={{ x: 560, duration: 500 }}>
 	<nav>
 		<a onclick={changeState} href="/">
 			<div
@@ -27,46 +28,46 @@
 			/>
 		</a>
 
-		<a onclick={changeState} href="/About">
+		<a onclick={changeState} href="/about">
 			<div
 				class="current-title"
-				style="color: {currentPage === '/About'
+				style="color: {currentPage === '/about'
 					? 'var(--clr-gold)'
 					: 'var(--fc-primary)'}"
 			>
 				Om Os <span>Vores Historie & Mission</span>
 			</div>
 			<img
-				src={currentPage === '/About' ? diamond : caret}
+				src={currentPage === '/about' ? diamond : caret}
 				alt="direct to about page"
 			/>
 		</a>
 
-		<a onclick={changeState} href="/Events">
+		<a onclick={changeState} href="/events">
 			<div
 				class="current-title"
-				style="color: {currentPage === '/Events'
+				style="color: {currentPage === '/events'
 					? 'var(--clr-gold)'
 					: 'var(--fc-primary)'}"
 			>
 				Arrangementer<span>Kalender & Programmer</span>
 			</div>
 			<img
-				src={currentPage === '/Events' ? diamond : caret}
+				src={currentPage === '/events' ? diamond : caret}
 				alt="direct to about page"
 			/>
 		</a>
-		<a onclick={changeState} href="/Contact">
+		<a onclick={changeState} href="/contact">
 			<div
 				class="current-title"
-				style="color: {currentPage === '/Contact'
+				style="color: {currentPage === '/contact'
 					? 'var(--clr-gold)'
 					: 'var(--fc-primary)'}"
 			>
 				Kontakt<span>Find Os & Åbningstider</span>
 			</div>
 			<img
-				src={currentPage === '/Contact' ? diamond : caret}
+				src={currentPage === '/contact' ? diamond : caret}
 				alt="direct to about page"
 			/>
 		</a>
@@ -129,7 +130,7 @@
 	.sidebar-container {
 		background-color: var(--clr-bg-nav);
 		width: 100%;
-		height: 90%;
+		height: 100%;
 		position: absolute;
 		display: grid;
 		grid-template-columns: 1fr;
@@ -188,6 +189,7 @@
 		border-radius: 0.125rem;
 		font-family: var(--ff-nav-links);
 		color: var(--clr-bg-nav);
-		text-align: center;
+		display: flex;
+		justify-content: center;
 	}
 </style>

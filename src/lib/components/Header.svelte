@@ -3,41 +3,42 @@
 	import Sidebar from './Sidebar.svelte';
 	import burger from '$lib/assets/hamburger-menu.svg';
 	import close from '$lib/assets/close.svg';
-	import { fade } from 'svelte/transition';
-
+	let windowWidth = $state(0);
 	let open = $state(false);
+	$effect(() => {
+		if (windowWidth > 550) {
+			open = false;
+		}
+	});
 </script>
 
+<svelte:window bind:innerWidth={windowWidth} />
 <header>
 	<nav>
-		<a class="nav-logo" href="/"
+		<a class="nav-logo" href="/" onclick={() => (open = false)}
 			>TAIBA<span class="lg-view">MOSKÉ · EST. 2000</span>
 			<span class="sm-view">MOSKÉ</span></a
 		>
 		<ul>
 			<li><a href="/">FORSIDE</a></li>
-			<li><a href="/About">OM OS</a></li>
-			<li><a href="/Events">ARRANGEMENTER</a></li>
-			<li><a href="/Contact">KONTAKT</a></li>
+			<li><a href="/about">OM OS</a></li>
+			<li><a href="/events">ARRANGEMENTER</a></li>
+			<li><a href="/contact">KONTAKT</a></li>
 		</ul>
 		<a
 			class="donate-link"
 			href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
 			target="_blank">Donér nu</a
 		>
-		<button
-			transition:fade
-			class="burger-button"
-			onclick={() => (open = !open)}
-		>
+		<button class="burger-button" onclick={() => (open = !open)}>
 			<img src={open ? close : burger} alt="burger menu button" />
 		</button>
 	</nav>
 </header>
 {#if open}
-	<div transition:fade>
+	<aside>
 		<Sidebar changeState={() => (open = !open)} />
-	</div>
+	</aside>
 {/if}
 
 <style>

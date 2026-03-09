@@ -156,6 +156,7 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		overflow: hidden;
+		z-index: 100;
 	}
 
 	.current-title {

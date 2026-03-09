@@ -2,6 +2,9 @@
 	import diamond from '$lib/assets/diamond.svg';
 	import caret from '$lib/assets/caret-right.svg';
 	import pattern from '$lib/assets/taiba-geometric-pattern.svg';
+	import facebook from '$lib/assets/facebook.svg';
+	import email from '$lib/assets/email.svg';
+	import instagram from '$lib/assets/instagram-logo.svg';
 	import { page } from '$app/state';
 	import todaysPrayerTimes from '$lib/utils/time';
 	import { fly } from 'svelte/transition';
@@ -11,7 +14,7 @@
 	let { changeState } = $props();
 </script>
 
-<div class="sidebar-container" transition:fly={{ x: 560, duration: 500 }}>
+<div class="sidebar-container" transition:fly={{ x: 560, duration: 700 }}>
 	<nav>
 		<a onclick={changeState} href="/">
 			<div
@@ -83,14 +86,31 @@
 				<div>{prayerTimes[name]}</div>
 			{/each}
 		</div>
-		<a
-			class="donate-btn"
-			href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
-			target="_blank">Donér nu</a
-		>
 	</div>
-
 	<img class="geometric-pattern" src={pattern} alt="Islamic geometric art" />
+	<footer>
+		<div class="donation-container">
+			<a
+				class="donate-btn"
+				href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
+				target="_blank">Donér nu</a
+			>
+		</div>
+		<dir class="social-links">
+			<a href="https://www.facebook.com/MasjidTaiba1/" target="_blank">
+				<img src={facebook} alt="facebook logo" /></a
+			>
+			<a
+				href="https://www.instagram.com/masjidtaiba?igsh=ZmhmYWRiaXNjOGY4"
+				target="_blank"
+			>
+				<img src={instagram} alt="instagram logo" /></a
+			>
+			<a href="mailto:info@taiba.dk" target="_blank">
+				<img src={email} alt="email logo" /></a
+			>
+		</dir>
+	</footer>
 </div>
 
 <style>
@@ -100,12 +120,20 @@
 		pointer-events: none;
 	}
 
-	a {
+	nav {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		padding: 1rem 1.5rem;
+		letter-spacing: 0.3rem;
+	}
+
+	nav a {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		border-bottom: 1px solid var(--clr-border-gold);
 		text-decoration: none;
+		border-bottom: 1px solid var(--clr-border-gold);
 		width: 100%;
 	}
 
@@ -116,26 +144,17 @@
 		text-transform: uppercase;
 	}
 
-	nav {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		padding: 1rem 1.5rem;
-		letter-spacing: 0.3rem;
-	}
 	nav > * {
 		flex: 1;
 	}
 
 	.sidebar-container {
-		background-color: var(--clr-bg-nav);
-		width: 100%;
-		height: 100%;
+		background: var(--clr-bg-nav);
+		min-width: 100%;
+		min-height: 90%;
 		position: absolute;
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 0.5rem;
-		right: 0;
 		overflow: hidden;
 	}
 
@@ -148,9 +167,10 @@
 	.prayer-times-container {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 40px 30px 40px 40px;
+		grid-template-rows: 30px 50px;
 		padding: 0.5rem 1.5rem;
 		gap: 0.1rem;
+		height: fit-content;
 	}
 
 	.salahs,
@@ -170,6 +190,8 @@
 
 	.times {
 		color: var(--clr-gold);
+		font-size: 1.7rem;
+		font-family: var(--ff-heading);
 	}
 
 	.geometric-pattern {
@@ -183,13 +205,34 @@
 		left: 100px;
 	}
 
+	footer {
+		padding: 1.5rem 1.5rem 0;
+		background: rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		gap: 2rem;
+		border-top: 1px solid var(--clr-border-gold);
+	}
+
 	.donate-btn {
 		background: var(--clr-gold);
-		padding: 0.375rem 0.75rem;
+		padding: 1.2rem 0.9rem;
 		border-radius: 0.125rem;
 		font-family: var(--ff-nav-links);
 		color: var(--clr-bg-nav);
 		display: flex;
 		justify-content: center;
+		font-size: 1.5rem;
+	}
+
+	.social-links {
+		display: flex;
+		justify-content: center;
+	}
+
+	.social-links img {
+		width: 100px;
+		height: 40px;
 	}
 </style>

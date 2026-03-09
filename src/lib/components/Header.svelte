@@ -95,12 +95,7 @@
 		letter-spacing: 0.2rem;
 	}
 
-	li a {
-		opacity: 0.8;
-	}
-
 	li a:hover {
-		opacity: 1;
 		color: var(--clr-gold);
 		text-decoration: underline;
 		transition: 200ms ease-in;
@@ -122,11 +117,7 @@
 		display: none;
 	}
 
-	@media (max-width: 850px) {
-		ul {
-			flex-wrap: wrap;
-		}
-
+	@media (max-width: 1300px) {
 		.sm-view {
 			display: block;
 		}
@@ -134,17 +125,13 @@
 			display: none;
 		}
 	}
-	@media (max-width: 550px) {
+	@media (max-width: 900px) {
 		.burger-button {
 			display: block;
 		}
-
 		ul,
 		.donate-link {
 			display: none;
-		}
-		.nav-logo {
-			font-size: 1.1rem;
 		}
 	}
 </style>

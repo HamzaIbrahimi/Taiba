@@ -1,7 +1,9 @@
 <script>
+	import todaysPrayerTimes from '$lib/utils/time';
 	import divider from '$lib/assets/hero-divider.svg';
-	import Prayers from './Prayers.svelte';
 	import pattern from '$lib/assets/taiba-geometric-pattern.svg';
+	let prayerNames = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
+	let prayerTimes = todaysPrayerTimes();
 </script>
 
 <div class="hero-container">
@@ -21,13 +23,14 @@
 		<img class="geometric-pattern" src={pattern} alt="" />
 	</div>
 	<div class="hero-right">
-		<Prayers
-			--container-padding-block="1rem"
-			--container-bg="var(--clr-gold)"
-			--border-l="1px solid rgba(13, 40, 24, 0.25)"
-			--dt-font="var(--ff-nav-links)"
-			--dd-font="var(--ff-heading)"
-		/>
+		<dl class="salah-times">
+			{#each prayerNames as name}
+				<div class="prayer">
+					<dt>{name}</dt>
+					<dd>{prayerTimes[name]}</dd>
+				</div>
+			{/each}
+		</dl>
 	</div>
 </div>
 
@@ -88,5 +91,32 @@
 	.welcome-support-text {
 		font-size: var(--fs-stats);
 		letter-spacing: 0;
+	}
+
+	.salah-times {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		font-family: var(--ff-heading);
+		background-color: var(--clr-gold);
+		padding-block: 1rem;
+	}
+
+	.prayer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-inline: 1rem;
+	}
+	dt {
+		letter-spacing: 0.2rem;
+	}
+
+	dd {
+		font-weight: 1000;
+		font-size: 1.3rem;
+	}
+
+	.prayer + .prayer {
+		border-left: 1px solid rgba(13, 40, 24, 0.25);
 	}
 </style>

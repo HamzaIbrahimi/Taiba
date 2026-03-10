@@ -26,14 +26,12 @@
 	dt {
 		letter-spacing: 0.2rem;
 		color: var(--dt-color);
-		font-family: var(--dt-font);
 	}
 
 	dd {
 		font-weight: 1000;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: var(--dd-color);
-		font-family: var(--dd-font);
 	}
 
 	.prayer {

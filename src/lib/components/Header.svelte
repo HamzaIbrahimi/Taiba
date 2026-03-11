@@ -125,7 +125,7 @@
 			display: none;
 		}
 	}
-	@media (max-width: 900px) {
+	@media (max-width: 920px) {
 		.burger-button {
 			display: block;
 		}

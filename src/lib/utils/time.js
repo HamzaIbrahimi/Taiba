@@ -31,7 +31,7 @@ export function prayerTimesInAMonth(month) {
 	for (const key in times) {
 		let [d, m] = key.split('-');
 		if (month == m) {
-			o[`${d}-${m}`] = times[key];
+			o[key] = times[key];
 		}
 		if (month < m) {
 			break;

@@ -25,3 +25,17 @@ export default function todaysPrayerTimes(today = new Date()) {
 	}
 	return prayers;
 }
+
+export function prayerTimesInAMonth(month) {
+	let o = {};
+	for (const key in times) {
+		let [d, m] = key.split('-');
+		if (month == m) {
+			o[`${d}-${m}`] = times[key];
+		}
+		if (month < m) {
+			break;
+		}
+	}
+	return o;
+}

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import times from '$lib/data/times.json';
-import todaysPrayerTimes, { addOneHour } from './time';
+import todaysPrayerTimes, { addOneHour, prayerTimesInAMonth } from './time';
 
 describe('General time tests', () => {
 	it('adds one hour if we are in day light saving time otherwise returns normal time', () => {
@@ -19,5 +19,26 @@ describe('General time tests', () => {
 		expect(prayersNotDst['dhuhr']).toBe('12:22');
 		expect(prayersDst['fajr']).toBe('04:47');
 		expect(prayersDst['dhuhr']).toBe('13:16');
+	});
+
+	it('Extracts the prayers times for a particular month', () => {
+		let month = 1;
+		let monthlyPrayers = prayerTimesInAMonth(month);
+		expect(typeof monthlyPrayers).toBe('object');
+		let timesKeyArray = Object.keys(monthlyPrayers);
+		expect(timesKeyArray.length).toBe(31);
+		for (let i = 1; i <= timesKeyArray.length; i++) {
+			expect(timesKeyArray[i - 1]).toBe(`${i}-${month}`);
+		}
+	});
+	it('Extracts the prayers times for a particular month 2', () => {
+		let month = 2;
+		let monthlyPrayers = prayerTimesInAMonth(month);
+		expect(typeof monthlyPrayers).toBe('object');
+		let timesKeyArray = Object.keys(monthlyPrayers);
+		expect(timesKeyArray.length).toBe(29);
+		for (let i = 1; i <= timesKeyArray.length; i++) {
+			expect(timesKeyArray[i - 1]).toBe(`${i}-${month}`);
+		}
 	});
 });

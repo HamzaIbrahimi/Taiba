@@ -2,28 +2,28 @@
 	font-family: '_Cinzel';
 	src:
 		local('_Cinzel'),
-		url('fonts/Cinzel-VariableFont_wght.woff2') format('woff2');
+		url('/fonts/Cinzel-VariableFont_wght.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: '_Cormo-garamond';
 	src:
 		local('_Cormo-garamond'),
-		url('fonts/CormorantGaramond-VariableFont_wght.woff2') format('woff2');
+		url('/fonts/CormorantGaramond-VariableFont_wght.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: '_Lato-light';
 	src:
 		local('_Lato-light'),
-		url('fonts/Lato-Light.woff2') format('woff2');
+		url('/fonts/Lato-Light.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: '_Lato-regular';
 	src:
 		local('_Lato-regular'),
-		url('fonts/Lato-Regular.woff2') format('woff2');
+		url('/fonts/Lato-Regular.woff2') format('woff2');
 }
 
 :root {

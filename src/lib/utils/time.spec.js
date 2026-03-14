@@ -1,6 +1,10 @@
 import { describe, it, expect } from 'vitest';
 import times from '$lib/data/times.json';
-import todaysPrayerTimes, { addOneHour, prayerTimesInAMonth } from './time';
+import todaysPrayerTimes, {
+	addOneHour,
+	prayerTimesInAMonth,
+	pad
+} from './time';
 
 describe('General time tests', () => {
 	it('adds one hour if we are in day light saving time otherwise returns normal time', () => {
@@ -43,12 +47,20 @@ describe('General time tests', () => {
 	});
 
 	it('Matches prayerTimesInAMonth with the json file', () => {
+		let today = new Date();
 		for (let i = 1; i <= 12; i++) {
 			const monthlyPrayer = prayerTimesInAMonth(i);
-			const monthlyPrayerFromJson = Object.entries(times).filter(([key, _]) => {
-				let month = key.split('-')[1];
-				return month == i;
-			});
+			const monthlyPrayerFromJson = Object.entries(times)
+				.filter(([key, _]) => {
+					let month = key.split('-')[1];
+					return month == i;
+				})
+				.map(([key, value]) => {
+					let [day, m] = key.split('-');
+					let date = `${today.getFullYear()}-${pad(m)}-${pad(day)}T03:00:00`;
+					value = todaysPrayerTimes(new Date(date));
+					return [key, value];
+				});
 			expect(monthlyPrayer).toEqual(Object.fromEntries(monthlyPrayerFromJson));
 		}
 	});

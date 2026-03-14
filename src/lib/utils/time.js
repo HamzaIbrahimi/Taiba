@@ -6,7 +6,7 @@ if we are in DST
 */
 import times from '$lib/data/times.json';
 
-const pad = n => (n < 10 ? '0' + n : n);
+export const pad = n => (n < 10 ? '0' + n : n);
 
 export function addOneHour(time, date = new Date()) {
 	if (date.getTimezoneOffset() === -120) {
@@ -19,7 +19,7 @@ export function addOneHour(time, date = new Date()) {
 
 export default function todaysPrayerTimes(today = new Date()) {
 	let [day, month] = [today.getDate(), today.getMonth() + 1];
-	let prayers = times[`${day}-${month}`];
+	let prayers = { ...times[`${day}-${month}`] };
 	for (const key in prayers) {
 		prayers[key] = addOneHour(prayers[key], today);
 	}
@@ -28,10 +28,12 @@ export default function todaysPrayerTimes(today = new Date()) {
 
 export function prayerTimesInAMonth(month) {
 	let o = {};
+	let today = new Date();
 	for (const key in times) {
-		let m = key.split('-')[1];
+		let [day, m] = key.split('-');
+		let date = `${today.getFullYear()}-${pad(m)}-${pad(day)}T03:00:00`;
 		if (month == m) {
-			o[key] = times[key];
+			o[key] = todaysPrayerTimes(new Date(date));
 		}
 		if (month < m) {
 			break;

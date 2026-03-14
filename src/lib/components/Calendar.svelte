@@ -1,5 +1,6 @@
 <script>
-	import { prayerTimesInAMonth, months } from '$lib/utils/time';
+	import { prayerTimesInAMonth, months, addOneHour } from '$lib/utils/time';
+	import { fade } from 'svelte/transition';
 	let tableHeaders = ['dato', 'fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let [monthsLong, monthsShort] = [Object.keys(months), Object.values(months)];
 	let today = new Date();
@@ -90,6 +91,7 @@
 		background: none;
 		border: 1px solid var(--clr-gold);
 		padding: 0.3rem 1rem;
+		cursor: pointer;
 	}
 
 	.month-schedule {

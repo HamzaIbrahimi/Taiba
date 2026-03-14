@@ -39,3 +39,19 @@ export function prayerTimesInAMonth(month) {
 	}
 	return o;
 }
+
+export const months = {
+	fill: null,
+	Januar: 'jan',
+	Februar: 'feb',
+	Marts: 'mar',
+	April: 'apr',
+	Maj: 'maj',
+	Juni: 'jun',
+	Juli: 'jul',
+	August: 'aug',
+	September: 'sep',
+	Oktober: 'okt',
+	November: 'nov',
+	December: 'dec'
+};

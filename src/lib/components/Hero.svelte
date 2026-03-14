@@ -225,6 +225,7 @@
 		.welcome-support-text {
 			font-weight: 600;
 			font-style: italic;
+			padding: 1rem 4rem;
 		}
 
 		.salah-times {

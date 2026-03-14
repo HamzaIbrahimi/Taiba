@@ -17,6 +17,11 @@ const gitignorePath = path.resolve(import.meta.dirname, '.gitignore');
 	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } }
 	},
+	{
+		rules: {
+			'no-unused-vars': 'off'
+		}
+	},
 
 	{
 		files: ['**/*.svelte', '**/*.svelte.js'],

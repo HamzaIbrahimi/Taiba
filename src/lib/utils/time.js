@@ -29,7 +29,7 @@ export default function todaysPrayerTimes(today = new Date()) {
 export function prayerTimesInAMonth(month) {
 	let o = {};
 	for (const key in times) {
-		let [d, m] = key.split('-');
+		let m = key.split('-')[1];
 		if (month == m) {
 			o[key] = times[key];
 		}

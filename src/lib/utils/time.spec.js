@@ -41,4 +41,15 @@ describe('General time tests', () => {
 			expect(timesKeyArray[i - 1]).toBe(`${i}-${month}`);
 		}
 	});
+
+	it('Matches prayerTimesInAMonth with the json file', () => {
+		for (let i = 1; i <= 12; i++) {
+			const monthlyPrayer = prayerTimesInAMonth(i);
+			const monthlyPrayerFromJson = Object.entries(times).filter(([key, _]) => {
+				let month = key.split('-')[1];
+				return month == i;
+			});
+			expect(monthlyPrayer).toEqual(Object.fromEntries(monthlyPrayerFromJson));
+		}
+	});
 });

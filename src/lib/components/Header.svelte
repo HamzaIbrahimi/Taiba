@@ -9,6 +9,7 @@
 		if (windowWidth > 550) {
 			open = false;
 		}
+		document.body.style.overflow = open ? 'hidden' : '';
 	});
 </script>
 
@@ -27,7 +28,7 @@
 		</ul>
 		<a
 			class="donate-link"
-			href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
+			href="https://buy.stripe.com/8wMdUefCodnybmM5kH"
 			target="_blank">Donér nu</a
 		>
 		<button class="burger-button" onclick={() => (open = !open)}>

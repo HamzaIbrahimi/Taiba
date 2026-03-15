@@ -92,7 +92,7 @@
 		<div class="donation-container">
 			<a
 				class="donate-btn"
-				href="https://buy.stripe.com/3cIaEXgDqg2k2ygaWCfw40w"
+				href="https://buy.stripe.com/8wMdUefCodnybmM5kH"
 				target="_blank">Donér nu</a
 			>
 		</div>
@@ -123,7 +123,7 @@
 	nav {
 		display: flex;
 		flex-direction: column;
-		gap: 0.5rem;
+		gap: 2rem;
 		padding: 1rem 1.5rem;
 		letter-spacing: 0.3rem;
 	}
@@ -211,7 +211,7 @@
 		background: rgba(0, 0, 0, 0.2);
 		display: flex;
 		flex-direction: column;
-		justify-content: start;
+		justify-content: center;
 		gap: 2rem;
 		border-top: 1px solid var(--clr-border-gold);
 	}
@@ -230,10 +230,11 @@
 	.social-links {
 		display: flex;
 		justify-content: center;
+		gap: 3rem;
 	}
 
 	.social-links img {
-		width: 100px;
+		width: 40px;
 		height: 40px;
 	}
 </style>

@@ -4,6 +4,7 @@
 	let tableHeaders = ['dato', 'fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let [monthsLong, monthsShort] = [Object.keys(months), Object.values(months)];
 	let today = new Date();
+	let todayStr = `${today.getDate()}-${today.getMonth() + 1}`;
 	let currMonth = $state(today.getMonth() + 1);
 	let prevMonth = $derived(currMonth - 1);
 	let nextMonth = $derived(currMonth + 1);
@@ -50,7 +51,7 @@
 		</div>
 		<div class="table-rows">
 			{#each monthlyPrayers as [key, prayers]}
-				<div class="row">
+				<div class="row {key === todayStr ? 'active' : ''}">
 					<div>{key}</div>
 					<div>{prayers['fajr']}</div>
 					<div>{prayers['dhuhr']}</div>
@@ -76,7 +77,8 @@
 		padding: 0.75rem 1rem;
 	}
 
-	.month-selector-md-view {
+	.month-selector-md-view,
+	.table-date {
 		display: none;
 	}
 
@@ -94,15 +96,35 @@
 		cursor: pointer;
 	}
 
-	.month-schedule {
-		padding: 1rem 3rem;
-	}
-
 	.table-header,
 	.row {
 		display: grid;
 		grid-template-columns: 1.2fr repeat(5, 1fr);
 		place-items: center;
+		font-family: var(--ff-nav-links);
+	}
+
+	.row {
+		border-bottom: 1px solid var(--clr-border-green);
+		padding-block: 1rem;
+	}
+
+	.row.active {
+		border-left: 3px solid var(--clr-gold);
+	}
+
+	.row:nth-child(even) {
+		background-color: var(--clr-bg-page);
+	}
+
+	.table-header {
+		background-color: var(--clr-bg-nav);
+		color: var(--clr-gold);
+		padding-block: 0.6rem;
+	}
+
+	.hd:nth-child(1) {
+		color: var(--clr-sage);
 	}
 
 	@media (min-width: 768px) {
@@ -143,6 +165,16 @@
 		}
 
 		@media (min-width: 1200px) {
+			.table-date.pick-month {
+				display: block;
+				padding: 1rem 2rem;
+				color: var(--clr-bg-nav);
+				font-family: var(--ff-heading);
+				font-size: var(--fs-nav-links-burger);
+			}
+			.pick-month {
+				border-bottom: 1px solid var(--clr-gold-light);
+			}
 			.month-selector-md-view {
 				border-right: 1px solid var(--clr-border-green);
 			}

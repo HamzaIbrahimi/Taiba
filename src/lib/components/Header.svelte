@@ -9,7 +9,6 @@
 		if (windowWidth > 550) {
 			open = false;
 		}
-		document.body.style.overflow = open ? 'hidden' : '';
 	});
 </script>
 

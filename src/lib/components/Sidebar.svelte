@@ -57,7 +57,7 @@
 			</div>
 			<img
 				src={currentPage === '/events' ? diamond : caret}
-				alt="direct to about page"
+				alt="direct to events page"
 			/>
 		</a>
 		<a onclick={changeState} href="/contact">
@@ -71,7 +71,21 @@
 			</div>
 			<img
 				src={currentPage === '/contact' ? diamond : caret}
-				alt="direct to about page"
+				alt="direct to contact page"
+			/>
+		</a>
+		<a onclick={changeState} href="/salah-times">
+			<div
+				class="current-title"
+				style="color: {currentPage === '/salah-times'
+					? 'var(--clr-gold)'
+					: 'var(--fc-primary)'}"
+			>
+				Bønnetider<span> Salah Årskalender </span>
+			</div>
+			<img
+				src={currentPage === '/salah-times' ? diamond : caret}
+				alt="direct to calendar page"
 			/>
 		</a>
 	</nav>
@@ -96,7 +110,7 @@
 				target="_blank">Donér nu</a
 			>
 		</div>
-		<dir class="social-links">
+		<div class="social-links">
 			<a href="https://www.facebook.com/MasjidTaiba1/" target="_blank">
 				<img src={facebook} alt="facebook logo" /></a
 			>
@@ -109,7 +123,7 @@
 			<a href="mailto:info@taiba.dk" target="_blank">
 				<img src={email} alt="email logo" /></a
 			>
-		</dir>
+		</div>
 	</footer>
 </div>
 
@@ -123,7 +137,7 @@
 	nav {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 1rem;
 		padding: 1rem 1.5rem;
 		letter-spacing: 0.3rem;
 	}
@@ -144,17 +158,10 @@
 		text-transform: uppercase;
 	}
 
-	nav > * {
-		flex: 1;
-	}
-
 	.sidebar-container {
+		position: absolute;
 		background: var(--clr-bg-nav);
 		min-width: 100%;
-		min-height: 90%;
-		position: absolute;
-		display: grid;
-		grid-template-columns: 1fr;
 		overflow: hidden;
 		z-index: 100;
 	}
@@ -169,9 +176,10 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 30px 50px;
-		padding: 0.5rem 1.5rem;
+		padding: 1rem 1.5rem;
 		gap: 0.1rem;
 		height: fit-content;
+		justify-content: start;
 	}
 
 	.salahs,
@@ -182,7 +190,6 @@
 	}
 
 	.salahs {
-		border-top: 1px solid var(--clr-border-gold);
 		color: var(--clr-sage);
 		letter-spacing: 0.1rem;
 		text-transform: uppercase;
@@ -207,12 +214,12 @@
 	}
 
 	footer {
-		padding: 1.5rem 1.5rem 0;
+		padding: 1.5rem 1.5rem;
 		background: rgba(0, 0, 0, 0.2);
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		gap: 2rem;
+		height: 300px;
 		border-top: 1px solid var(--clr-border-gold);
 	}
 

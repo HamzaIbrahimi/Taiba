@@ -5,14 +5,14 @@
 	import close from '$lib/assets/close.svg';
 	let windowWidth = $state(0);
 	let open = $state(false);
-	$effect(() => {
+	function closeSidebarOnResize() {
 		if (windowWidth > 550) {
 			open = false;
 		}
-	});
+	}
 </script>
 
-<svelte:window bind:innerWidth={windowWidth} />
+<svelte:window bind:innerWidth={windowWidth} onresize={closeSidebarOnResize} />
 <header>
 	<nav>
 		<a class="nav-logo" href="/" onclick={() => (open = false)}

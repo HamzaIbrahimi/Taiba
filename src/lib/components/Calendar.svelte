@@ -114,7 +114,7 @@
 	}
 
 	.row:nth-child(even) {
-		background-color: var(--clr-bg-page);
+		background-color: var(--clr-bg-alt);
 	}
 
 	.table-header {

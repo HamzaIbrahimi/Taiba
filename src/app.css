@@ -97,6 +97,7 @@ body {
 	font-family: var(--ff-body);
 	color: var(--fc-body);
 	font-size: var(--fs-body);
+	background-color: var(--clr-bg-page);
 }
 
 a {

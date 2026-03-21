@@ -15,79 +15,28 @@
 </script>
 
 <div class="sidebar-container" transition:fly={{ x: 560, duration: 700 }}>
+	{#snippet navLink(route, txt, spanTxt)}
+		<a onclick={changeState} href={route}>
+			<div
+				style="color: {currentPage === route
+					? 'var(--clr-gold)'
+					: 'var(--fc-primary)'}"
+				class="current-title"
+			>
+				{txt}<span>{spanTxt}</span>
+			</div>
+			<img
+				src={currentPage === route ? diamond : caret}
+				alt="direct to {route === '/' ? 'home' : route} page"
+			/>
+		</a>
+	{/snippet}
 	<nav>
-		<a onclick={changeState} href="/">
-			<div
-				style="color: {currentPage === '/'
-					? 'var(--clr-gold)'
-					: 'var(--fc-primary)'}"
-				class="current-title"
-			>
-				Forside<span>Startside</span>
-			</div>
-			<img
-				src={currentPage === '/' ? diamond : caret}
-				alt="direct to about page"
-			/>
-		</a>
-
-		<a onclick={changeState} href="/about">
-			<div
-				class="current-title"
-				style="color: {currentPage === '/about'
-					? 'var(--clr-gold)'
-					: 'var(--fc-primary)'}"
-			>
-				Om Os <span>Vores Historie & Mission</span>
-			</div>
-			<img
-				src={currentPage === '/about' ? diamond : caret}
-				alt="direct to about page"
-			/>
-		</a>
-
-		<a onclick={changeState} href="/events">
-			<div
-				class="current-title"
-				style="color: {currentPage === '/events'
-					? 'var(--clr-gold)'
-					: 'var(--fc-primary)'}"
-			>
-				Arrangementer<span>Kalender & Programmer</span>
-			</div>
-			<img
-				src={currentPage === '/events' ? diamond : caret}
-				alt="direct to events page"
-			/>
-		</a>
-		<a onclick={changeState} href="/contact">
-			<div
-				class="current-title"
-				style="color: {currentPage === '/contact'
-					? 'var(--clr-gold)'
-					: 'var(--fc-primary)'}"
-			>
-				Kontakt<span>Find Os & Åbningstider</span>
-			</div>
-			<img
-				src={currentPage === '/contact' ? diamond : caret}
-				alt="direct to contact page"
-			/>
-		</a>
-		<a onclick={changeState} href="/salah-times">
-			<div
-				class="current-title"
-				style="color: {currentPage === '/salah-times'
-					? 'var(--clr-gold)'
-					: 'var(--fc-primary)'}"
-			>
-				Bønnetider<span> Salah Årskalender </span>
-			</div>
-			<img
-				src={currentPage === '/salah-times' ? diamond : caret}
-				alt="direct to calendar page"
-			/>
-		</a>
+		{@render navLink('/', 'Forside', 'Startside')}
+		{@render navLink('/about', 'Om Os', 'Vores Historie & Mission')}
+		{@render navLink('/events', 'Arrangementer', 'Kalender & Programmer')}
+		{@render navLink('/contact', 'Kontakt', 'Find Os & Åbningstider')}
+		{@render navLink('/salah-times', 'Bønnetider', 'Salah Årskalender')}
 	</nav>
 	<div class="prayer-times-container">
 		<div class="salahs">
@@ -158,6 +107,16 @@
 		text-transform: uppercase;
 	}
 
+	footer {
+		padding: 1.5rem 1.5rem;
+		background: rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		height: 300px;
+		border-top: 1px solid var(--clr-border-gold);
+	}
+
 	.sidebar-container {
 		position: absolute;
 		background: var(--clr-bg-nav);
@@ -211,16 +170,6 @@
 		right: 0;
 		bottom: 200px;
 		left: 100px;
-	}
-
-	footer {
-		padding: 1.5rem 1.5rem;
-		background: rgba(0, 0, 0, 0.2);
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-		height: 300px;
-		border-top: 1px solid var(--clr-border-gold);
 	}
 
 	.donate-btn {

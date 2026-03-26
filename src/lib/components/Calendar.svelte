@@ -92,7 +92,7 @@
 		font-family: var(--ff-nav-links);
 		background: none;
 		border: 1px solid var(--clr-gold);
-		padding: 0.3rem 1rem;
+		padding: 0.3rem 0.85rem;
 		cursor: pointer;
 	}
 

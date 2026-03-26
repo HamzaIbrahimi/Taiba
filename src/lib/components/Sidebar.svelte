@@ -120,8 +120,9 @@
 	.sidebar-container {
 		position: absolute;
 		background: var(--clr-bg-nav);
-		min-width: 100%;
+		width: 90%;
 		overflow: hidden;
+		right: 0;
 		z-index: 100;
 	}
 

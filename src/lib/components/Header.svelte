@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/state';
 	import Sidebar from './Sidebar.svelte';
 	import burger from '$lib/assets/hamburger-menu.svg';
 	import close from '$lib/assets/close.svg';

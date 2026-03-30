@@ -103,6 +103,11 @@
 		padding-bottom: 0.635rem;
 	}
 
+	a {
+		color: var(--clr-gold);
+		font-weight: 600;
+	}
+
 	.small-title img {
 		width: 8px;
 	}

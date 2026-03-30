@@ -4,8 +4,6 @@
 	import hadith from '$lib/data/hadith.json';
 	import khutbaImg from '$lib/assets/masjid-photos/khutba.webp';
 	import salah from '$lib/assets/masjid-photos/salah.webp';
-	import event1 from '$lib/assets/masjid-photos/event-1.webp';
-	import event2 from '$lib/assets/masjid-photos/event-2.webp';
 	import event3 from '$lib/assets/masjid-photos/event-3.webp';
 	let jummahTime = new Date().getTimezoneOffset() === -120 ? '13:45' : '12:45';
 </script>
@@ -200,7 +198,7 @@
 	@media (min-width: 1200px) {
 		.homepage-content,
 		.third-section {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1.3fr 1fr;
 		}
 	}
 </style>

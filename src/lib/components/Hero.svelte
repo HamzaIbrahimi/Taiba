@@ -193,7 +193,7 @@
 
 	@media (min-width: 1200px) {
 		.hero-container {
-			grid-template-columns: 1.4fr 1fr;
+			grid-template-columns: 1.3fr 1fr;
 			position: relative;
 			background: linear-gradient(
 				160deg,

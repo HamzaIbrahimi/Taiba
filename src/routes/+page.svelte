@@ -72,10 +72,7 @@
 			/>
 		</div>
 		<div class="card salah">
-			<img
-				src={salah}
-				alt="Imam giving the friday sermon to individuals in the mosque"
-			/>
+			<img src={salah} alt="Individuals praying behind the imam at a mosque" />
 		</div>
 	</section>
 </div>

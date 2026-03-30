@@ -132,7 +132,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding-inline: 1rem;
+		padding-inline: 0.5rem;
 	}
 	dt {
 		letter-spacing: 0.2rem;

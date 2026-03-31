@@ -21,7 +21,7 @@
 			Et fristed for tro, fællesskab og fred <span
 				class="expanded-support-text"
 			>
-				— Qurtubah har med Allahs velsignelse erhvervet ejendommen på
+				— Taibah har med Allahs velsignelse erhvervet ejendommen på
 				Frederikssundsvej 276 i Brønshøj — et vigtigt skridt for vores
 				fællesskab.</span
 			>

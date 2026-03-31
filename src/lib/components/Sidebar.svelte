@@ -120,7 +120,7 @@
 	.sidebar-container {
 		position: absolute;
 		background: var(--clr-bg-nav);
-		width: 90%;
+		width: 100%;
 		overflow: hidden;
 		right: 0;
 		z-index: 100;

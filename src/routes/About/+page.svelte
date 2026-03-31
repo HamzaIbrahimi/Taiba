@@ -16,7 +16,7 @@
 		</div>
 		<div class="big-title">Ny ejendom – flere muligheder</div>
 		<p>
-			Takket vare Allah har Masjid Taiba nu for tredje år været velsignet med
+			Takket være Allah har Masjid Taiba nu for tredje år været velsignet med
 			muligheden for at tilbyde vores muslimske fælleskab en række aktiviteter
 			fra de fem daglige bønner til sociale arrangementer, weekendskole for børn
 			og Koran undervisning for alle. Alt dette er som følge af de gode
@@ -27,9 +27,9 @@
 		</p>
 		<p>
 			Endelig har vi fået vores egen bygning, som skal danne rammen om masser af
-			gode gerninger og fællesskab. Vi har stadig et stort stykke arbejde foran
-			os, og vi får brug for al den hjælp, vi kan få, for at skabe en levende og
-			succesfuld moské.
+			gode gerninger, Tilbedelse og fællesskab. Vi har stadig et stort stykke
+			arbejde foran os, og vi får brug for al den hjælp, vi kan få, for at skabe
+			en levende og succesfuld moské.
 		</p>
 	</div>
 </div>

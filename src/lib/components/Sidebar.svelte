@@ -173,7 +173,7 @@
 		left: 100px;
 	}
 
-	.donate-btn {
+	:global(.donate-btn) {
 		background: var(--clr-gold);
 		padding: 1.2rem 0.9rem;
 		border-radius: 0.125rem;
@@ -182,6 +182,10 @@
 		display: flex;
 		justify-content: center;
 		font-size: 1.5rem;
+	}
+
+	:global(.donate-btn:hover) {
+		outline: 2px solid var(--clr-gold-light);
 	}
 
 	.social-links {

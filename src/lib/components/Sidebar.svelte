@@ -8,7 +8,7 @@
 	import { page } from '$app/state';
 	import todaysPrayerTimes from '$lib/utils/time';
 	import { fly } from 'svelte/transition';
-	let currentPage = page.url.pathname;
+	let currentPage = $derived(page.url.pathname);
 	let prayerNames = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let prayerTimes = todaysPrayerTimes();
 	let { changeState } = $props();

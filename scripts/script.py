@@ -3,7 +3,7 @@ import json
 
 prayer_times = {}
 
-with open ('times.csv', 'r') as file:
+with open ('scripts/updated-times.csv', 'r') as file:
     #prayer keys : Dhuhr Adhan,Asr Adhan,Maghrib Adhan,Isha Adhan
     reader = csv.DictReader(file)
     for row in reader:

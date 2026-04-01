@@ -18,15 +18,10 @@
 			<img src={divider} alt="nice text divider" />
 		</div>
 		<div class="welcome-support-text">
-			Et fristed for tro, fællesskab og fred <span
-				class="expanded-support-text"
-			>
-				— Taibah har med Allahs velsignelse erhvervet ejendommen på
-				Frederikssundsvej 276 i Brønshøj — et vigtigt skridt for vores
-				fællesskab.</span
-			>
+			Et fristed for tro, fællesskab og fred
 		</div>
 		<a href="/salah-times">Bønnetider</a>
+		<a href="/about">Bliv Involveret </a>
 		<img class="geometric-pattern" src={pattern} alt="" />
 	</div>
 	<div class="hero-right">
@@ -56,13 +51,23 @@
 		font-size: var(--fs-labels);
 	}
 
+	a + a {
+		background-color: var(--clr-gold);
+		color: black;
+		padding: 0.5rem 1rem;
+	}
+
+	a:hover {
+		outline: 3px solid var(--clr-gold-light);
+		transition: 300ms ease;
+	}
+
 	h3 {
 		font-family: var(--ff-nav-links);
 		color: var(--clr-gold);
 	}
 
 	.jummah.prayer,
-	.expanded-support-text,
 	h3 {
 		display: none;
 	}
@@ -81,7 +86,7 @@
 	}
 
 	.hero-divider img {
-		width: 5rem;
+		width: 10rem;
 	}
 
 	.geometric-pattern {
@@ -213,9 +218,6 @@
 
 		.hero-right {
 			background: inherit;
-		}
-		.expanded-support-text {
-			display: inline;
 		}
 
 		.geometric-pattern {

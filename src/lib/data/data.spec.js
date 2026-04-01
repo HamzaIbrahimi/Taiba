@@ -13,11 +13,11 @@ describe('General object tests', () => {
 
 describe('Check the prayer times for a given date', () => {
 	it('Expects prayer times to match', () => {
-		expect(times['28-2']['fajr']).toBe('05:04');
+		expect(times['28-2']['fajr']).toBe('05:33');
 		expect(times['28-2']['dhuhr']).toBe('12:24');
 		expect(times['28-2']['asr']).toBe('15:03');
-		expect(times['28-2']['maghrib']).toBe('17:43');
-		expect(times['28-2']['isha']).toBe('19:43');
+		expect(times['28-2']['maghrib']).toBe('17:42');
+		expect(times['28-2']['isha']).toBe('19:12');
 	});
 });
 

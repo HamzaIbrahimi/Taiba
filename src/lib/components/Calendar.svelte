@@ -1,6 +1,7 @@
 <script>
 	import { prayerTimesInAMonth, months, addOneHour } from '$lib/utils/time';
 	import { fade } from 'svelte/transition';
+	import art from '$lib/assets/islamic-art2.webp';
 	let tableHeaders = ['dato', 'fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let [monthsLong, monthsShort] = [Object.keys(months), Object.values(months)];
 	let today = new Date();
@@ -39,6 +40,7 @@
 				</button>
 			{/each}
 		</div>
+		<img src={art} alt="Art from The New York Public Library" />
 	</div>
 	<div class="month-schedule">
 		<div class="table-date pick-month">
@@ -127,6 +129,10 @@
 		color: var(--clr-sage);
 	}
 
+	img {
+		display: none;
+	}
+
 	@media (min-width: 768px) {
 		.month-selector-sm-view {
 			display: none;
@@ -185,6 +191,13 @@
 
 			.month-selector {
 				flex-direction: column;
+			}
+
+			img {
+				display: block;
+				object-fit: cover;
+				height: 100%;
+				filter: grayscale(50%);
 			}
 		}
 	}

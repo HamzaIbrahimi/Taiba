@@ -2,6 +2,8 @@
 	import Sidebar from './Sidebar.svelte';
 	import burger from '$lib/assets/hamburger-menu.svg';
 	import close from '$lib/assets/close.svg';
+	import { page } from '$app/state';
+	let currentPage = $derived(page.url.pathname);
 	let windowWidth = $state(0);
 	let open = $state(false);
 	function closeSidebarOnResize() {
@@ -19,10 +21,24 @@
 			<span class="sm-view">MOSKÉ</span></a
 		>
 		<ul>
-			<li><a href="/">FORSIDE</a></li>
-			<li><a href="/about">OM OS</a></li>
-			<li><a href="/events">ARRANGEMENTER</a></li>
-			<li><a href="/contact">KONTAKT</a></li>
+			<li>
+				<a class={currentPage === '/' ? 'active' : ''} href="/">FORSIDE</a>
+			</li>
+			<li>
+				<a class={currentPage === '/about' ? 'active' : ''} href="/about"
+					>OM OS</a
+				>
+			</li>
+			<li>
+				<a class={currentPage === '/events' ? 'active' : ''} href="/events"
+					>ARRANGEMENTER</a
+				>
+			</li>
+			<li>
+				<a class={currentPage === '/contact' ? 'active' : ''} href="/contact"
+					>KONTAKT</a
+				>
+			</li>
 		</ul>
 		<a
 			class="donate-link"
@@ -94,9 +110,14 @@
 		letter-spacing: 0.2rem;
 	}
 
+	.active,
 	li a:hover {
 		color: var(--clr-gold);
 		text-decoration: underline;
+		text-underline-offset: 8px;
+	}
+
+	li a:hover {
 		transition: 200ms ease-in;
 	}
 

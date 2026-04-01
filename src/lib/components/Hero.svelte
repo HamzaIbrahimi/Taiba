@@ -55,10 +55,11 @@
 		background-color: var(--clr-gold);
 		color: black;
 		padding: 0.5rem 1rem;
+		border: 2px solid #121212;
 	}
 
 	a:hover {
-		outline: 3px solid var(--clr-gold-light);
+		outline: 1px solid var(--clr-gold-light);
 		transition: 300ms ease;
 	}
 

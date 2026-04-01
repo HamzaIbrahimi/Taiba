@@ -23,7 +23,7 @@
 				århundrede. På trods af den voksende muslimske befolkning, som nu tæller
 				flere hundrede tusinder, er der begrænsede faciliteter for dem, når det
 				kommer til at dyrke deres tro, opbygge fællesskaber, fremme læring og
-				engagere sig aktivt i samfundet. Taibah blev etableret i 1992 for at
+				engagere sig aktivt i samfundet. Taiba blev etableret i 1992 for at
 				imødekomme dette behov.
 			</p>
 		</div>

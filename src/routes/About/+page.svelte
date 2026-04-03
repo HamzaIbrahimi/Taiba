@@ -1,6 +1,8 @@
 <script>
 	import diamond from '$lib/assets/diamond.svg';
+	import logo from '$lib/assets/favicon.svg';
 	import gather from '$lib/assets/masjid-photos/event-3.webp';
+	import Goal from '$lib/components/Goal.svelte';
 </script>
 
 <div class="main-content">
@@ -26,6 +28,7 @@
 				>Frederikssundsvej 276 i Brønshøj.</a
 			>
 		</p>
+		<img class="logo" src={logo} alt="" />
 	</div>
 	<div class="stats">
 		<dl>
@@ -49,6 +52,8 @@
 	</div>
 	<div class="img-container"><img src={gather} alt="" /></div>
 </div>
+
+<Goal />
 
 <style>
 	.main-content {
@@ -86,6 +91,12 @@
 
 	.about-us-info {
 		padding: 2rem;
+	}
+
+	.logo {
+		max-width: 200px;
+		max-height: 200px;
+		margin-inline: auto;
 	}
 
 	.small-title {

@@ -7,7 +7,7 @@
 			Vidende."
 		</blockquote>
 		<cite>— KORANEN 2:261 </cite>
-		<p>Støt renoveringen af Frederikssundsvej 276 i Brønshøj.</p>
+		<p>Støt Masjid til at tilbagebetale gæld!</p>
 	</div>
 	<div>
 		<a href="/about" class="lg-view donate-btn">Se Alle Muligheder </a>
@@ -43,11 +43,16 @@
 	}
 
 	.lg-view {
-		display: none;
 		background-color: var(--clr-bg-nav);
 		border: 2px solid var(--clr-gold);
 		padding: 0.5rem 2rem;
 		color: var(--clr-gold);
+	}
+
+	div:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
 	blockquote {
@@ -67,15 +72,6 @@
 		.cta {
 			grid-template-columns: 1.2fr 1fr;
 			place-items: center;
-		}
-		.lg-view {
-			display: block;
-		}
-
-		div:nth-child(2) {
-			display: flex;
-			flex-direction: column;
-			gap: 1rem;
 		}
 	}
 	@media (min-width: 1200px) {

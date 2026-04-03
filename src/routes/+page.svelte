@@ -5,6 +5,7 @@
 	import khutbaImg from '$lib/assets/masjid-photos/khutba.webp';
 	import salah from '$lib/assets/masjid-photos/salah.webp';
 	import event3 from '$lib/assets/masjid-photos/event-3.webp';
+	import Cta from '$lib/components/Cta.svelte';
 	let jummahTime = new Date().getTimezoneOffset() === -120 ? '13:45' : '12:45';
 </script>
 
@@ -74,6 +75,8 @@
 		</div>
 	</section>
 </div>
+
+<Cta />
 
 <style>
 	.homepage-content,

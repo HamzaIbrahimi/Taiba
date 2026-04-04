@@ -10,7 +10,7 @@
 		<p>Støt Masjid til at tilbagebetale gæld!</p>
 	</div>
 	<div>
-		<a href="/about" class="lg-view donate-btn">Se Alle Muligheder </a>
+		<a href="/om-os" class="lg-view donate-btn">Se Alle Muligheder </a>
 		<a
 			class="donate-btn"
 			href="https://buy.stripe.com/8wMdUefCodnybmM5kH"

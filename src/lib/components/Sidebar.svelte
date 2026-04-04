@@ -33,10 +33,14 @@
 	{/snippet}
 	<nav>
 		{@render navLink('/', 'Forside', 'Startside')}
-		{@render navLink('/about', 'Om Os', 'Vores Historie & Mission')}
-		{@render navLink('/events', 'Arrangementer', 'Kalender & Programmer')}
-		{@render navLink('/contact', 'Kontakt', 'Find Os & Åbningstider')}
-		{@render navLink('/salah-times', 'Bønnetider', 'Salah Årskalender')}
+		{@render navLink('/om-os', 'Om Os', 'Vores Historie & Mission')}
+		{@render navLink(
+			'/arrangementer',
+			'Arrangementer',
+			'Kalender & Programmer'
+		)}
+		{@render navLink('/kontakt', 'Kontakt', 'Find Os & Åbningstider')}
+		{@render navLink('/bedetider', 'Bønnetider', 'Salah Årskalender')}
 	</nav>
 	<div class="prayer-times-container">
 		<div class="salahs">

@@ -25,17 +25,18 @@
 				<a class={currentPage === '/' ? 'active' : ''} href="/">FORSIDE</a>
 			</li>
 			<li>
-				<a class={currentPage === '/about' ? 'active' : ''} href="/about"
+				<a class={currentPage === '/om-os' ? 'active' : ''} href="/om-os"
 					>OM OS</a
 				>
 			</li>
 			<li>
-				<a class={currentPage === '/events' ? 'active' : ''} href="/events"
-					>ARRANGEMENTER</a
+				<a
+					class={currentPage === '/arrangementer' ? 'active' : ''}
+					href="/arrangementer">ARRANGEMENTER</a
 				>
 			</li>
 			<li>
-				<a class={currentPage === '/contact' ? 'active' : ''} href="/contact"
+				<a class={currentPage === '/kontakt' ? 'active' : ''} href="/kontakt"
 					>KONTAKT</a
 				>
 			</li>

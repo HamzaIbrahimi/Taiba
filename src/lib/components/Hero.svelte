@@ -20,8 +20,8 @@
 		<div class="welcome-support-text">
 			Et fristed for tro, fællesskab og fred
 		</div>
-		<a href="/salah-times">Bønnetider</a>
-		<a href="/about">Bliv Involveret </a>
+		<a href="/bedetider">Bønnetider</a>
+		<a href="/om-os">Bliv Involveret </a>
 		<img
 			class="geometric-pattern"
 			src={pattern}

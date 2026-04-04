@@ -22,7 +22,11 @@
 		</div>
 		<a href="/salah-times">Bønnetider</a>
 		<a href="/about">Bliv Involveret </a>
-		<img class="geometric-pattern" src={pattern} alt="" />
+		<img
+			class="geometric-pattern"
+			src={pattern}
+			alt="Faint geometric pattern"
+		/>
 	</div>
 	<div class="hero-right">
 		<h3>Dagens Bønnertider</h3>

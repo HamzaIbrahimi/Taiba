@@ -22,7 +22,7 @@
 <style>
 	.cta {
 		display: grid;
-		padding: 1rem;
+		padding: 2rem;
 		background-color: var(--clr-bg-nav);
 		border-bottom: 1px solid var(--clr-gold);
 		gap: 0.7rem;

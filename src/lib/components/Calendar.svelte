@@ -40,7 +40,7 @@
 				</button>
 			{/each}
 		</div>
-		<img src={art} alt="Art from The New York Public Library" />
+		<img src={art} loading="lazy" alt="Art from The New York Public Library" />
 	</div>
 	<div class="month-schedule">
 		<div class="table-date pick-month">

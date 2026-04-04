@@ -38,7 +38,7 @@
 			</div>
 			<div>
 				<dt>Medlemmer</dt>
-				<dd>300+</dd>
+				<dd>125+</dd>
 			</div>
 			<div>
 				<dt>Programmer</dt>

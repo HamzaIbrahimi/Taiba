@@ -54,7 +54,12 @@
 			{/each}
 		</div>
 	</div>
-	<img class="geometric-pattern" src={pattern} alt="Islamic geometric art" />
+	<img
+		class="geometric-pattern"
+		loading="lazy"
+		src={pattern}
+		alt="Islamic geometric art"
+	/>
 	<footer>
 		<div class="donation-container">
 			<a

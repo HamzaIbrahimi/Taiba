@@ -25,6 +25,7 @@
 		<img
 			class="geometric-pattern"
 			src={pattern}
+			loading="lazy"
 			alt="Faint geometric pattern"
 		/>
 	</div>

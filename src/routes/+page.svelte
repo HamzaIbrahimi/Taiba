@@ -96,8 +96,16 @@
 	}
 
 	.small-title {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		color: var(--clr-bg-jade);
 		text-transform: uppercase;
 		padding-bottom: 0.635rem;
+	}
+
+	.small-title img {
+		width: 8px;
 	}
 
 	a {

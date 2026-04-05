@@ -103,7 +103,7 @@
 		margin-inline: auto;
 	}
 
-	:global(.small-title) {
+	.small-title {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
@@ -111,7 +111,7 @@
 		letter-spacing: 0.3rem;
 	}
 
-	:global(.small-title img) {
+	.small-title img {
 		width: 8px;
 	}
 

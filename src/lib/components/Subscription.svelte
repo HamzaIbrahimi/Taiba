@@ -41,7 +41,6 @@
 <section>
 	<div class="small-title">
 		<h3>Vælge dit bidrag</h3>
-		<img src={diamond} alt="diamond with a golden color" />
 	</div>
 	<div class="cards">
 		{#each cards as card}

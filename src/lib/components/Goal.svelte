@@ -51,8 +51,8 @@
 			href="https://buy.stripe.com/8wMdUefCodnybmM5kH"
 			target="_blank">Donér nu →</a
 		>
-		<a class="donate-btn lg-view" href="" target="_blank">Se Bank Info</a>
-		<a class="donate-btn lg-view" href="" target="_blank">Vis QR-Kode</a>
+		<a class="donate-btn lg-view" href="#subscriptions">Se Bank Info</a>
+		<a class="donate-btn lg-view" href="#subscriptions">Vis QR-Kode</a>
 	</div>
 </section>
 

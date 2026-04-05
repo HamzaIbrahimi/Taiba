@@ -21,7 +21,7 @@
 			Et fristed for tro, fællesskab og fred
 		</div>
 		<a href="/bedetider">Bønnetider</a>
-		<a href="/om-os">Bliv Involveret </a>
+		<a href="/om-os#subscriptions">Bliv Involveret </a>
 		<img
 			class="geometric-pattern"
 			src={pattern}

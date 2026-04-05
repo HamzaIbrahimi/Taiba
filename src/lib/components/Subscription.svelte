@@ -52,7 +52,7 @@
 				<p>{card.description}</p>
 				<div class="link-qr">
 					<a class="donate-btn" href={card.link}
-						>{card.tier.startsWith('F') ? 'Donér Frit →' : 'Tegn Abonnement →'}
+						>{card.tier.startsWith('F') ? 'Donér Frit →' : 'Abonner →'}
 					</a>
 					<img
 						class="md-view"
@@ -85,12 +85,24 @@
 
 	.card:not(.card.popular) {
 		border: 1px solid var(--clr-border-green);
-		border-top: 5px solid var(--clr-bg-jade);
+		border-top: 7px solid var(--clr-bg-jade);
 	}
 
 	.card.popular {
-		border: 3px solid var(--clr-gold);
-		border-top: 5px solid var(--clr-gold);
+		border: 5px solid var(--clr-gold);
+		border-top: 7px solid var(--clr-gold);
+		position: relative;
+	}
+
+	.card.popular::after {
+		content: 'Mest Populær';
+		font-family: var(--ff-nav-links);
+		background-color: var(--clr-gold);
+		position: absolute;
+		width: fit-content;
+		padding: 0.1rem 1rem;
+		right: 10%;
+		top: -1.1rem;
 	}
 
 	.card.popular .tier {
@@ -109,6 +121,7 @@
 
 	.small-title {
 		margin-bottom: 1rem;
+		color: var(--clr-bg-jade);
 	}
 
 	h3 {
@@ -133,5 +146,53 @@
 	.donate-btn {
 		font-size: 1.1rem;
 		padding: 0.5rem 1rem;
+	}
+
+	@media (min-width: 768px) {
+		.cards {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.md-view {
+			display: block;
+		}
+
+		.link-qr {
+			display: grid;
+			grid-template-columns: 3fr 1fr;
+			justify-items: space-between;
+		}
+
+		.link-qr img {
+			width: 50px;
+			height: 50px;
+			justify-self: end;
+		}
+	}
+	@media (min-width: 1200px) {
+		.cards {
+			grid-template-columns: repeat(4, 1fr);
+		}
+
+		.link-qr {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+			place-items: center;
+		}
+
+		.link-qr img {
+			justify-self: center;
+			width: 100px;
+			height: 100px;
+		}
+
+		.link-qr a {
+			order: 1;
+			width: 100%;
+		}
+
+		.title {
+			font-size: 0.8rem;
+		}
 	}
 </style>

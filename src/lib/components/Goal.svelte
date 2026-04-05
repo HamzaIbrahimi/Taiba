@@ -1,25 +1,25 @@
 <script>
 	import getGoal from '$lib/utils/goal';
 	import Spinner from './Spinner.svelte';
-	let promise = $state(getGoal());
+	let promise = getGoal();
 </script>
 
-{#snippet progress(bool, response)}
+{#snippet progress(response = null)}
 	<!-- if no response add the latest value manually -->
 	<div class="goal">
 		<div>
 			<p class="collected">
-				{bool ? response.collected : '452000'} kr <span>indsamlet</span>
+				{response ? response.collected : '452000'} kr <span>indsamlet</span>
 			</p>
 		</div>
 		<div>
-			<p class="goalgoal">Mål: {bool ? response.goal : '1100000'} kr</p>
+			<p class="goalgoal">Mål: {response ? response.goal : '1100000'} kr</p>
 		</div>
 	</div>
 	<div class="bar">
 		<div
 			class="inner-bar"
-			style="width: {bool
+			style="width: {response
 				? ((response.collected / response.goal) * 100).toFixed(2)
 				: ((452000 / 1100000) * 100).toFixed(2)}% ;"
 		></div>
@@ -39,9 +39,9 @@
 				<p>Henter Donations Data...</p>
 				<Spinner />
 			{:then value}
-				{@render progress(true, value)}
+				{@render progress(value)}
 			{:catch error}
-				{@render progress(false, value)}
+				{@render progress()}
 			{/await}
 		</div>
 	</div>

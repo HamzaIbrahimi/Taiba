@@ -11,6 +11,10 @@ export default async function getGoal() {
 			goal: +data[3]
 		};
 
+		if (o.collected > o.goal) {
+			throw new Error('Mistake in the google sheet');
+		}
+
 		if (!o.collected || !o.goal) {
 			throw new TypeError(
 				`The object does not contain numeric values, check the csv file \n

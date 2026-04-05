@@ -3,6 +3,7 @@
 	import logo from '$lib/assets/favicon.svg';
 	import gather from '$lib/assets/masjid-photos/event-3.webp';
 	import Goal from '$lib/components/Goal.svelte';
+	import Subscription from '$lib/components/Subscription.svelte';
 </script>
 
 <div class="main-content">
@@ -54,6 +55,9 @@
 </div>
 
 <Goal />
+<div id="subscriptions">
+	<Subscription />
+</div>
 
 <style>
 	.main-content {
@@ -99,7 +103,7 @@
 		margin-inline: auto;
 	}
 
-	.small-title {
+	:global(.small-title) {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
@@ -107,7 +111,7 @@
 		letter-spacing: 0.3rem;
 	}
 
-	.small-title img {
+	:global(.small-title img) {
 		width: 8px;
 	}
 

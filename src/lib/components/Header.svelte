@@ -92,6 +92,7 @@
 
 	.donate-link:hover {
 		text-decoration: underline;
+		text-underline-offset: 0.5rem;
 	}
 
 	img {

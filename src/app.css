@@ -1,29 +1,43 @@
 @font-face {
 	font-family: '_Cinzel';
 	src:
-		local('_Cinzel'),
+		local('Cinzel'),
 		url('/fonts/Cinzel-VariableFont_wght.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 100 900;
 }
 
 @font-face {
 	font-family: '_Cormo-garamond';
 	src:
-		local('_Cormo-garamond'),
+		local('Cormo-garamond'),
+		local('Cormo Garamond'),
 		url('/fonts/CormorantGaramond-VariableFont_wght.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 100 900;
 }
 
 @font-face {
 	font-family: '_Lato-light';
 	src:
-		local('_Lato-light'),
+		local('Lato-Light'),
+		local('Lato Light'),
+		local('Lato light 300'),
 		url('/fonts/Lato-Light.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 300;
 }
 
 @font-face {
 	font-family: '_Lato-regular';
 	src:
-		local('_Lato-regular'),
+		local('Lato-regular'),
+		local('Lato-Regular'),
+		local('Lato Regular'),
+		local('Lato Regular 400'),
 		url('/fonts/Lato-Regular.woff2') format('woff2');
+	font-display: swap;
+	font-weight: 400;
 }
 
 html {

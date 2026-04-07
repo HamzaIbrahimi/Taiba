@@ -148,6 +148,10 @@
 		padding: 0.5rem 1rem;
 	}
 
+	.donate-btn:hover {
+		outline: 2px solid #121212;
+	}
+
 	@media (min-width: 768px) {
 		.cards {
 			grid-template-columns: 1fr 1fr;

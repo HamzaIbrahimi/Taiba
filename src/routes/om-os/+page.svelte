@@ -59,6 +59,16 @@
 	<Subscription />
 </div>
 
+<div class="verse-container">
+	<div class="verse">
+		<blockquote>
+			"Dem der bruger deres rigdomme på Allahs vej er som et frø, der spirer syv
+			aks, og i hvert aks er hundrede frø. Allah mangedobler for hvem Han vil."
+		</blockquote>
+		<cite>— KORANEN 2:261 </cite>
+	</div>
+</div>
+
 <style>
 	.main-content {
 		display: grid;
@@ -175,6 +185,32 @@
 		color: var(--clr-sage);
 	}
 
+	.verse-container {
+		background-color: var(--clr-bg-emerald);
+		padding: 2rem;
+	}
+
+	.verse {
+		display: grid;
+		place-items: center;
+		gap: 1rem;
+		padding-inline: 1rem;
+		font-weight: 600;
+	}
+
+	blockquote {
+		color: var(--clr-gold-light);
+		font-style: italic;
+		font-size: 1.2rem;
+		font-family: var(--ff-heading);
+	}
+
+	cite {
+		color: var(--clr-sage);
+		font-family: var(--ff-nav-links);
+		font-size: 0.9rem;
+	}
+
 	@media (min-width: 768px) {
 		.main-content {
 			grid-template-columns: 1fr 1fr;
@@ -226,6 +262,10 @@
 		dt {
 			order: 0;
 		}
+
+		.verse {
+			padding-inline: 3rem;
+		}
 	}
 
 	@media (min-width: 1200px) {
@@ -240,6 +280,10 @@
 		.stats {
 			background: var(--clr-bg-hero);
 			border-left: 1px solid var(--clr-gold);
+		}
+
+		.verse {
+			padding-inline: 10rem;
 		}
 	}
 </style>

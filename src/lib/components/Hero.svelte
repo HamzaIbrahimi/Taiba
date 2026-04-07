@@ -1,7 +1,6 @@
 <script>
 	import todaysPrayerTimes from '$lib/utils/time';
 	import divider from '$lib/assets/hero-divider.svg';
-	import pattern from '$lib/assets/taiba-geometric-pattern.svg';
 	let prayerNames = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
 	let prayerTimes = todaysPrayerTimes();
 	let jummahTime = new Date().getTimezoneOffset() === -120 ? '13:45' : '12:45';
@@ -22,12 +21,6 @@
 		</div>
 		<a href="/bedetider">Bønnetider</a>
 		<a href="/om-os#subscriptions">Bliv Involveret </a>
-		<img
-			class="geometric-pattern"
-			src={pattern}
-			loading="lazy"
-			alt="Faint geometric pattern"
-		/>
 	</div>
 	<div class="hero-right">
 		<h3>Dagens Bønnertider</h3>
@@ -93,12 +86,6 @@
 
 	.hero-divider img {
 		width: 10rem;
-	}
-
-	.geometric-pattern {
-		position: absolute;
-		opacity: 0.04;
-		pointer-events: none;
 	}
 
 	.basmallah {
@@ -224,10 +211,6 @@
 
 		.hero-right {
 			background: inherit;
-		}
-
-		.geometric-pattern {
-			left: 100px;
 		}
 
 		.welcome-support-text {

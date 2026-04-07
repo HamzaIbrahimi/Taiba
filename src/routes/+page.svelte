@@ -37,6 +37,9 @@
 			</blockquote>
 			<p><cite>{hadith['attribution']}</cite></p>
 			<p>حديث {hadith['grade']}</p>
+			<a class="credits" href="https://hadeethenc.com/da/home">
+				Credits: HadeethEnc API</a
+			>
 		</div>
 	</section>
 </div>
@@ -145,6 +148,11 @@
 		color: var(--clr-gold);
 		text-align: right;
 		letter-spacing: 0.5rem;
+	}
+
+	.credits:hover {
+		text-decoration: underline;
+		text-underline-offset: 1rem;
 	}
 
 	img {

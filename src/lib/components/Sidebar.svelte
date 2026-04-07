@@ -1,7 +1,6 @@
 <script>
 	import diamond from '$lib/assets/diamond.svg';
 	import caret from '$lib/assets/caret-right.svg';
-	import pattern from '$lib/assets/taiba-geometric-pattern.svg';
 	import facebook from '$lib/assets/facebook.svg';
 	import email from '$lib/assets/email.svg';
 	import instagram from '$lib/assets/instagram-logo.svg';
@@ -54,12 +53,7 @@
 			{/each}
 		</div>
 	</div>
-	<img
-		class="geometric-pattern"
-		loading="lazy"
-		src={pattern}
-		alt="Islamic geometric art"
-	/>
+
 	<footer>
 		<div class="donation-container">
 			<a
@@ -169,17 +163,6 @@
 		color: var(--clr-gold);
 		font-size: 1.7rem;
 		font-family: var(--ff-heading);
-	}
-
-	.geometric-pattern {
-		position: absolute;
-		z-index: 1;
-		width: 400px;
-		height: 400px;
-		opacity: 0.06;
-		right: 0;
-		bottom: 200px;
-		left: 100px;
 	}
 
 	:global(.donate-btn) {

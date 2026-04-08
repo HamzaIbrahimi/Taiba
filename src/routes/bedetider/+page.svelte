@@ -1,5 +1,6 @@
 <script>
 	import Calendar from '$lib/components/Calendar.svelte';
+	import Cta from '$lib/components/Cta.svelte';
 	let today = new Date();
 	const hijriDate = new Intl.DateTimeFormat('da-DK-u-ca-islamic', {
 		day: 'numeric',
@@ -34,6 +35,7 @@
 </div>
 
 <Calendar />
+<Cta />
 
 <style>
 	.date {

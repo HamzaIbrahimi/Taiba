@@ -67,6 +67,10 @@
 </div>
 
 <style>
+	.schedule-container {
+		padding-bottom: 1rem;
+	}
+
 	.month-selector-sm-view {
 		display: flex;
 		justify-content: center;

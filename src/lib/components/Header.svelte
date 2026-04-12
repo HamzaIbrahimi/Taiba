@@ -79,7 +79,6 @@
 
 	.nav-logo span {
 		color: var(--clr-bg-jade);
-		font-family: var(--ff-lato-regular);
 	}
 
 	.donate-link {

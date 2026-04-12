@@ -28,18 +28,6 @@
 	font-weight: 300;
 }
 
-@font-face {
-	font-family: '_Lato-regular';
-	src:
-		local('Lato-regular'),
-		local('Lato-Regular'),
-		local('Lato Regular'),
-		local('Lato Regular 400'),
-		url('/fonts/Lato-Regular.woff2') format('woff2');
-	font-display: swap;
-	font-weight: 400;
-}
-
 html {
 	scroll-behavior: smooth;
 }
@@ -69,7 +57,6 @@ html {
 
 	/* fonts */
 	--ff-body: '_Lato-light', sans-serif;
-	--ff-lato-regular: '_Lato-regular', sans-serif;
 	--ff-heading: '_Cormo-garamond', serif;
 	--ff-nav-links: '_Cinzel', serif;
 

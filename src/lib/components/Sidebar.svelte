@@ -13,7 +13,7 @@
 	let { changeState } = $props();
 </script>
 
-<div class="sidebar-container" transition:fly={{ x: 560, duration: 700 }}>
+<div class="sidebar-container" transition:fly={{ x: 560, duration: 400 }}>
 	{#snippet navLink(route, txt, spanTxt)}
 		<a onclick={changeState} href={route}>
 			<div

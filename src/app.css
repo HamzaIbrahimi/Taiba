@@ -76,35 +76,23 @@ html {
 	/* borders */
 	--clr-border-gold: rgba(201, 168, 76, 0.35);
 	--clr-border-green: rgba(42, 105, 78, 0.25);
-	--quote-border: 3px solid #c9a84c;
-	--card-border: 3px solid #2d6a4f;
-	--nav-border: 1px solid var(--gold-border);
 
 	/* Font sizes */
 	--fs-hero: 2.2rem;
 	--fs-stats: 1.375rem;
 	--fs-nav-links: 1.1rem;
 	--fs-nav-links-burger: 2rem;
-	--fs-section-head: 1.125rem;
-	--fs-card-title: 0.5rem;
 	--fs-body: 1rem;
-	--fs-footer: 0.5rem;
 	--fs-labels: 1.1rem;
 
 	@media (min-width: 768px) {
 		--fs-hero: 2rem;
-		--fs-section-head: 1.375rem;
-		--fs-card-title: 0.5625rem;
-		--fs-footer: 0.5625rem;
 		--fs-labels: 1rem;
 	}
 
 	@media (min-width: 1200px) {
 		--fs-hero: 2.1rem;
 		--fs-stats: 1.3rem;
-		--fs-section-head: 1.625rem;
-		--fs-card-title: 0.625rem;
-		--fs-footer: 0.625rem;
 		--fs-labels: 1.4rem;
 	}
 }

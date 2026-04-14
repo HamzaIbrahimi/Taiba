@@ -1,13 +1,6 @@
 <script>
 	import Cta from '$lib/components/Cta.svelte';
 	import Carousel from '$lib/components/Carousel.svelte';
-	import i from '$lib/assets/events/dars-kids.webp';
-	const images = import.meta.glob(['../../lib/assets/events/*'], {
-		eager: true,
-		import: 'default'
-	});
-
-	const imgSources = Object.values(images);
 </script>
 
 <div class="head">
@@ -18,7 +11,7 @@
 		<p>Hold dig opdateret med vores kommende arrangementer.</p>
 	</div>
 </div>
-<Carousel {imgSources} />
+<Carousel />
 <Cta />
 
 <style>

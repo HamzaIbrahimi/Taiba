@@ -123,6 +123,7 @@
 		font-family: var(--ff-heading);
 		color: var(--fc-primary);
 		font-size: 2.9rem;
+		font-weight: 500;
 	}
 
 	h3 {

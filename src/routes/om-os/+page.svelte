@@ -43,7 +43,7 @@
 			</div>
 			<div>
 				<dt>Programmer</dt>
-				<dd>5</dd>
+				<dd>6</dd>
 			</div>
 			<div class="md-view">
 				<dt>Adresse</dt>

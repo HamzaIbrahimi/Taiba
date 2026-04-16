@@ -1,0 +1,62 @@
+[
+	{
+		"repeat": "ugentligt",
+		"type": "quran",
+		"day": "mandag",
+		"timeStart": "17:00",
+		"timeEnd": "19:00",
+		"teacher": "Sheikh Mamdouh Bakeer",
+		"for": "brødre",
+		"title": ""
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "quran",
+		"day": "onsdag",
+		"timeStart": "17:00",
+		"timeEnd": "19:00",
+		"teacher": "Sheikh Mamdouh Bakeer",
+		"for": "brødre",
+		"title": ""
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "quran",
+		"day": "tirsdag",
+		"timeStart": "17:00",
+		"timeEnd": "19:00",
+		"teacher": "Sheikh Mamdouh Bakeer",
+		"for": "søstre",
+		"title": ""
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "general",
+		"day": "onsdag",
+		"timeStart": "19:00",
+		"timeEnd": "20:30",
+		"teacher": "Sheikh Ibn Husayn",
+		"for": "alle",
+		"title": "Fremgangsmåden fra profetiets arv."
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "aqeedah",
+		"day": "fredag",
+		"timeStart": "19:00",
+		"timeEnd": "20:00",
+		"teacher": "Sheikh Mamdouh Bakeer & Ibrahim Madani",
+		"for": "brødre",
+		"title": ""
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "general",
+		"day": "Lørdag",
+		"timeStart": "11:00",
+		"timeEnd": "13:00",
+		"teacher": "Sheikh Mamdouh Bakeer & Ibrahim Madani",
+		"for": "børn",
+		"title": "Børne Undervisning"
+	}
+]

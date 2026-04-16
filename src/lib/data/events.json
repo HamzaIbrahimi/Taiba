@@ -12,21 +12,21 @@
 	{
 		"repeat": "ugentligt",
 		"type": "quran",
-		"day": "onsdag",
-		"timeStart": "17:00",
-		"timeEnd": "19:00",
-		"teacher": "Sheikh Mamdouh Bakeer",
-		"for": "brødre",
-		"title": ""
-	},
-	{
-		"repeat": "ugentligt",
-		"type": "quran",
 		"day": "tirsdag",
 		"timeStart": "17:00",
 		"timeEnd": "19:00",
 		"teacher": "Sheikh Mamdouh Bakeer",
 		"for": "søstre",
+		"title": ""
+	},
+	{
+		"repeat": "ugentligt",
+		"type": "quran",
+		"day": "onsdag",
+		"timeStart": "17:00",
+		"timeEnd": "19:00",
+		"teacher": "Sheikh Mamdouh Bakeer",
+		"for": "brødre",
 		"title": ""
 	},
 	{

@@ -27,9 +27,15 @@
 		</div>
 	</div>
 	{#if info.for != 'alle'}
-		<div class="gender">Kun for {info.for}</div>
+		<div class="footer">
+			<div class="gender">Kun for {info.for}</div>
+			<a class="gender" href="/kontakt">Kontakt</a>
+		</div>
 	{:else}
-		<div class="gender">Åben for {info.for}</div>
+		<div class="footer">
+			<div class="gender">Åben for {info.for}</div>
+			<a class="gender" href="/kontakt">Kontakt</a>
+		</div>
 	{/if}
 </div>
 
@@ -132,5 +138,15 @@
 		border-radius: 2rem;
 		font-weight: 900;
 		color: var(--clr-gold);
+	}
+
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.footer a:hover {
+		outline: 2px solid var(--clr-gold);
 	}
 </style>

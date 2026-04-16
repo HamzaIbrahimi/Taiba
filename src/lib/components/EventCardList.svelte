@@ -9,7 +9,7 @@
 </script>
 
 <div class="event-cards-container">
-	<div class="swipe">Swipe for at se mere ·</div>
+	<div class="swipe">Swipe for at se mere</div>
 	{#each events as info}
 		<EventCard --gradient={gradients[info.type]} {...info} />
 	{/each}
@@ -36,9 +36,8 @@
 
 	@media (min-width: 768px) {
 		.event-cards-container {
-			flex: none;
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+			grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
 			overflow: visible;
 		}
 		.swipe {

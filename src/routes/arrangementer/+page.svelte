@@ -1,6 +1,6 @@
 <script>
 	import Cta from '$lib/components/Cta.svelte';
-	import Carousel from '$lib/components/Carousel.svelte';
+	import EventCardList from '$lib/components/EventCardList.svelte';
 </script>
 
 <div class="head">
@@ -11,7 +11,7 @@
 		<p>Hold dig opdateret med vores kommende arrangementer.</p>
 	</div>
 </div>
-<Carousel />
+<EventCardList />
 <Cta />
 
 <style>

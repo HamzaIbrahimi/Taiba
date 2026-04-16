@@ -17,8 +17,7 @@
 <header>
 	<nav>
 		<a class="nav-logo" href="/" onclick={() => (open = false)}
-			>TAIBA<span class="lg-view">MOSKÉ · EST. 2000</span>
-			<span class="sm-view">MOSKÉ</span></a
+			>TAIBA <br /> MOSKÉ</a
 		>
 		<ul>
 			<li>

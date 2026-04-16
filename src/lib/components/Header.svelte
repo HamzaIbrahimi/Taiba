@@ -76,10 +76,6 @@
 		font-family: var(--ff-nav-links);
 	}
 
-	.nav-logo span {
-		color: var(--clr-bg-jade);
-	}
-
 	.donate-link {
 		background: var(--clr-gold);
 		padding: 0.375rem 0.75rem;
@@ -130,21 +126,6 @@
 		display: none;
 	}
 
-	span {
-		display: block;
-	}
-	.sm-view {
-		display: none;
-	}
-
-	@media (max-width: 1300px) {
-		.sm-view {
-			display: block;
-		}
-		.lg-view {
-			display: none;
-		}
-	}
 	@media (max-width: 920px) {
 		.burger-button {
 			display: block;

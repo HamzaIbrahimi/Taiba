@@ -55,6 +55,37 @@ html {
 	--fc-body: #3d3d3d;
 	--fc-labels: #78786d;
 
+	/* event cards */
+	--card-top-accent: linear-gradient(
+			90deg,
+			transparent,
+			#d4af37,
+			#f0d060,
+			#d4af37,
+			transparent
+		)
+		1;
+
+	--card-green-gradient: linear-gradient(
+		160deg,
+		#1a3d2b 0%,
+		#0f2419 60%,
+		#0a1a10 100%
+	);
+
+	--card-blue-gradient: linear-gradient(
+		160deg,
+		#1a2840 0%,
+		#0f1929 60%,
+		#080f1a 100%
+	);
+	--card-brown-gradient: linear-gradient(
+		160deg,
+		#2d1f0a 0%,
+		#1a1205 60%,
+		#0f0b02 100%
+	);
+
 	/* fonts */
 	--ff-body: '_Lato-light', sans-serif;
 	--ff-heading: '_Cormo-garamond', serif;

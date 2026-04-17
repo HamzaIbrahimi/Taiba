@@ -24,18 +24,18 @@
 				<a class={currentPage === '/' ? 'active' : ''} href="/">FORSIDE</a>
 			</li>
 			<li>
-				<a class={currentPage === '/om-os' ? 'active' : ''} href="/om-os"
+				<a class={currentPage === '/om-os/' ? 'active' : ''} href="/om-os"
 					>OM OS</a
 				>
 			</li>
 			<li>
 				<a
-					class={currentPage === '/arrangementer' ? 'active' : ''}
+					class={currentPage === '/arrangementer/' ? 'active' : ''}
 					href="/arrangementer">ARRANGEMENTER</a
 				>
 			</li>
 			<li>
-				<a class={currentPage === '/kontakt' ? 'active' : ''} href="/kontakt"
+				<a class={currentPage === '/kontakt/' ? 'active' : ''} href="/kontakt"
 					>KONTAKT</a
 				>
 			</li>

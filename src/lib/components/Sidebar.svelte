@@ -32,14 +32,14 @@
 	{/snippet}
 	<nav>
 		{@render navLink('/', 'Forside', 'Startside')}
-		{@render navLink('/om-os', 'Om Os', 'Vores Historie & Mission')}
+		{@render navLink('/om-os/', 'Om Os', 'Vores Historie & Mission')}
 		{@render navLink(
-			'/arrangementer',
+			'/arrangementer/',
 			'Arrangementer',
 			'Kalender & Programmer'
 		)}
-		{@render navLink('/kontakt', 'Kontakt', 'Find Os & Åbningstider')}
-		{@render navLink('/bedetider', 'Bønnetider', 'Salah Årskalender')}
+		{@render navLink('/kontakt/', 'Kontakt', 'Find Os & Åbningstider')}
+		{@render navLink('/bedetider/', 'Bønnetider', 'Salah Årskalender')}
 	</nav>
 	<div class="prayer-times-container">
 		<div class="salahs">

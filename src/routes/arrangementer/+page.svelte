@@ -1,6 +1,7 @@
 <script>
 	import Cta from '$lib/components/Cta.svelte';
 	import EventCardList from '$lib/components/EventCardList.svelte';
+	import News from '$lib/components/News.svelte';
 </script>
 
 <div class="head">
@@ -9,9 +10,13 @@
 		<div>Kommende <br /> Arrangementer</div>
 		<hr />
 		<p>Hold dig opdateret med vores kommende arrangementer.</p>
+		<a href="#news" class="news">Se Nyheder</a>
 	</div>
 </div>
 <EventCardList />
+<div id="news">
+	<News />
+</div>
 <Cta />
 
 <style>
@@ -44,9 +49,16 @@
 	}
 
 	.about-us p {
-		margin-top: 1rem;
+		margin-block: 1rem;
 		color: var(--clr-parchment);
 		font-style: italic;
+	}
+
+	.news {
+		border: 1px solid var(--clr-gold-light);
+		color: var(--clr-gold);
+		padding: 0.5rem 2rem;
+		font-weight: 600;
 	}
 
 	@media (min-width: 768px) {

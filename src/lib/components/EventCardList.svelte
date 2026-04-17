@@ -1,6 +1,7 @@
 <script>
 	import EventCard from './EventCard.svelte';
 	import events from '$lib/data/events.json';
+
 	let gradients = {
 		quran: 'var(--card-green-gradient)',
 		aqeedah: 'var(--card-brown-gradient)',
@@ -8,6 +9,8 @@
 	};
 </script>
 
+<h1>Sker Nu</h1>
+<hr />
 <div class="event-cards-container">
 	<div class="swipe">Swipe for at se mere</div>
 	{#each events as info}
@@ -16,10 +19,27 @@
 </div>
 
 <style>
+	h1 {
+		letter-spacing: 0.3rem;
+		font-family: var(--ff-nav-links);
+		animation: jump 2s infinite ease-in-out;
+	}
+
+	hr {
+		border: none;
+		height: 3px;
+		background-color: var(--clr-border-green);
+		margin-inline: 2rem;
+	}
+
+	.event-cards-container,
+	h1 {
+		background-color: var(--clr-bg-page);
+		padding-inline: 2rem;
+	}
 	.event-cards-container {
 		display: flex;
 		gap: 1rem;
-		background-color: var(--clr-bg-alt);
 		overflow-x: scroll;
 		scroll-snap-type: x mandatory;
 		scrollbar-width: none;
@@ -42,6 +62,16 @@
 		}
 		.swipe {
 			display: none;
+		}
+	}
+
+	@keyframes jump {
+		25% {
+			transform: translateY(5%);
+		}
+
+		75% {
+			transform: translateY(0px);
 		}
 	}
 </style>

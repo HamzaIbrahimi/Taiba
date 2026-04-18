@@ -147,7 +147,6 @@
 	.hadith-container p {
 		color: var(--clr-gold);
 		text-align: right;
-		letter-spacing: 0.5rem;
 	}
 
 	.credits:hover {

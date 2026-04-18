@@ -72,7 +72,7 @@
 			>
 				<img src={instagram} alt="instagram logo" /></a
 			>
-			<a href="mailto:info@taiba.dk" target="_blank">
+			<a href="mailto:masjidtaiba@gmail.com" target="_blank">
 				<img src={email} alt="email logo" /></a
 			>
 		</div>

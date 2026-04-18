@@ -28,7 +28,9 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm install
+          pip install requests
 
       - name: Run Python Script (Hadith Update)
         run: npm run python

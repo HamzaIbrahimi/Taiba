@@ -1,0 +1,53 @@
+name: Deploy Taiba Website
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs at 00:00 (12:00 AM) every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to manually trigger this from the "Actions" tab
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Python Script (Hadith Update)
+        run: npm run python
+
+      - name: Build SvelteKit
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy build --project-name=taiba-website
+
+      - name: Commit Hadith Update
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Daily hadith update" || echo "No changes to commit"
+          git push

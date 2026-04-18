@@ -46,7 +46,9 @@
 			</div>
 			<div>
 				<h5>Email</h5>
-				<a href="mailto:info@taiba.dk" target="_blank">info@taiba.dk</a>
+				<a href="mailto:masjidtaiba@gmail.com" target="_blank"
+					>masjidtaiba@gmail.com</a
+				>
 			</div>
 		</div>
 	</div>

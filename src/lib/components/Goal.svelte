@@ -9,11 +9,11 @@
 	<div class="goal">
 		<div>
 			<p class="collected">
-				{response ? response.collected : '452000'} kr <span>indsamlet</span>
+				{response ? response.collected : '0'} kr <span>indsamlet</span>
 			</p>
 		</div>
 		<div>
-			<p class="goalgoal">Mål: {response ? response.goal : '1100000'} kr</p>
+			<p class="goalgoal">Mål: {response ? response.goal : '786830'} kr</p>
 		</div>
 	</div>
 	<div class="bar">
@@ -21,7 +21,7 @@
 			class="inner-bar"
 			style="width: {response
 				? ((response.collected / response.goal) * 100).toFixed(2)
-				: ((452000 / 1100000) * 100).toFixed(2)}% ;"
+				: ((0 / 786830) * 100).toFixed(2)}% ;"
 		></div>
 	</div>
 {/snippet}

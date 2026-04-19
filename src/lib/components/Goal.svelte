@@ -31,8 +31,9 @@
 		<h4>Støt Masjid Taiba</h4>
 		<h1>Sammen når vi målet · <br /> <span>Frederikssundsvej 276</span></h1>
 		<p>
-			Alle indsamlede midler vil blive brugt til at tilbagebetale vores gæld til
-			enkeltpersoner og skattestyrelsen.
+			Alle indsamlede midler går ubeskåret til afvikling af eksisterende gæld
+			til private långivere samt Skattestyrelsen (herunder 146.000 kr. i
+			ejendomsskat).
 		</p>
 		<div class="progress-bar">
 			{#await promise}

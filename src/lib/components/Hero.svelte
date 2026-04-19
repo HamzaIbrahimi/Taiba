@@ -9,7 +9,6 @@
 <div class="hero-container">
 	<div class="hero-left">
 		<div class="basmallah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
-		<div class="basmallah-eng">I Allahs Navn, den mest Nådige</div>
 		<div class="welcome">
 			Velkommen til <br /> <span class="mosque-name">Taiba Moské</span>
 		</div>
@@ -91,6 +90,7 @@
 	.basmallah {
 		color: var(--clr-gold-light);
 		font-style: italic;
+		font-size: 1.5rem;
 	}
 
 	.mosque-name {
@@ -101,12 +101,6 @@
 	.welcome {
 		font-family: var(--ff-heading);
 		font-weight: 800;
-	}
-
-	.basmallah-eng {
-		font-size: var(--fs-labels);
-		color: var(--clr-bg-jade);
-		font-weight: 700;
 	}
 
 	.welcome,

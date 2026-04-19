@@ -16,16 +16,21 @@ export default async function getGoal() {
 			goal: +data[3]
 		};
 
+		if (
+			typeof o.collected !== 'number' ||
+			typeof o.collected !== 'number' ||
+			isNaN(o.collected)
+		) {
+			throw new TypeError(
+				`The object does not contain numeric values, check the csv file \n
+				you received ${o.collected} and ${o.goal} `
+			);
+		}
+
 		if (o.collected > o.goal) {
 			throw new Error('Mistake in the google sheet');
 		}
 
-		if (!o.collected || !o.goal) {
-			throw new TypeError(
-				`The object does not contain numeric values, check the csv file \n
-                you received ${o.collected} and ${o.goal} `
-			);
-		}
 		return o;
 	} catch (e) {
 		console.error(e.message);

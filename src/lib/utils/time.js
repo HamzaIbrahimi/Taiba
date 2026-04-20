@@ -93,7 +93,7 @@ export function getUnifiedHijriDate(date = new Date()) {
 		//Clean the year of any "BC" or "BCE" nonsense
 		const yearNumeric = d.year.replace(/[^\d]/g, '');
 
-		return `${d.day} ${monthName} ${yearNumeric} AH`;
+		return `${Number(d.day)} ${monthName} ${yearNumeric} AH`;
 	} catch (e) {
 		return 'Hijri Date Unavailable';
 	}

@@ -1,12 +1,8 @@
 <script>
+	import { getUnifiedHijriDate } from '$lib/utils/time';
 	import Calendar from '$lib/components/Calendar.svelte';
 	import Cta from '$lib/components/Cta.svelte';
 	let today = new Date();
-	const hijriDate = new Intl.DateTimeFormat('en-SA-u-ca-islamic-umalqura', {
-		day: 'numeric',
-		month: 'long',
-		year: 'numeric'
-	}).format(today);
 	const gregorianDate = new Intl.DateTimeFormat('da-DK', {
 		weekday: 'long',
 		day: 'numeric',
@@ -24,7 +20,7 @@
 		<div class="hijri">
 			<div class="sm-view">Dato i dag</div>
 			<div class="md-view">Hijri</div>
-			<div class="hijri-date">{hijriDate}</div>
+			<div class="hijri-date">{getUnifiedHijriDate()}</div>
 		</div>
 		<hr />
 		<div class="gregorian">

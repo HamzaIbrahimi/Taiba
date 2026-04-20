@@ -57,3 +57,44 @@ export const months = {
 	November: 'nov',
 	December: 'dec'
 };
+
+//Android does not support islamic intl date format so we manually create a function
+//for consistency across devices
+export function getUnifiedHijriDate(date = new Date()) {
+	const monthsEn = [
+		'Muharram',
+		'Safar',
+		"Rabi' al-Awwal",
+		"Rabi' al-Thani",
+		'Jumada al-Ula',
+		'Jumada al-Akhira',
+		'Rajab',
+		"Sha'ban",
+		'Ramadan',
+		'Shawwal',
+		"Dhu al-Qi'dah",
+		'Dhu al-Hijjah'
+	];
+
+	try {
+		const formatter = new Intl.DateTimeFormat('en-SA-u-ca-islamic-umalqura', {
+			day: 'numeric',
+			month: 'numeric',
+			year: 'numeric',
+			timeZone: 'UTC'
+		});
+
+		const parts = formatter.formatToParts(date);
+		const d = {};
+		parts.forEach(p => (d[p.type] = p.value));
+
+		const monthName = monthsEn[parseInt(d.month) - 1];
+
+		//Clean the year of any "BC" or "BCE" nonsense
+		const yearNumeric = d.year.replace(/[^\d]/g, '');
+
+		return `${d.day} ${monthName} ${yearNumeric} AH`;
+	} catch (e) {
+		return 'Hijri Date Unavailable';
+	}
+}

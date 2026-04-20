@@ -31,5 +31,8 @@
 		"svelte": "^5.51.0",
 		"vite": "^7.3.1",
 		"vitest": "^4.0.18"
+	},
+	"dependencies": {
+		"wrangler": "^3.90.0"
 	}
 }

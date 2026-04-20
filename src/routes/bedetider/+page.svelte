@@ -2,7 +2,7 @@
 	import Calendar from '$lib/components/Calendar.svelte';
 	import Cta from '$lib/components/Cta.svelte';
 	let today = new Date();
-	const hijriDate = new Intl.DateTimeFormat('da-DK-u-ca-islamic', {
+	const hijriDate = new Intl.DateTimeFormat('en-SA-u-ca-islamic-umalqura', {
 		day: 'numeric',
 		month: 'long',
 		year: 'numeric'

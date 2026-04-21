@@ -4,6 +4,15 @@
 	import News from '$lib/components/News.svelte';
 </script>
 
+<svelte:head>
+	<title>Arrangementer — Taiba Moské</title>
+	<meta
+		name="description"
+		content="Se vores kalender med kommende arrangementer, programmer og begivenheder hos Taiba Moské i Brønshøj."
+	/>
+	<link rel="canonical" href="https://taiba.dk/arrangementer/" />
+</svelte:head>
+
 <div class="head">
 	<div class="about-us">
 		<h4>Arrangementer</h4>

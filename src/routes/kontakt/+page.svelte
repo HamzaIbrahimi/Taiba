@@ -10,6 +10,15 @@
 	let jummahTime = new Date().getTimezoneOffset() === -120 ? '13:45' : '12:45';
 </script>
 
+<svelte:head>
+	<title>Kontakt — Taiba Moské</title>
+	<meta
+		name="description"
+		content="Find os på Frederikssundsvej 276 i Brønshøj. Se åbningstider og kontaktoplysninger for Taiba Moské."
+	/>
+	<link rel="canonical" href="https://taiba.dk/kontakt/" />
+</svelte:head>
+
 <section class="intro">
 	<div class="hero">
 		<h4>Kontakt</h4>

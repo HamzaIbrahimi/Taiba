@@ -11,6 +11,15 @@
 	}).format(today);
 </script>
 
+<svelte:head>
+	<title>Bønnetider — Taiba Moské</title>
+	<meta
+		name="description"
+		content="Se årskalenderen for Salah bønnetider i København. Daglige bønnetider for Fajr, Dhuhr, Asr, Maghrib og Isha."
+	/>
+	<link rel="canonical" href="https://taiba.dk/bedetider/" />
+</svelte:head>
+
 <div class="date">
 	<div class="date-title">
 		<div>Årskalender <br /> {today.getFullYear()}</div>

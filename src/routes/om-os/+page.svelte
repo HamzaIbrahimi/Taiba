@@ -6,6 +6,15 @@
 	import Subscription from '$lib/components/Subscription.svelte';
 </script>
 
+<svelte:head>
+	<title>Om Os — Taiba Moské</title>
+	<meta
+		name="description"
+		content="Lær om Taiba Moskés historie, mission og værdier. Vi er et islamisk fællesskabscenter i Brønshøj, København."
+	/>
+	<link rel="canonical" href="https://taiba.dk/om-os/" />
+</svelte:head>
+
 <div class="main-content">
 	<div class="about-us">
 		<h5>Om Os</h5>

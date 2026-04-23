@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"postbuild": "npx svelte-sitemap",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"lint": "prettier --check . && eslint .",
@@ -29,10 +30,9 @@
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1",
 		"svelte": "^5.51.0",
+		"svelte-sitemap": "^3.1.0",
 		"vite": "^7.3.1",
-		"vitest": "^4.0.18"
-	},
-	"dependencies": {
-		"wrangler": "^3.90.0"
+		"vitest": "^4.0.18",
+		"wrangler": "^4.84.1"
 	}
 }

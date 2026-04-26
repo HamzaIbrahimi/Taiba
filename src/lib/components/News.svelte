@@ -1,10 +1,16 @@
 <script>
 	let currentNews = [
 		{
+			title: 'LÆR QURAN',
+			text: 'Ugentlige Quran Undervisning fra bunden i Masjid Taiba',
+			info: 'Vi starter med det arabiske alfabet og arbejder os frem mod at kunne læse Quranen selvstændigt, in shā’ Allāh. Starter 2 Maj, Lørdag kl. 14:00.',
+			date: '2. Maj 2026',
+			main: true
+		},
+		{
 			title: 'Vores officielle hjemmeside er lanceret',
 			text: 'Vi er stolte af at præsentere Taiba Moskés nye hjemmeside — dit digitale hjem for bønnetider, arrangementer og nyheder.',
-			date: 'April 2026',
-			main: true
+			date: 'April 2026'
 		},
 		{
 			title: 'Nyt WhatsApp-fællesskab — Bliv en del af holdet',
@@ -27,11 +33,11 @@
 				<div class="card{i} card">
 					<div class="background">
 						<h2>TAIBA MOSKÉ</h2>
-						<h4>OFFICIEL HJEMMESIDE</h4>
+						<h4>{news.text}</h4>
 					</div>
 					<div class="date">{news.date}</div>
 					<h2>{news.title}</h2>
-					<p>{news.text}</p>
+					<p>{news.info}</p>
 				</div>
 			{:else}
 				<div class="card{i} card">
@@ -87,8 +93,10 @@
 	.background h2 {
 		color: var(--clr-gold);
 	}
+
 	.background h4 {
 		color: var(--clr-sage);
+		text-align: center;
 	}
 
 	.card0 .date {

@@ -20,6 +20,7 @@
 		</div>
 		<a href="/bedetider">Bønnetider</a>
 		<a href="/om-os#subscriptions">Bliv Involveret </a>
+		<a href="/arrangementer#news">Nyheder</a>
 	</div>
 	<div class="hero-right">
 		<h3>Dagens Bønnertider</h3>

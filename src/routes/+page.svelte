@@ -9,6 +9,14 @@
 	let jummahTime = new Date().getTimezoneOffset() === -120 ? '13:45' : '12:45';
 </script>
 
+<svelte:head>
+	<title>Taiba Moské</title>
+	<meta
+		property="og:description"
+		content="Islamisk fællesskabscenter i Brønshøj med daglige bønner, uddannelse og arrangementer."
+	/>
+	<link rel="canonical" href="https://taiba.dk" />
+</svelte:head>
 <Hero />
 
 <div class="homepage-content">

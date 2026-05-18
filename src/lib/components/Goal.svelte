@@ -1,7 +1,12 @@
 <script>
+	import { browser } from '$app/environment';
 	import getGoal from '$lib/utils/goal';
 	import Spinner from './Spinner.svelte';
-	let promise = getGoal();
+	let promise = $state('');
+	if (browser) {
+		//Only run API calls in the browser
+		promise = getGoal();
+	}
 </script>
 
 {#snippet progress(response = null)}

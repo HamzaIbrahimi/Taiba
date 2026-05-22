@@ -1,11 +1,17 @@
 <script>
 	let currentNews = [
 		{
+			title: 'EID FEST I MASJID TAIBA 🎉🥳',
+			text: 'Mad, aktiviteter og hygge for here familien',
+			info: 'Kom og fejre Eid med os den 29/05 kl. 15:00 efter Jumu’ah 🕌🎉 Der vil være hygge, fællesskab og god stemning for alle!',
+			date: '29. Maj 2026',
+			main: true
+		},
+		{
 			title: 'LÆR QURAN',
 			text: 'Ugentlige Quran Undervisning fra bunden i Masjid Taiba',
 			info: 'Vi starter med det arabiske alfabet og arbejder os frem mod at kunne læse Quranen selvstændigt, in shā’ Allāh. Starter 2 Maj, Lørdag kl. 14:00.',
-			date: '2. Maj 2026',
-			main: true
+			date: '2. Maj 2026'
 		},
 		{
 			title: 'Vores officielle hjemmeside er lanceret',
@@ -15,11 +21,6 @@
 		{
 			title: 'Nyt WhatsApp-fællesskab — Bliv en del af holdet',
 			text: 'Vi har oprettet fire frivillighold: SoMe, Events & påmindelser, Ungdomsbestyrelse og Rengøring. Skriv til os for at tilmelde dig.',
-			date: 'April 2026'
-		},
-		{
-			title: 'Ny ugentlig Aqidah-undervisning',
-			text: 'Ugentlige Aqidah-lektioner er nu tilføjet til vores program. Se den aktuelle begivenhed i karusellen ovenfor.',
 			date: 'April 2026'
 		}
 	];
@@ -32,7 +33,7 @@
 			{#if news.main}
 				<div class="card{i} card">
 					<div class="background">
-						<h2>TAIBA MOSKÉ</h2>
+						<h2>{news.title.substring(0, 8)}</h2>
 						<h4>{news.text}</h4>
 					</div>
 					<div class="date">{news.date}</div>

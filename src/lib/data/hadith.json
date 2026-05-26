@@ -1,16 +1,19 @@
 {
-    "id": "65046",
-    "title": "Tro hverken på Bogens folk og fornægt dem heller ikke, men sig: ”Vi tror på Allāh og på det, der er åbenbaret for os",
-    "hadeeth": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham – som sagde: Bogens folk plejede at læse Toraen på hebraisk og fortolke den på arabisk for islāms folk. Da sagde Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: \"Tro hverken på Bogens folk og fornægt dem heller ikke, men sig: ”Vi tror på Allāh og på det, der er åbenbaret for os\" [Sūrah Al-Baqarah:2:136]",
-    "attribution": "رواه البخاري",
+    "id": "65039",
+    "title": "Alt er efter qadar (forudbestemmelse) – selv svaghed og handlekraft, eller handlekraft og svaghed",
+    "hadeeth": "Overleveret af Ṭāūs som sagde: Jeg mødte nogle af Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ledsagere, som sagde: \" Alt er forudbestemt.\" Han sagde: Jeg hørte ‘Abdullāh Ibn ‘Umar – må Allāh være tilfreds med begge – som sagde : Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – sagde: \"Alt er efter qadar (forudbestemmelse) – selv svaghed og handlekraft, eller handlekraft og svaghed.\"",
+    "attribution": "رواه مسلم",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – advarede sin ummah mod at lade sig bedrage af det, som Bogens Folk overleverer fra deres skrifter. Jøderne på Profetens – må Allāhs velsignelser og fred være med ham – tid læste Toraen på hebraisk, som var deres sprog, og de fortolkede den derefter på arabisk. Så sagde Profeten – må Allāhs velsignelser og fred være med ham: \"Tro hverken på Bogens folk, og fornægt dem heller ikke.\" Dette gælder de udsagn, hvis sandhed eller løgn vi ikke har sikker viden om. Og det er fordi Allah, Den Ophøjede, har befalet os at tro på det, der er blevet åbenbaret til os af Koranen, og det, der blev åbenbaret til dem af Skriften. Men der er ingen vej for os til at vide, hvad de beretter fra disse bøger, om det er sandt eller falskt, hvis der ikke i vores shariʿa er kommet noget, som tydeliggør sandheden i det fra løgnen. Derfor skal vi hverken bekræfte dem, så vi ikke deler ansvaret for deres forvrængning, ej heller fornægte dem, for måske er noget af det sandt, og da ville vi benægte det, vi er påbudt at tro på. Profeten – må Allāhs velsignelser og fred være med ham – befalede os at sige: ”Vi tror på Allāh og på det, der er åbenbaret til os, og på det, der blev åbenbaret til Ibrāhīm (Abraham), Ismā‘īl (Ishmael), Isḥāq (Isak), Yā‘qūb (Jakob) og stammerne . Og [vi tror også på] det, der blev givet til Mūsā (Moses) og ‘Īsā (Jesus), samt det, der blev givet til Profeterne fra deres Herre. Vi skelner ikke mellem nogen af dem, og vi underkaster os Ham.” [Sūrah Al-Baqarah:2:136]",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – tydeliggør, at alt sker efter qadar (forudbestemmelse). Dette gælder selv manglende handlekraft, hvilket vil sige: at undlade at udføre det, man bør gøre, udsætte det og forsinke det ud over dets rette tid – i både verdslige og religiøse anliggender. Og det gælder selv handlekraft, dvs. aktivitet, beslutsomhed og dygtighed i både verdslige og religiøse anliggender. Allāh – Ærefuld og Ophøjet er Han – har forudbestemt både manglende handlekraft og handlekraft, samt alt andet; intet opstår i tilværelsen uden at være omfattet af Hans forudgående viden og vilje.",
     "hints": [
-        "Det, som Bogens Folk beretter, falder i tre kategorier: (1) I overensstemmelse med Koranen og Sunnah: Dette bekræftes. (2) I modstrid med Koranen og Sunnah: Dette er falsk og skal afvises. (3) Uden bekræftelse eller afvisning i vores kilder: Dette kan gengives, men hverken bekræftes eller afvises."
+        "En redegørelse for bekræftelsen af ledsagernes – må Allāh være tilfreds med dem – tro på qadar (forudbestemmelse).\r",
+        "Alt, hvad der sker, er efter Allāhs bestemmelse – selv menneskets svaghed og handlekraft.\r",
+        "Ledsagernes – må Allāh være tilfreds med dem – omhyggelighed og pålidelighed i at overlevere Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ḥadīth.\r",
+        "Troen på skæbnen omfatter alt – både det, der opleves som godt, og det, der opleves som dårligt."
     ],
     "categories": [
-        "24",
-        "77"
+        "64",
+        "86"
     ],
     "translations": [
         "ar",
@@ -52,9 +55,9 @@
         "ne",
         "mos",
         "ku",
-        "wo",
         "so",
         "fr",
+        "wo",
         "az",
         "tl",
         "uk",
@@ -65,9 +68,9 @@
         "pt",
         "mk",
         "hu",
+        "fa",
         "ru",
         "zh",
-        "fa",
         "km",
         "mg",
         "om",
@@ -79,23 +82,22 @@
         "it",
         "am",
         "da",
-        "kmr",
         "rn",
-        "ja"
+        "kmr",
+        "ja",
+        "ms"
     ],
-    "hadeeth_intro": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham – som sagde:",
-    "hadeeth_ar": "عَنْ ‌أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: كَانَ أَهْلُ الْكِتَابِ يَقْرَؤُونَ التَّوْرَاةَ بِالْعِبْرَانِيَّةِ، وَيُفَسِّرُونَهَا بِالْعَرَبِيَّةِ لِأَهْلِ الْإِسْلَامِ، فَقَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «لَا تُصَدِّقُوا أَهْلَ الْكِتَابِ وَلَا تُكَذِّبُوهُمْ، وَقُولُوا: {آمَنَّا بِاللهِ وَمَا أُنْزِلَ إِلَيْنَا} [البقرة: 136] الْآيَةَ».",
-    "hadeeth_intro_ar": "عَنْ ‌أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ:",
-    "explanation_ar": "حذًّر النبي صلى الله عليه وسلم أمته من الاغترار بما يرويه أهل الكتاب من كتبهم، \nحيث كان اليهود على عهد النبي صلى الله عليه وسلم يقرؤون التوراة باللغة العبرية؛ وهي لغة اليهود، ويفسرونها بالعربية، \nفقال صلى الله عليه وسلم: لا تصدِّقوا أهل الكتاب ولا تكذِّبوهم، وهذا فيما لا يُعرف صدقُه من كذِبِه؛ \nوذلك لأن الله تعالى أمرنا أن نؤمن بما أنزل إلينا من القرآن، وما أنزل إليهم من الكتاب، إلا أنه لا سبيل لنا إلى أن نعلم صحيح ما يحكونه عن تلك الكتب من سقيمه إذا لم يَرِد في شريعتنا ما يوضِّح صدقَه من كذبه، \nفنتوقف، فلا نصدقهم؛ لئلا نكون شركاء معهم فيما حرَّفوه منه، ولا نكذبهم؛ فلعله يكون صحيحًا، فنكون منكرين لما أمرنا أن نؤمن به، \nوأمر النبي صلى الله عليه وسلم أن نقول: \n{آمنا بالله وما أنزل إلينا وما أنزل إلى إبراهيم وإسماعيل وإسحاق ويعقوب والأسباط وما أوتي موسى وعيسى وما أوتي النبيون من ربهم لا نفرق بين أحد منهم ونحن له مسلمون} \n[البقرة: 136].",
+    "hadeeth_intro": "Overleveret af Ṭāūs som sagde: Jeg mødte nogle af Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ledsagere, som sagde: \" Alt er forudbestemt.\" Han sagde: Jeg hørte ‘Abdullāh Ibn ‘Umar – må Allāh være tilfreds med begge – som sagde : Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – sagde:",
+    "hadeeth_ar": "عَنْ طَاوُسٍ أَنَّهُ قَالَ: أَدْرَكْتُ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، يَقُولُونَ كُلُّ شَيْءٍ بِقَدَرٍ، قَالَ: وَسَمِعْتُ عَبْدَ اللهِ بْنَ عُمَرَ رضي الله عنهما يَقُولُ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «كُلُّ شَيْءٍ بِقَدَرٍ، حَتَّى الْعَجْزِ وَالْكَيْسِ، أَوِ الْكَيْسِ وَالْعَجْزِ».",
+    "hadeeth_intro_ar": "عَنْ طَاوُسٍ أَنَّهُ قَالَ: أَدْرَكْتُ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، يَقُولُونَ كُلُّ شَيْءٍ بِقَدَرٍ، قَالَ: وَسَمِعْتُ عَبْدَ اللهِ بْنَ عُمَرَ رضي الله عنهما يَقُولُ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+    "explanation_ar": "بيَّن النبي صلى الله عليه وسلم أن كل شيء بقدر؛ \nحتى العجز وهو: ترك ما يجب فعله والتسويف به وتأخيره عن وقته، بأمور الدنيا والآخرة. \nوحتى الْكَيْسُ وهو: النشاط والحِذْق بأمور الدنيا والآخرة. \nوإن الله عز وجل قد قدَّر العجز والكيس وكل شيء، لا يقع في الوجود إلا وقد سبق به علم الله ومشيئته.",
     "hints_ar": [
-        "ما أخبر به أهل الكتاب ثلاثة أقسام: قسم يوافق القرآن والسنة فيُصدَّق، وقسم يخالف القرآن والسنة فهذا باطل ويكذَّب، وقسم ثالث ليس في القرآن والسنة ما يدل على صدقه ولا كذبه؛ فهذا يُروى، ولا يُصدَّق ولا يُكذَّب."
+        "بيان اعتقاد الصحابة رضوان الله عليهم في القدر.",
+        "كل شيء يحصل بقدر الله حتى العجز والنشاط.",
+        "تثبت وحذر الصحابة رضوان الله عليهم في نقل حديث رسول الله صلى الله عليه وسلم.",
+        "الإيمان بالقدر كله خيره وشره."
     ],
-    "words_meanings_ar": [
-        {
-            "word": "العبرانية",
-            "meaning": " وتسمى العبرية، وهي لغة اليهود."
-        }
-    ],
-    "attribution_ar": "رواه البخاري",
+    "words_meanings_ar": [],
+    "attribution_ar": "رواه مسلم",
     "grade_ar": "صحيح"
 }

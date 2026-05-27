@@ -1,19 +1,17 @@
 {
-    "id": "65039",
-    "title": "Alt er efter qadar (forudbestemmelse) – selv svaghed og handlekraft, eller handlekraft og svaghed",
-    "hadeeth": "Overleveret af Ṭāūs som sagde: Jeg mødte nogle af Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ledsagere, som sagde: \" Alt er forudbestemt.\" Han sagde: Jeg hørte ‘Abdullāh Ibn ‘Umar – må Allāh være tilfreds med begge – som sagde : Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – sagde: \"Alt er efter qadar (forudbestemmelse) – selv svaghed og handlekraft, eller handlekraft og svaghed.\"",
-    "attribution": "رواه مسلم",
+    "id": "65051",
+    "title": "Profeten – må Allāhs velsignelser og fred være med ham – vidste ikke, hvornår en sura var separeret, før Bismillāhir‑Raḥmānir‑Raḥīm – I Allāhs navn, Den mest Nådige, Den mest Barmhjertige – blev åbenbaret for ham",
+    "hadeeth": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – vidste ikke, hvornår en sura var separeret, før Bismillāhir‑Raḥmānir‑Raḥīm – I Allāhs navn, Den mest Nådige, Den mest Barmhjertige – blev åbenbaret for ham.",
+    "attribution": "رواه أبو داود",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – tydeliggør, at alt sker efter qadar (forudbestemmelse). Dette gælder selv manglende handlekraft, hvilket vil sige: at undlade at udføre det, man bør gøre, udsætte det og forsinke det ud over dets rette tid – i både verdslige og religiøse anliggender. Og det gælder selv handlekraft, dvs. aktivitet, beslutsomhed og dygtighed i både verdslige og religiøse anliggender. Allāh – Ærefuld og Ophøjet er Han – har forudbestemt både manglende handlekraft og handlekraft, samt alt andet; intet opstår i tilværelsen uden at være omfattet af Hans forudgående viden og vilje.",
+    "explanation": "Ibn ‘Abbās – må Allāh være tilfreds med dem begge – forklarer, at Sūraherne i den Noble Koran blev åbenbaret for Profeten – må Allāhs velsignelser og fred være med ham – og han kendte ikke deres adskillelse eller afslutning, før Bismillāhir-Raḥmānir-Raḥīm – ”I Allāhs navn, den Mest Nådige, den Mest Barmhjertige” – blev åbenbaret for ham. Så viste han, at den foregående Sūrah var afsluttet, og at en ny Sūrah begyndte.",
     "hints": [
-        "En redegørelse for bekræftelsen af ledsagernes – må Allāh være tilfreds med dem – tro på qadar (forudbestemmelse).\r",
-        "Alt, hvad der sker, er efter Allāhs bestemmelse – selv menneskets svaghed og handlekraft.\r",
-        "Ledsagernes – må Allāh være tilfreds med dem – omhyggelighed og pålidelighed i at overlevere Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ḥadīth.\r",
-        "Troen på skæbnen omfatter alt – både det, der opleves som godt, og det, der opleves som dårligt."
+        "Basmalah (Bismillāhir‑Raḥmānir‑Raḥīm) adskiller sūraerne, undtagen mellem Sūrah al-Anfāl og Sūrah at-Tawbah."
     ],
     "categories": [
-        "64",
-        "86"
+        "8",
+        "17",
+        "21"
     ],
     "translations": [
         "ar",
@@ -53,24 +51,24 @@
         "tg",
         "uz",
         "ne",
-        "mos",
         "ku",
+        "mos",
         "so",
-        "fr",
         "wo",
+        "fr",
         "az",
         "tl",
         "uk",
         "ta",
-        "bm",
         "de",
+        "bm",
         "ka",
         "pt",
         "mk",
         "hu",
-        "fa",
         "ru",
         "zh",
+        "fa",
         "km",
         "mg",
         "om",
@@ -82,22 +80,19 @@
         "it",
         "am",
         "da",
-        "rn",
         "kmr",
+        "rn",
         "ja",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Ṭāūs som sagde: Jeg mødte nogle af Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – ledsagere, som sagde: \" Alt er forudbestemt.\" Han sagde: Jeg hørte ‘Abdullāh Ibn ‘Umar – må Allāh være tilfreds med begge – som sagde : Allāhs Sendebuds – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عَنْ طَاوُسٍ أَنَّهُ قَالَ: أَدْرَكْتُ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، يَقُولُونَ كُلُّ شَيْءٍ بِقَدَرٍ، قَالَ: وَسَمِعْتُ عَبْدَ اللهِ بْنَ عُمَرَ رضي الله عنهما يَقُولُ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «كُلُّ شَيْءٍ بِقَدَرٍ، حَتَّى الْعَجْزِ وَالْكَيْسِ، أَوِ الْكَيْسِ وَالْعَجْزِ».",
-    "hadeeth_intro_ar": "عَنْ طَاوُسٍ أَنَّهُ قَالَ: أَدْرَكْتُ نَاسًا مِنْ أَصْحَابِ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، يَقُولُونَ كُلُّ شَيْءٍ بِقَدَرٍ، قَالَ: وَسَمِعْتُ عَبْدَ اللهِ بْنَ عُمَرَ رضي الله عنهما يَقُولُ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
-    "explanation_ar": "بيَّن النبي صلى الله عليه وسلم أن كل شيء بقدر؛ \nحتى العجز وهو: ترك ما يجب فعله والتسويف به وتأخيره عن وقته، بأمور الدنيا والآخرة. \nوحتى الْكَيْسُ وهو: النشاط والحِذْق بأمور الدنيا والآخرة. \nوإن الله عز وجل قد قدَّر العجز والكيس وكل شيء، لا يقع في الوجود إلا وقد سبق به علم الله ومشيئته.",
+    "hadeeth_intro": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede:",
+    "hadeeth_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ: كَانَ النَّبِيُّ صَلَّى اللهُ عَليهِ وَسَلَّمَ لا يَعْرِفُ فَصْلَ السُّورةِ حَتَّى تَنْزِلَ عَليْهِ {بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ}.",
+    "hadeeth_intro_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ:",
+    "explanation_ar": "يُبَيِّن ابن عباس رضي الله عنهما أن سور القرآن الكريم كانت تنزل على النبي صلى الله عليه وسلم ولا يَعرف انفصالَها وانتهاءها، حتى تنزل عليه: \"بسم الله الرحمن الرحيم\"، فيَعلم أن السورة السابقة قد خُتمت، وأنها بداية لسورة جديدة.",
     "hints_ar": [
-        "بيان اعتقاد الصحابة رضوان الله عليهم في القدر.",
-        "كل شيء يحصل بقدر الله حتى العجز والنشاط.",
-        "تثبت وحذر الصحابة رضوان الله عليهم في نقل حديث رسول الله صلى الله عليه وسلم.",
-        "الإيمان بالقدر كله خيره وشره."
+        "البسملة يُفصَل بها بين السُّور، إلا بين سورة الأنفال وسورة التوبة."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "رواه مسلم",
+    "attribution_ar": "رواه أبو داود",
     "grade_ar": "صحيح"
 }

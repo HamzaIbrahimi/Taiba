@@ -1,20 +1,18 @@
 {
-    "id": "3347",
-    "title": "Sandelig, Jeg fralægger mig over for Allāh, at Jeg skulle have en khalīl (nær fortrolig ven) blandt jer, for Allāh, Den Ophøjede, har allerede taget Mig som khalīl, ligesom Han tog Ibrāhīm som khalīl",
-    "hadeeth": "Overleveret af Djundab – må Allāh være tilfreds med ham. Han berettede: ”Jeg hørte Profeten – må Allāhs velsignelser og fred være med ham – fem [nætter] før han døde, sige: ”Sandelig, Jeg fralægger mig over for Allāh, at Jeg skulle have en khalīl (nær fortrolig ven) blandt jer, for Allāh, Den Ophøjede, har allerede taget Mig som khalīl, ligesom Han tog Ibrāhīm som khalīl. Og hvis Jeg havde taget en khalīl blandt Min Ummah, ville det have været Abū Bakr. Vær opmærksomme på, at dem, der var før jer, plejede at tage deres profeters og deres frommes grave som masādjid (bedesteder). Så tag ikke gravene som masādjid – sandelig, Jeg forbyder jer det.”",
-    "attribution": "رواه مسلم",
+    "id": "3017",
+    "title": "Når en person elsker sin bror, bør han lade ham vide, at han elsker ham",
+    "hadeeth": "Overleveret af Miqdām ibn Ma‘dī Karib – må Allāh være tilfreds med ham. Han berettede fra Profeten – må Allāhs velsignelser og fred være med ham – at han sagde: \"Når en person elsker sin bror, bør han lade ham vide, at han elsker ham.\"",
+    "attribution": "رواه أبو داود والترمذي والنسائي في الكبرى وأحمد",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham –  informerede om sin høje status hos Allāh, Den Ophøjede, og at den har nået den højeste grad af guddommelig kærlighed, ligesom Ibrāhīm – fred være med ham – opnåede det. Derfor benægtede han, at nogen anden end Allāh kunne være hans khalīl, fordi hans hjerte var fuldstændigt fyldt med kærlighed til, ophøjelse af og erkendelse af Allāh – og dermed rummede det ikke plads til nogen anden end Ham. Og hvis han havde taget en khalīl blandt de skabte, ville det være Abū Bakr aṣ-Ṣiddīq – må Allāh være tilfreds med ham. Dernæst advarede han mod at overskride det tilladte i kærlighed og ophøjelse, som jøderne og de kristne havde gjort med deres profeters og deres frommes grave, indtil de gjorde dem til afguder, der blev tilbedt ved siden af Allāh. De opførte masājid (bedesteder) og helligdomme over deres grave. Profeten – må Allāhs velsignelser og fred være med ham – forbød derfor sin Ummah at handle som dem.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – forklarer her en af de årsager, der styrker det indbyrdes forhold mellem de troende og fremmer kærlighed iblandt dem. Det sker ved, at når en person elsker sin bror, bør han lade ham vide, at han elsker ham.",
     "hints": [
-        "Abū Bakr aṣ-Ṣiddiqs – må Allāh være tilfreds med ham – fortræffelighed, og at han er den bedste blandt ledsagerne, og den mest berettigede til at overtage lederskabet (khilāfah) efter Allāhs Sendebud ﷺs død.\r",
-        "At opføre moskéer over grave var en af de forkastelige praksisser blandt tidligere nationer.\r",
-        "Forbud mod at gøre gravsteder til steder for tilbedelse, hvad enten det er ved at bede ved dem, mod dem eller opføre moskéer eller kupler over dem – af frygt for at dette fører til shirk (polyteisme).\r",
-        "En advarsel mod overdrivelse i forhold til de fromme, fordi det kan føre til afgudsdyrkelse.\r",
-        "Alvoren i det, Profeten – må Allāhs velsignelser og fred være med ham – advarede imod, idet han understregede det fem nætter før sin bortgang, hvilket viser betydningen af advarslen."
+        "Dyden ved den oprigtige kærlighed for Allahs skyld, og ikke for en verdslig interesse.\r",
+        "Det anbefales at fortælle den, man elsker for Allahs skyld, at man elsker ham, for at kærligheden og samhørigheden kan vokse.\r",
+        "At sprede kærlighed blandt de troende styrker det islamiske fællesskab og beskytter samfundet mod splittelse og opløsning."
     ],
     "categories": [
-        "73",
-        "101"
+        "282",
+        "287"
     ],
     "translations": [
         "ar",
@@ -31,18 +29,17 @@
         "ur",
         "zh",
         "hi",
+        "vi",
         "ku",
         "ha",
         "pt",
         "ml",
         "te",
         "sw",
-        "ta",
         "my",
         "de",
         "ja",
         "ps",
-        "vi",
         "as",
         "sq",
         "sv",
@@ -52,6 +49,7 @@
         "nl",
         "ug",
         "si",
+        "ta",
         "prs",
         "ak",
         "az",
@@ -70,14 +68,15 @@
         "mos",
         "wo",
         "om",
+        "sr",
+        "so",
         "bm",
         "uk",
         "rn",
-        "sr",
+        "km",
         "ka",
         "mk",
         "el",
-        "km",
         "am",
         "mg",
         "th",
@@ -89,31 +88,16 @@
         "kmr",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Djundab – må Allāh være tilfreds med ham. Han berettede:",
-    "hadeeth_ar": "عن جندب رضي الله عنه قال: سَمِعْتُ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَبْلَ أَنْ يَمُوتَ بِخَمْسٍ وَهُوَ يَقُولُ «إِنِّي أَبْرَأُ إِلَى اللهِ أَنْ يَكُونَ لِي مِنْكُمْ خَلِيلٌ فَإِنَّ اللهَ تَعَالَى قَدِ اتَّخَذَنِي خَلِيلًا كَمَا اتَّخَذَ إِبْرَاهِيمَ خَلِيلًا، وَلَوْ كُنْتُ مُتَّخِذًا مِنْ أُمَّتِي خَلِيلًا لَاتَّخَذْتُ أَبَا بَكْرٍ خَلِيلًا! أَلَا وَإِنَّ مَنْ كَانَ قَبْلَكُمْ كَانُوا يَتَّخِذُونَ قُبُورَ أَنْبِيَائِهِمْ وَصَالِحِيهِمْ مَسَاجِدَ، أَلَا فَلَا تَتَّخِذُوا الْقُبُورَ مَسَاجِدَ! إِنِّي أَنْهَاكُمْ عَنْ ذَلِكَ».",
-    "hadeeth_intro_ar": "عن جندب رضي الله عنه قال:",
-    "explanation_ar": "أَخْبَرَ النبيُّ صلى الله عليه وسلم عن مكانتِه عند الله تعالى، وأنها بَلَغتْ أعلى درجات المحبة، كما نالها إبراهيم عليه السلام، ولذلك نفى أن يكون له خليلٌ غيرُ الله؛ لأنَّ قلبه امتلأ من محبة الله تعالى وتعظيمه ومعرفته، فلا يَتَّسع لأحد غير الله، ولو كان له خليلٌ من الخلق لكان أبا بكر الصديق رضي الله عنه.\n\nثم حَذَّر من مجاوزة الحد الجائز في المحبة كما فعلت اليهود والنصارى في قبور أنبيائهم وصالحيهم حتى صيّروها آلهة شركية تُعبَد من دون الله، وشَيَّدوا على قبورهم مساجد ومعابد، ونهى صلى الله عليه وسلم أمته أن يفعلوا مثل فعلهم.",
+    "hadeeth_intro": "Overleveret af Miqdām ibn Ma‘dī Karib – må Allāh være tilfreds med ham. Han berettede fra Profeten – må Allāhs velsignelser og fred være med ham – at han sagde:",
+    "hadeeth_ar": "عن المِقدام بن معدي كرب رضي الله عنه عن النبي صلى الله عليه وسلم قال: «إِذَا أَحَبَّ الرَّجُلُ أَخَاهُ فَلْيُخْبِرْهُ أَنَّهُ يُحِبُّهُ».",
+    "hadeeth_intro_ar": "عن المِقدام بن معدي كرب رضي الله عنه عن النبي صلى الله عليه وسلم قال:",
+    "explanation_ar": "يُبَيِّن النبي صلى الله عليه وسلم أحد الأسباب التي تُقوِّي العلاقة بين المؤمنين وتنشر المحبة بينهم، وهو أنه إذا أحبَّ أحدٌ أخاه فليخبره بأنه يحبه.",
     "hints_ar": [
-        "فضل أبي بكر الصديق رضي الله عنه، وأنه أفضل الصحابة وأولى الناس بخلافة رسول الله صلى الله عليه وسلم بعد موته.",
-        "بناء المساجد على القبور من منكرات الأمم السابقة.",
-        "النهي عن اتخاذ القبور أمكنة للعبادة يُصلى عندها أو إليها ويُبنى عليها مساجد أو قبابٌ، حذرًا من الوقوع في الشرك بسبب ذلك.",
-        "التحذير من الغلو في الصالحين لإفضائه إلى الشرك.",
-        "خطورة ما حذَّر منه النبي صلى الله عليه وسلم حيث أكَّد عليه قبل موته بخمس ليال."
+        "فضل المحبة الخالصة لله تعالى، لا لمصلحة دنيوية.",
+        "استحباب إخبار المحبوب في الله بحبِّه، لتزداد المحبة والألفة.",
+        "إشاعة المحبة بين المؤمنين يقوّي الأخوة الإيمانية، ويحافظ على المجتمع من التفكُّك والفُرْقة."
     ],
-    "words_meanings_ar": [
-        {
-            "word": "بخمس",
-            "meaning": " خمس ليال."
-        },
-        {
-            "word": "إني أبرأ",
-            "meaning": " أمتنع وأنكر."
-        },
-        {
-            "word": "من كان قبلكم",
-            "meaning": " يعني: اليهود والنصارى."
-        }
-    ],
-    "attribution_ar": "رواه مسلم",
+    "words_meanings_ar": [],
+    "attribution_ar": "رواه أبو داود والترمذي والنسائي في الكبرى وأحمد",
     "grade_ar": "صحيح"
 }

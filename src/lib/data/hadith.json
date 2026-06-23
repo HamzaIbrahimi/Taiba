@@ -1,18 +1,17 @@
 {
-    "id": "65054",
-    "title": "Det vil blive sagt til den, der reciterer Koranen: 'Recitér og stig op, og recitér, som du plejede at recitere i denne verden, for din destination er ved den sidste Āyah (vers), du reciterer.'",
-    "hadeeth": "Overleveret af ‘Abdullāh Ibn ‘Amr – må Allāh være tilfreds med dem begge. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: \"Det vil blive sagt til den, der reciterer Koranen: 'Recitér og stig op, og recitér, som du plejede at recitere i denne verden, for din destination er ved den sidste Āyah (vers), du reciterer.'\"",
-    "attribution": "رواه أبو داود والترمذي والنسائي في الكبرى وأحمد",
-    "grade": "حسن",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham –  informerede, at der vil blive sagt til den, der reciterer Koranen, handler efter dens indhold og er vedholdende i recitation og at lære den uden ad, når han træder ind i Paradis: Recitér Koranen, og stig op i Paradisets grader, og recitér, som du plejede at recitere i denne verden – med overvejelse og ro. Din destination er ved den sidste Āyah (vers), du reciterer.\"",
+    "id": "65051",
+    "title": "Profeten – må Allāhs velsignelser og fred være med ham – vidste ikke, hvornår en sura var separeret, før Bismillāhir‑Raḥmānir‑Raḥīm – I Allāhs navn, Den mest Nådige, Den mest Barmhjertige – blev åbenbaret for ham",
+    "hadeeth": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – vidste ikke, hvornår en sura var separeret, før Bismillāhir‑Raḥmānir‑Raḥīm – I Allāhs navn, Den mest Nådige, Den mest Barmhjertige – blev åbenbaret for ham.",
+    "attribution": "رواه أبو داود",
+    "grade": "صحيح",
+    "explanation": "Ibn ‘Abbās – må Allāh være tilfreds med dem begge – forklarer, at Sūraherne i den Noble Koran blev åbenbaret for Profeten – må Allāhs velsignelser og fred være med ham – og han kendte ikke deres adskillelse eller afslutning, før Bismillāhir-Raḥmānir-Raḥīm – ”I Allāhs navn, den Mest Nådige, den Mest Barmhjertige” – blev åbenbaret for ham. Så viste han, at den foregående Sūrah var afsluttet, og at en ny Sūrah begyndte.",
     "hints": [
-        "Belønningen gives i overensstemmelse med mængden og kvaliteten af gerninger.\r",
-        "Den opmuntrer til recitation, beherskelse, lære den uden ad, at reflektere over den og at handle i overensstemmelse med den.\r",
-        "Paradiset har mange grader og niveauer, og Koranens folk vil opnå de højeste grader."
+        "Basmalah (Bismillāhir‑Raḥmānir‑Raḥīm) adskiller sūraerne, undtagen mellem Sūrah al-Anfāl og Sūrah at-Tawbah."
     ],
     "categories": [
-        "39",
-        "272"
+        "8",
+        "17",
+        "21"
     ],
     "translations": [
         "ar",
@@ -53,13 +52,13 @@
         "uz",
         "ne",
         "ku",
-        "wo",
         "mos",
         "so",
+        "wo",
         "fr",
+        "az",
         "tl",
         "uk",
-        "az",
         "ta",
         "de",
         "bm",
@@ -71,7 +70,6 @@
         "zh",
         "fa",
         "km",
-        "am",
         "mg",
         "om",
         "th",
@@ -80,22 +78,21 @@
         "tr",
         "ln",
         "it",
+        "am",
         "da",
         "kmr",
         "rn",
         "ja",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af ‘Abdullāh Ibn ‘Amr – må Allāh være tilfreds med dem begge. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عن عبد الله بن عمرو رضي الله عنهما قال: قال رسول الله صلى الله عليه وسلم: «يقالُ لصاحبِ القرآن: اقرَأ وارتَقِ، ورتِّل كما كُنْتَ ترتِّل في الدُنيا، فإن منزِلَكَ عندَ آخرِ آية تقرؤها».",
-    "hadeeth_intro_ar": "عن عبد الله بن عمرو رضي الله عنهما قال: قال رسول الله صلى الله عليه وسلم:",
-    "explanation_ar": "أخبر النبي صلى الله عليه وسلم أنه يقال لقارئ القرآن، العامل بما فيه، الملازم له تلاوةً وحفظًا إذا دخل الجنة: \nاقرأ القرآن، وارتق بذلك في درجات الجنة، ورتل كما كنت ترتل في الدنيا بقراءته بتأنٍّ وطمأنينة؛ فإن منزلك عند آخر آية تقرؤها.",
+    "hadeeth_intro": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede:",
+    "hadeeth_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ: كَانَ النَّبِيُّ صَلَّى اللهُ عَليهِ وَسَلَّمَ لا يَعْرِفُ فَصْلَ السُّورةِ حَتَّى تَنْزِلَ عَليْهِ {بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ}.",
+    "hadeeth_intro_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ:",
+    "explanation_ar": "يُبَيِّن ابن عباس رضي الله عنهما أن سور القرآن الكريم كانت تنزل على النبي صلى الله عليه وسلم ولا يَعرف انفصالَها وانتهاءها، حتى تنزل عليه: \"بسم الله الرحمن الرحيم\"، فيَعلم أن السورة السابقة قد خُتمت، وأنها بداية لسورة جديدة.",
     "hints_ar": [
-        "الجزاء على وفق الأعمال كميَّةً وكيفيَّة.",
-        "الحث على تلاوة القرآن وإتقانه وحفظه وتدبره والعمل به.",
-        "الجنة منازل ودرجات كثيرة، ينال أصحاب القرآن فيها أعلى الدرجات."
+        "البسملة يُفصَل بها بين السُّور، إلا بين سورة الأنفال وسورة التوبة."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "رواه أبو داود والترمذي والنسائي في الكبرى وأحمد",
-    "grade_ar": "حسن"
+    "attribution_ar": "رواه أبو داود",
+    "grade_ar": "صحيح"
 }

@@ -1,16 +1,17 @@
 {
-    "id": "3581",
-    "title": "”Paradiset er nærmere en af jer end snørebåndet på hans sko, og, og Helvede er på samme måde.”",
-    "hadeeth": "Overleveret af Ibn Mas‘ūd – må Allāh være tilfreds med ham. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – sagde: ”Paradiset er nærmere en af jer end snørebåndet på hans sko, og, og Helvede er på samme måde.”",
-    "attribution": "رواه البخاري",
+    "id": "3706",
+    "title": "En muslims rettighed over for en anden muslim er fem: at besvare as-salām (fredshilsenen), at besøge den syge, at følge begravelsen, at svare på en indbydelse, og at sige yarḥamuk-Allāh til den, der nyser",
+    "hadeeth": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige: \"En muslims rettighed over for en anden muslim er fem: at besvare as-salām (fredshilsenen), at besøge den syge, at følge begravelsen, at svare på en indbydelse, og at sige yarḥamuk-Allāh til den, der nyser.\"",
+    "attribution": "متفق عليه",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – informerede, at Paradiset og Helvede er tæt på mennesket – så tæt som snørebåndet oven på foden. For han kan udføre en handling i lydighed mod Allāh – Den Ophøjede og Glorificerede – som fører ham til Paradiset, eller han kan begå en synd, der bliver årsag til, at han indtræder i Helvede.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – forklarer nogle af de mest væsentlige rettigheder, som hver muslim har over for sin bror i islām. Den første af disse pligter er at svare den, der giver dig fredshilsen.\r\n\r\nDen anden ret/pligt: er at besøge og tage sig af den syge.\r\n\r\nDen tredje af disse rettigheder er: at følge begravelsen — fra den afdødes hjem til bønnepladsen, og videre til gravpladsen, indtil vedkommende er lagt i jorden.\r\n\r\nDen fjerde rettighed er: at acceptere indbydelsen — især til bryllupper (walīmah), men også til andre anledninger.\r\n\r\nDen femte rettighed er: at sige ”yarḥamuk-Allāh” (Må Allāh være dig Nådig), til en, der nyser og siger al-Ḥamdulillah (Al lovprisning tilkommer Allāh). ”Yarḥamuk-Allāh” (Må Allāh være dig Nådig). Den, der nyser, bør da svare: ”Yahdīkum Allāh wa yuṣliḥu bālakum” (Må Allāh retlede jer og forbedre jeres tilstand).",
     "hints": [
-        "Opmuntring til at stræbe efter det gode, selv hvis det er småt, og advarsel mod dårlige handlinger, selv hvis de synes små.\r",
-        "En muslim må i sit liv forene håb og frygt, og uophørligt anmode Allāh – Den Ophøjede – om standhaftighed på sandheden, så han forbliver frelst og ikke bedrages af sin egen tilstand."
+        "Islāms storhed ligger i, at den betoner rettighederne mellem muslimer og styrker båndene af ukhuwwah (broderskab) og maḥabbah (kærlighed) mellem dem."
     ],
     "categories": [
-        "324"
+        "286",
+        "296",
+        "297"
     ],
     "translations": [
         "ar",
@@ -19,23 +20,22 @@
         "en",
         "es",
         "fa",
-        "fr",
         "id",
+        "ru",
+        "tl",
         "tr",
         "ur",
         "zh",
         "hi",
-        "tl",
+        "fr",
+        "ug",
         "ku",
         "ha",
         "pt",
         "ml",
         "te",
         "sw",
-        "ta",
-        "si",
         "my",
-        "ru",
         "de",
         "ja",
         "ps",
@@ -47,7 +47,8 @@
         "gu",
         "yo",
         "nl",
-        "ug",
+        "si",
+        "ta",
         "prs",
         "bg",
         "ff",
@@ -68,8 +69,8 @@
         "om",
         "so",
         "uk",
-        "bm",
         "km",
+        "bm",
         "rn",
         "ka",
         "mk",
@@ -86,15 +87,14 @@
         "kmr",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Ibn Mas‘ūd – må Allāh være tilfreds med ham. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عن ابن مسعود رضي الله عنه قال: قال النبي صلى الله عليه وسلم: «الْجَنَّةُ أَقْرَبُ إِلَى أَحَدِكُمْ مِنْ شِرَاكِ نَعْلِهِ، وَالنَّارُ مِثْلُ ذَلِكَ».",
-    "hadeeth_intro_ar": "عن ابن مسعود رضي الله عنه قال: قال النبي صلى الله عليه وسلم:",
-    "explanation_ar": "أَخبَرَ النبيُّ صلى الله عليه وسلم أنَّ الجنة والنار قريبتان من الإنسان كقُربِ سَيْرِ الحِذاء الذي يكون على ظَهر القَدَم؛ لأنه قد يفعل طاعةً من رضوان الله عز وجل يدخل بها الجنة، أو معصيةً تكون سببًا لدخول النار.",
+    "hadeeth_intro": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige:",
+    "hadeeth_ar": "عن أبي هريرة رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول: «حَقُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ خَمْسٌ: رَدُّ السَّلَامِ، وَعِيَادَةُ الْمَرِيضِ، وَاتِّبَاعُ الْجَنَائِزِ، وَإِجَابَةُ الدَّعْوَةِ، وَتَشْمِيتُ الْعَاطِسِ».",
+    "hadeeth_intro_ar": "عن أبي هريرة رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول:",
+    "explanation_ar": "يُبيِّنُ النبيُّ صلى الله عليه وسلم بعضَ حقوق المسلم على أخيه المسلم:\n\n\nأول هذه الحقوق: ردُّ السلام لمن ألقى عليك السلام.\n\nالحق الثاني: عيادة المريض وزيارته.\n\n الحق الثالث: اتباع الجنازة من بيته إلى المصلَّى إلى المقبرة حتى تُدفن.\n\n الحق الرابع: إجابة الدعوة إذا دعاه إلى وليمة عرس وغير ذلك.\n\n الحق الخامس: تَشميت العاطس، وهو أن يقول له إذا حَمِدَ الله: يرحمُك الله، ثم يقول العاطسُ: يهديكم الله ويُصلح بالَكم.",
     "hints_ar": [
-        "الترغيب في الخير وإن قلَّ، والترهيب عن الشر وإن قلَّ.",
-        "لا بد للمسلم في حياته من الجمع بين الرجاء والخوف، وسؤال الله سبحانه دومًا الثبات على الحق حتى يَسْلَمَ ولا يَغْتَرَّ بحالِه."
+        "عظمة الإسلام في تأكيد الحقوق بين المسلمين وتوثيق الأُخوَّة والمحبة بينهم."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "رواه البخاري",
+    "attribution_ar": "متفق عليه",
     "grade_ar": "صحيح"
 }

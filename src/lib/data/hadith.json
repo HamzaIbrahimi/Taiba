@@ -1,19 +1,20 @@
 {
-    "id": "65031",
-    "title": "Jeg vil opholde mig ved al-ḥawḍ (dammen), indtil jeg ser, hvem af jer der kommer til mig. Nogle mennesker vil blive taget væk fra mig, og jeg vil sige: ’O Herre, de er fra mig og min ummah",
-    "hadeeth": "Overleveret af Asmā’ Bint Abī Bakr – må Allāh være tilfreds med dem begge . Hun berettede: Profeten  – må Allāhs velsignelser og fred være med ham – sagde: \"Jeg vil opholde mig ved al-ḥawḍ (dammen), indtil jeg ser, hvem af jer der kommer til mig. Nogle mennesker vil blive taget væk fra mig, og jeg vil sige: ’O Herre, de er fra mig og min ummah.’ Det vil blive sagt: ’Ved du, hvad de gjorde efter dig? Ved Allāh, de bliver ved med at vende tilbage på deres hæle.’\"",
-    "attribution": "متفق عليه",
+    "id": "65012",
+    "title": "Al lovprisning tilkommer Allāh, som har vendt hans list tilbage til hvisken",
+    "hadeeth": "Overleveret af Ibn ‘Abbās, – må Allāh være tilfreds med dem begge. Han berettede: En mand kom til Profeten – må Allāhs velsignelser og fred være med ham – og sagde: »O Allāhs Sendebud! En af os føler noget i sig selv – en antydning af noget [forfærdende] – og det ville være ham mere kært at blive til en brændende trang (en ild, der brænder), end at tale om det.« Da sagde han – må Allāhs velsignelser og fred være med ham: »Allāhu Akbar (Allāh er Størst), Allāhu Akbar (Allāh er Størst). Al lovprisning tilkommer Allāh, som har vendt hans list tilbage til hvisken«.",
+    "attribution": "رواه أبو داود والنسائي في الكبرى",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham –  forklarer, at han på Opstandelsens Dag vil opholde sig ved sin vandbassin for at se, hvem af hans ummah der kommer til den. Nogle mennesker vil blive rykket væk, mens de er tæt på Profeten – må Allāhs velsignelser og fred være med ham – og han vil sige: ‘Åh Herre! De tilhører mig og min ummah.’” Derpå vil det blive sagt: \"Ved du, hvad de gjorde, efter de forlod dig?\" Ved Allāh, de vendte stadig ryggen til og afveg fra deres religion; derfor er de hverken fra dig eller din ummah.”",
+    "explanation": "En mand kom til Profeten – må Allāhs velsignelser og fred være med ham – og sagde: O Allāhs Sendebud! En af os finder noget i sin nafs (indre), noget som opstår i sindet, men at udtale det er så graverende, at det ville være ham mere kært at blive til ramād (aske) end at tale det. Da fremsagde Profeten – må Allāhs velsignelser og fred være med ham – at-Takbīr (sagde: Allāhu Akbar) to gange og priste Allāh for, at Han havde vendt Satans kneb til blot waswasah (hvisken).",
     "hints": [
-        "Profetens – må Allāhs velsignelser og fred være med ham – barmhjertighed for sin ummah og hans omsorg for dem.\r",
-        "Faren ved at afvige fra Profetens – må Allāhs velsignelser og fred være med ham – praksis.\r",
-        "Opfordring til at fastholde Profetens – må Allāhs velsignelser og fred være med ham – Sunnah."
+        "Tydeliggørelse af, at Shayṭān lurer på de troende gennem hvisken, for at forsøge at føre dem fra īmān (tro) til kufr (vantro).\r",
+        "Tydeliggørelse af Shayṭāns svaghed over for folk med īmān, da han ikke formår andet end hvisken.\r",
+        "Den troende bør vende sig bort fra og afvise Satans hvisken.\r",
+        "Det er foreskrevet at sige Allāhu Akbar ved det, man finder prisværdigt, beundringsværdigt eller lignende.\r",
+        "Det er foreskrevet, at den muslim, der står over for noget uforståeligt, spørger de lærde."
     ],
     "categories": [
-        "63",
-        "85",
-        "94"
+        "59",
+        "76"
     ],
     "translations": [
         "ar",
@@ -59,11 +60,11 @@
         "wo",
         "so",
         "fr",
-        "az",
         "tl",
+        "az",
         "uk",
-        "ta",
         "bm",
+        "ta",
         "de",
         "ka",
         "pt",
@@ -76,28 +77,30 @@
         "mg",
         "om",
         "th",
+        "da",
         "mr",
         "pa",
         "tr",
         "ln",
         "it",
         "am",
-        "da",
         "rn",
         "kmr",
         "ja",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Asmā’ Bint Abī Bakr – må Allāh være tilfreds med dem begge . Hun berettede: Profeten  – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ رَضِيَ اللَّهُ عَنْهُمَا، قَالَتْ: قَالَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِنِّي عَلَى الحَوْضِ حَتَّى أَنْظُرَ مَنْ يَرِدُ عَلَيَّ مِنْكُمْ، وَسَيُؤْخَذُ نَاسٌ دُونِي، فَأَقُولُ: يَا رَبِّ مِنِّي وَمِنْ أُمَّتِي، فَيُقَالُ: هَلْ شَعَرْتَ مَا عَمِلُوا بَعْدَكَ، وَاللَّهِ مَا بَرِحُوا يَرْجِعُونَ عَلَى أَعْقَابِهِمْ».",
-    "hadeeth_intro_ar": "عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ رَضِيَ اللَّهُ عَنْهُمَا، قَالَتْ: قَالَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
-    "explanation_ar": "يُبيِّن النبي صلى الله عليه وسلم بأنَّه سيكون يوم القيامة على حوضه لينظُرَ مَن يأتي مِن أمَّته إلى الحوض، \nوسَيُؤخَذ ناسٌ بالقرب منه عليه الصَّلاة والسلام فيقول: يا رب منّي ومِن أُمَّتي، \nفيُقال: هل عَلِمْت ما عملوا بعد مفارقتهم إيّاك، والله ما زالوا يرجعون على أدبارِهم ويرتَدُّون عن دينِهم، فلا هم مِنك، ولا مِن أمَّتِك.",
+    "hadeeth_intro": "Overleveret af Ibn ‘Abbās, – må Allāh være tilfreds med dem begge. Han berettede:",
+    "hadeeth_ar": "عن ابن عباس رضي الله عنهما قال: جاءَ رجُلُ إلى النبي صلى الله عليه وسلم فقال: يا رسولَ اللهِ، إن أحدنا يجدُ في نفسِهِ -يُعرِّضُ بالشَّيءِ- لأَن يكونَ حُمَمَةً أحَبُّ إليه من أن يتكلَّم بِهِ، فقال: «اللهُ أكبرُ، اللهُ أكبرُ، الحمدُ لله الذي ردَّ كيدَه إلى الوسوسَةِ».",
+    "hadeeth_intro_ar": "عن ابن عباس رضي الله عنهما قال:",
+    "explanation_ar": "جاء رجل إلى النبي صلى الله عليه وسلم فقال: يا رسول الله، إن أحدَنا يجد في نفسه أمرًا يَعْرِض في النَّفس ولكنَّ الكلامَ فيه عظيم، لِدَرجة أن يكون رَمادًا أحبّ إليه مِن أن يتكلَّم به، \nفكبَّر الرسول صلى الله عليه وسلم مرتين وحمِد الله أن ردَّ كيد الشَّيطان إلى مجرَّد الوسوسة.",
     "hints_ar": [
-        "رحمة النبي صلى الله عليه وسلم بأمته وحرصه عليهم.",
-        "خطورة مخالفة ما كان عليه النبي صلى الله عليه وسلم.",
-        "الحث على التمسك بسنة النبي صلى الله عليه وسلم."
+        "بيان أن الشيطان يتربَّص للمؤمنين بالوسوسة؛ ليردَّهم من الإيمان إلى الكفر.",
+        "بيان ضعف الشيطان مع أهل الإيمان حيث لم يقدر إلا على الوسوسة.",
+        "المؤمن ينبغي عليه الإعراض عن وساوس الشيطان ودفعها.",
+        "مشروعية التكبير عند الشيء المستحسن أو العجب منه أو ما شابهه من الأمور.",
+        "مشروعية سؤال المسلم للعالم عن كل ما يُشكِل عليه."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "متفق عليه",
+    "attribution_ar": "رواه أبو داود والنسائي في الكبرى",
     "grade_ar": "صحيح"
 }

@@ -1,16 +1,16 @@
 {
-    "id": "3581",
-    "title": "”Paradiset er nærmere en af jer end snørebåndet på hans sko, og, og Helvede er på samme måde.”",
-    "hadeeth": "Overleveret af Ibn Mas‘ūd – må Allāh være tilfreds med ham. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – sagde: ”Paradiset er nærmere en af jer end snørebåndet på hans sko, og, og Helvede er på samme måde.”",
+    "id": "3553",
+    "title": "”Når en tjener [den troende] bliver syg eller drager ud på rejse, bliver der skrevet for ham det samme [af belønning], som han plejede at udføre [af gode gerninger], mens han var hjemme og ved godt helbred.”",
+    "hadeeth": "Overleveret af Abū Mūsa al-Ash‘ari – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: ”Når en tjener [den troende] bliver syg eller drager ud på rejse, bliver der skrevet for ham det samme [af belønning], som han plejede at udføre [af gode gerninger], mens han var hjemme og ved godt helbred.”",
     "attribution": "رواه البخاري",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – informerede, at Paradiset og Helvede er tæt på mennesket – så tæt som snørebåndet oven på foden. For han kan udføre en handling i lydighed mod Allāh – Den Ophøjede og Glorificerede – som fører ham til Paradiset, eller han kan begå en synd, der bliver årsag til, at han indtræder i Helvede.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – informerer om Allāhs Overstrømmende Nåde og Barmhjertighed. Hvis en muslim har for vane at udføre gode gerninger, mens han er rask og bofast, og han derefter forhindres på grund af sygdom eller rejse – eller enhver anden legitim undskyldning – så vil han få den fulde belønning, som om han havde udført den, mens han var rask og hjemme.",
     "hints": [
-        "Opmuntring til at stræbe efter det gode, selv hvis det er småt, og advarsel mod dårlige handlinger, selv hvis de synes små.\r",
-        "En muslim må i sit liv forene håb og frygt, og uophørligt anmode Allāh – Den Ophøjede – om standhaftighed på sandheden, så han forbliver frelst og ikke bedrages af sin egen tilstand."
+        "Allāhs Vidtfavnende Nåde over for Sine tjenere.\r",
+        "En opfordring til at udvise ihærdighed i lydighed og udnytte tiden i perioder med sundhed og fritid."
     ],
     "categories": [
-        "324"
+        "338"
     ],
     "translations": [
         "ar",
@@ -21,13 +21,13 @@
         "fa",
         "fr",
         "id",
+        "ru",
         "tr",
         "ur",
         "zh",
         "hi",
         "tl",
         "ku",
-        "ha",
         "pt",
         "ml",
         "te",
@@ -35,7 +35,6 @@
         "ta",
         "si",
         "my",
-        "ru",
         "de",
         "ja",
         "ps",
@@ -48,7 +47,9 @@
         "yo",
         "nl",
         "ug",
+        "ha",
         "prs",
+        "ak",
         "bg",
         "ff",
         "hu",
@@ -60,7 +61,6 @@
         "rw",
         "tg",
         "uz",
-        "ak",
         "ne",
         "mos",
         "az",
@@ -74,6 +74,7 @@
         "ka",
         "mk",
         "sr",
+        "yao",
         "el",
         "am",
         "mg",
@@ -86,13 +87,13 @@
         "kmr",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Ibn Mas‘ūd – må Allāh være tilfreds med ham. Han berettede: Profeten – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عن ابن مسعود رضي الله عنه قال: قال النبي صلى الله عليه وسلم: «الْجَنَّةُ أَقْرَبُ إِلَى أَحَدِكُمْ مِنْ شِرَاكِ نَعْلِهِ، وَالنَّارُ مِثْلُ ذَلِكَ».",
-    "hadeeth_intro_ar": "عن ابن مسعود رضي الله عنه قال: قال النبي صلى الله عليه وسلم:",
-    "explanation_ar": "أَخبَرَ النبيُّ صلى الله عليه وسلم أنَّ الجنة والنار قريبتان من الإنسان كقُربِ سَيْرِ الحِذاء الذي يكون على ظَهر القَدَم؛ لأنه قد يفعل طاعةً من رضوان الله عز وجل يدخل بها الجنة، أو معصيةً تكون سببًا لدخول النار.",
+    "hadeeth_intro": "Overleveret af Abū Mūsa al-Ash‘ari – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
+    "hadeeth_ar": "عن أبي موسى الأشعري رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «إِذَا مَرِضَ الْعَبْدُ أَوْ سَافَرَ كُتِبَ لَهُ مِثْلُ مَا كَانَ يَعْمَلُ مُقِيمًا صَحِيحًا».",
+    "hadeeth_intro_ar": "عن أبي موسى الأشعري رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:",
+    "explanation_ar": "يُخبِرُ النبيُّ صلى الله عليه وسلم عن فضل الله ورحمته، وأنَّ المسلمَ إذا كان من عادته أن يعمل عملًا صالحًا حال صحته وإقامته ثم حَصَلَ له عذر فمرض فلم يَقدرْ على الإتيان به، أو انشغل بالسَّفر عنه، أو أي عذر؛ فإنه يكتب له الأجر كاملًا، كما لو عَمِلَه في حال الصحة والإقامة.",
     "hints_ar": [
-        "الترغيب في الخير وإن قلَّ، والترهيب عن الشر وإن قلَّ.",
-        "لا بد للمسلم في حياته من الجمع بين الرجاء والخوف، وسؤال الله سبحانه دومًا الثبات على الحق حتى يَسْلَمَ ولا يَغْتَرَّ بحالِه."
+        "سعة فضل الله على عباده.",
+        "الحث على الاجتهاد في الطاعات واستغلال الأوقات في حال الصحة والفراغ."
     ],
     "words_meanings_ar": [],
     "attribution_ar": "رواه البخاري",

@@ -1,25 +1,19 @@
 {
-    "id": "65001",
-    "title": "”Den af jer, der ser en forkert handling, skal ændre den med sin hånd. Hvis han ikke formår det, så med sin tunge. Og hvis han heller ikke formår det, så med sit hjerte – og dét er den svageste form for Īmān [tro].”",
-    "hadeeth": "Overleveret af Abū Saī‘d Al-Khuḍrī – må Allāh være tilfreds med ham. Han berettede: ’Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige: ”Den af jer, der ser en forkert handling, skal ændre den med sin hånd. Hvis han ikke formår det, så med sin tunge. Og hvis han heller ikke formår det, så med sit hjerte – og dét er den svageste form for Īmān [tro].”",
-    "attribution": "رواه مسلم",
+    "id": "65002",
+    "title": "Den, der handler retfærdigt i islām [ved at udføre gode gerninger], vil ikke blive holdt ansvarlig for det, han gjorde i Jāhiliyyah (præ-islamisk periode af uvidenhed). Men den, der synder i islām [efter at have omfavnet islām], vil blive holdt ansvarlig for både sine tidligere og senere [ugerninger i Jāhiliyyah såvel som islām].”",
+    "hadeeth": "Overleveret af Ibn Masū‘d – må Allāh være tilfreds med ham. Han berettede: En mand sagde: \"O Allāhs Sendebud! Bliver vi holdt ansvarlige for det, vi gjorde i Jāhiliyyah (præ-islamisk periode af uvidenhed)?\" Han svarede: ”Den, der handler retfærdigt i islām [ved at udføre gode gerninger], vil ikke blive holdt ansvarlig for det, han gjorde i Jāhiliyyah (præ-islamisk periode af uvidenhed). Men den, der synder i islām [efter at have omfavnet islām], vil blive holdt ansvarlig for både sine tidligere og senere [ugerninger i Jāhiliyyah såvel som islām].”",
+    "attribution": "متفق عليه",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – befaler at ændre en forkert handling, som omfatter alt det, Allāh og Hans Sendebud har forbudt efter evne. Så når han ser noget forkasteligt, er det pålagt ham at ændre det med hånden, hvis han har evne til det, Hvis han ikke er i stand til dette, skal han ændre det med sin tunge ved at irettesætte den, der begår det forkastelig, forklare ham skaden derved og vejlede ham til det gode som alternativ til det onde. Hvis han heller ikke formår dette, skal han ændre det med sit hjerte – dvs. ved at nære had til den forkastelige handling og have en fast intention om, at hvis han kunne ændre det, ville han gøre det. Ændring med hjertet er den svageste form for tro i forhold til at ændre det forkastelig.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham –  tydeliggør her værdien af at træde ind i islām, Den, der omfavner islām og forbedrer sin tro – dvs. han er oprigtig og sandfærdig i sin Īmān – vil ikke blive stillet til regnskab for de overtrædelser, han begik i Jāhiliyyah Men den, der handler ondt i Islām – ved at være hykler eller frafalde sin religion – vil blive stillet til regnskab for det, han gjorde i vantro og i Islām.",
     "hints": [
-        "Denne ḥadīth udgør grundlaget for forståelsen af graderne i ændringen af munkar (det forkastelig).\r",
-        "Den lærer os princippet om gradvished i at forbyde det forkastelige – hver efter sin evne og formåen.\r",
-        "At forbyde det forkastelige er en mægtig del af religionen og det falder ikke bort fra nogen; enhver muslim pålægges det i overensstemmelse med sin evne.\r",
-        "At befale det gode og forbyde det dårlig er blandt troens egenskaber; og troen stiger og falder.\r",
-        "En betingelse for at forbyde en dårlig handling er, at man har viden om, at det faktisk er en dårlig handling.\r",
-        "En betingelse for at ændre det forkastelige er, at der ikke følger et forkasteligt, der er større end det.\r",
-        "At forbyde munkar har betingelser og etiske regler, som enhver muslim bør lære.\r",
-        "At fordømme det forkastelige kræver siyāsah sharʿiyyah (juridisk-politisk klogskab), viden og indsigt.\r",
-        "Manglende fordømmelse i hjertet er tegn på svag Īmān."
+        "Ṣaḥābah – må Allāh være tilfreds med ham – (Profetens – må Allāhs velsignelser og fred være med ham – ledsagere) udviste bekymring og frygt for de handlinger, de havde begået i   Jāhiliyyah.\r",
+        "Opfordring til standhaftighed i islām.\r",
+        "Dyden ved at træde ind i Islām og at det udsletter tidligere synder.\r",
+        "En murtadd [frafalden] og en munāfiq [hykler] vil blive stillet til regnskab for enhver handling, han tidligere begik i Jāhiliyyah, og for enhver synd, han begik i Islām."
     ],
     "categories": [
-        "92",
-        "344",
-        "347"
+        "88",
+        "92"
     ],
     "translations": [
         "ar",
@@ -84,32 +78,28 @@
         "am",
         "mg",
         "om",
+        "da",
         "mr",
         "pa",
         "tr",
         "ln",
         "it",
-        "ms",
-        "da",
+        "yao",
         "kmr",
-        "ja"
+        "ja",
+        "ms"
     ],
-    "hadeeth_intro": "Overleveret af Abū Saī‘d Al-Khuḍrī – må Allāh være tilfreds med ham. Han berettede: ’Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige:",
-    "hadeeth_ar": "عن أبي سعيد الخُدْريِّ رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول: «‌مَنْ ‌رَأَى ‌مِنْكُمْ ‌مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الْإِيمَانِ».",
-    "hadeeth_intro_ar": "عن أبي سعيد الخُدْريِّ رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول:",
-    "explanation_ar": "يأمر النبي صلى الله عليه وسلم بتغيير المنكر -وهو كل ما نهى الله عنه ورسوله- حسب الاستطاعة، \nفإذا رأى منكرًا فيجب عليه تغييره باليد إن كان له قدرة، \nفإن عجز عن ذلك فليغيره بلسانه بأن ينهى مرتكبه ويُبيِّن له ضرره ويرشده إلى الخير بدل هذا الشر، \nفإن عجز عن هذه المرتبة فليغيره بقلبه بأن يَكرَه هذا المنكر ويَعزِم أنه لو قدر على تغييره لفعل، \nوالتغيير بالقلب أضعف مراتب الإيمان في تغيير المنكر.",
+    "hadeeth_intro": "Overleveret af Ibn Masū‘d – må Allāh være tilfreds med ham. Han berettede:",
+    "hadeeth_ar": "عَنِ ابْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ، قَالَ: قَالَ رَجُلٌ: يَا رَسُولَ اللهِ، أَنُؤَاخَذُ بِمَا عَمِلْنَا فِي الْجَاهِلِيَّةِ؟ قَالَ: «مَنْ أَحْسَنَ فِي الْإِسْلَامِ لَمْ يُؤَاخَذْ بِمَا عَمِلَ فِي الْجَاهِلِيَّةِ، وَمَنْ أَسَاءَ فِي الْإِسْلَامِ أُخِذَ بِالْأَوَّلِ وَالْآخِرِ».",
+    "hadeeth_intro_ar": "عَنِ ابْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ، قَالَ:",
+    "explanation_ar": "يُبَيِّنُ النبي صلى الله عليه وسلم فضل الدخول في الإسلام، \nوأن من أسلم وحسن إسلامه وكان مخلصًا صادقًا؛ فلا يحاسب بما عمل في الجاهلية من معاصي، \nومن أساء في الإسلام بأن كان منافقًا أو ارتد عن دينه؛ حوسب بما عمل في الكفر وبما عمل في الإسلام.",
     "hints_ar": [
-        "الحديث أصل في بيان مراتب تغيير المنكر.",
-        "الأمر بالتَّدَرُّج في النهي عن المنكر، كلٌّ بحسب استطاعته وقدراته.",
-        "النهي عن المنكر باب عظيم في الدين ولا يسقط عن أحد، ويُكَلَّف به كل مسلم بحسب استطاعته.",
-        "الأمر بالمعروف والنهي عن المنكر من خصال الإيمان، والإيمان يزيد وينقص.",
-        "يشترط في النهي عن المنكر: العلم بكون ذلك الفعل منكرًا.",
-        "يشترط في تغيير المنكر: أن لا يترتب عليه منكر أعظم منه.",
-        "للنهي عن المنكر آداب وشروط ينبغي على المسلم أن يتعلمها.",
-        "إنكار المنكر يحتاج إلى سياسة شرعية، وإلى علم وبصيرة.",
-        "عدم الإنكار بالقلب يدل على ضعف الإيمان."
+        "اهتمام الصحابة رضوان الله عليهم وخوفهم مما كان منهم من الأعمال في الجاهلية.",
+        "الحث على الثبات على الإسلام.",
+        "فضل الدخول في الإسلام وأنه يكفر الأعمال السابقة.",
+        "المرتد والمنافق يُحاسَبُ بكلِّ عملٍ له سَبَقَ في الجاهلية، وبكل ذنب فَعله في الإسلام."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "رواه مسلم",
+    "attribution_ar": "متفق عليه",
     "grade_ar": "صحيح"
 }

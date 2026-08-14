@@ -1,19 +1,19 @@
 {
-    "id": "65047",
-    "title": "Lær ikke [søg ikke] viden for at prale med den over for de lærde, ej heller for at strides med de uforstandige",
-    "hadeeth": "Overleveret af Jābir Ibn ‘Abdullāh – må Allāh være tilfreds med dem begge – Han berettede:\nProfeten – må Allāhs velsignelser og fred være med ham – sagde: \"Lær ikke [søg ikke] viden for at prale med den over for de lærde, ej heller for at strides med de uforstandige, ej heller for at udvælge forsamlinger [for at opnå status] gennem den. Den, der gør dette – Så [for ham er ] Ilden, Ilden.\"",
-    "attribution": "رواه ابن ماجه",
+    "id": "65035",
+    "title": "”Døden vil [på opstandelsesdagen] blive frembragt i skikkelse af en hvidsort vædder",
+    "hadeeth": "Overleveret af Abū Saī‘d Al-Khuḍrī – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: ”Døden vil [på opstandelsesdagen] blive frembragt i skikkelse af en hvidsort vædder. Derefter vil en kalder råbe: 'O Paradisets folk!' Så vil de strække deres halse og se. Han [kalderen] vil spørge: 'Kender I dette?' De vil sige: ’Ja, dette er døden, og alle havde set den. Så vil han [kalderen] kalde igen: O Helvedes folk! Så vil de strække deres halse og se. Han [kalderen] vil spørge: 'Kender I dette?' De vil sige: ’Ja, dette er døden, og alle havde set den. Så vil den blive slagtet, og han [kalderen] vil sige: \"O Paradisets folk! Evighed, og [der er] ingen død. O Helvedes folk! Evighed, og [der er] ingen død.\" Derpå reciterede han [ﷺ]: ”Og advar dem mod fortrydelsens dag, når sagen vil blive afgjort; og [alligevel] er de uagtsomme” [Sūrah Maryam:19:39] mens de [menneskene i det jordiske liv] er i en tilstand af skødesløshed, ”og de tror ikke” [på opstandelsen].”” [Sūrah Maryam:19:39]",
+    "attribution": "متفق عليه",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – advarede mod at søge ‘ilm (religiøs viden) for at prale og konkurrere med de lærde, for at sige: ”Jeg er vidende som jer,” eller for at tale til og strides med de uforstandige og de lette i sind, eller for at lære for at indtage forrang i forsamlinger og blive sat over andre. Den, der gør dette, pådrager sig Ilden på grund af at vise sig frem og sin manglende oprigtighed i at søge viden udelukkende for Allāhs skyld.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – forklarer, at døden på Dommens Dag vil blive bragt frem i skikkelse af et hanfår med både hvide og sorte farver. Så råbes der: O Paradisets folk!' Da strækker de deres nakker og halse, løfter deres hoveder og ser. Han vil sige til dem: \"Kender I dette?\" De vil sige: \"Ja, dette er døden,\" og de vil alle have set og kendt den. Derefter vil kalderen råbe: \"O Helvedes folk!\" De vil strække deres nakker og halse , løfte deres hoveder og se. Han vil sige: \"Kender I dette?\" De vil sige: \"Ja, dette er døden,\" og de vil alle have set den. Så bliver den slagtet, derefter siger råberen: O Paradisets folk! Evigt og uendeligt ophold – ingen død. Og O Helvedes folk! Evigt og uendeligt ophold – ingen død. Dette er for at øge de troendes lyksalighed og for at forværre de vantros pine. Derpå reciterede Profeten – må Allāhs velsignelser og fred være med ham: ”Og advar dem mod fortrydelsens dag, når sagen vil blive afgjort; og [alligevel] er de uagtsomme, og de tror ikke.” På Opstandelsens Dag vil afgørelsen falde mellem Paradisets og Helvedes folk, og enhver vil træde ind i det sted, han er tildelt – for at blive der til evig tid. Da vil den, der handlede ondt, fortryde, at han ikke handlede godt, og den forsømmelige vil angre, at han ikke stræbte mere efter det gode.",
     "hints": [
-        "Advarsel om Ilden mod den, der tilegner sig ‘ilm (religiøs viden) for at prale, for at strides med den, eller for at fremhæve sig i forsamlinger – og lignende.\r",
-        "Vigtigheden af oprigtig intention for den, der søger viden og underviser i den.\r",
-        "Intention er grundlaget for handlinger, og ud fra den gives belønningen."
+        "Menneskets skæbne i det hinsides er evig – enten i Paradis eller i Helvede.\r",
+        "En stærk advarsel imod rædslerne på Dommens Dag, som vil være en dag præget af dyb fortrydelse og anger.\r",
+        "Fremhævelse af Paradisfolkets evige glæde og Helvedesfolkets vedvarende sorg."
     ],
     "categories": [
-        "315",
-        "320",
-        "629"
+        "63",
+        "324",
+        "738"
     ],
     "translations": [
         "ar",
@@ -53,9 +53,9 @@
         "tg",
         "uz",
         "ne",
+        "mos",
         "ku",
         "wo",
-        "mos",
         "so",
         "fr",
         "az",
@@ -68,9 +68,9 @@
         "pt",
         "mk",
         "hu",
+        "fa",
         "ru",
         "zh",
-        "fa",
         "km",
         "am",
         "mg",
@@ -82,21 +82,30 @@
         "ln",
         "it",
         "da",
-        "kmr",
         "rn",
+        "kmr",
         "ja",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Jābir Ibn ‘Abdullāh – må Allāh være tilfreds med dem begge – Han berettede:\nProfeten – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ رضي الله عنهما أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «لَا تَعَلَّمُوا الْعِلْمَ لِتُبَاهُوا بِهِ الْعُلَمَاءَ، وَلَا لِتُمَارُوا بِهِ السُّفَهَاءَ، وَلَا تَخَيَّرُوا بِهِ الْمَجَالِسَ، فَمَنْ فَعَلَ ذَلِكَ، فَالنَّارُ النَّارُ».",
-    "hadeeth_intro_ar": "عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ رضي الله عنهما أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
-    "explanation_ar": "حذَّّر النبي صلى الله عليه وسلم من طلب العلم لمفاخرة ومباهاة العلماء، وإظهار أني عالم مثلكم، أو لتخاطبوا وتجادلوا به السفهاء وخِفاف العقول، أو يتعلم لأن يتصدَّر في المجالس، ويُقدَّم على غيره فيها. \nفمن فعل ذلك؛ فإنه يستحقّ النار بريائه وعدم الإخلاص في طلب العلم لله.",
+    "hadeeth_intro": "Overleveret af Abū Saī‘d Al-Khuḍrī – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
+    "hadeeth_ar": "عَنْ أَبِي سَعِيدٍ الخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «يُؤْتَى بِالْمَوْتِ كَهَيْئَةِ كَبْشٍ أَمْلَحَ، فَيُنَادِي مُنَادٍ: يَا أَهْلَ الجَنَّةِ، فَيَشْرَئِبُّونَ وَيَنْظُرُونَ، فَيَقُولُ: هَلْ تَعْرِفُونَ هَذَا؟ فَيَقُولُونَ: نَعَمْ، هَذَا المَوْتُ، وَكُلُّهُمْ قَدْ رَآهُ، ثُمَّ يُنَادِي: يَا أَهْلَ النَّارِ، فَيَشْرَئِبُّونَ وَيَنْظُرُونَ، فَيَقُولُ: وهَلْ تَعْرِفُونَ هَذَا؟ فَيَقُولُونَ: نَعَمْ، هَذَا المَوْتُ، وَكُلُّهُمْ قَدْ رَآهُ، فَيُذْبَحُ ثُمَّ يَقُولُ: يَا أَهْلَ الجَنَّةِ خُلُودٌ فَلاَ مَوْتَ، وَيَا أَهْلَ النَّارِ خُلُودٌ فَلاَ مَوْتَ، ثُمَّ قَرَأَ: {وَأَنْذِرْهُمْ يَوْمَ الحَسْرَةِ إِذْ قُضِيَ الأَمْرُ وَهُمْ فِي غَفْلَةٍ} [مريم: 39]، وَهَؤُلاَءِ فِي غَفْلَةٍ أَهْلُ الدُّنْيَا {وَهُمْ لاَ يُؤْمِنُونَ} [مريم: 39]».",
+    "hadeeth_intro_ar": "عَنْ أَبِي سَعِيدٍ الخُدْرِيِّ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ:",
+    "explanation_ar": "يبين النبي صلى الله عليه وسلم أن الموت يؤتى به يوم القيامة، كهيئة ذَكَر الضأن وفيه بياض وسواد، \nفيٌنَادى: يا أهل الجنة! فيمدُّون أعناقهم ورقابهم ويرفعون رؤوسهم وينظرون، \nفيقول لهم: هل تعرفون هذا؟ \nفيقولون: نعم، هذا الموت، وكلهم قد رآه وعرفه، \nثم ينادي المنادي: يا أهل النار، فيمدون أعناقهم ورقابهم ويرفعون رؤوسهم وينظرون، \nفيقول: هل تعرفون هذا؟ \nفيقولون: نعم، هذا الموت، وكلهم قد رآه؛ \nفيُذبَح، ثم يقول المنادي: يا أهل الجنة بقاء أبد الآبدين فلا موت، ويا أهل النار بقاء أبد الآبدين فلا موت. \nوذلك ليكون زيادة في نعيم المؤمنين، ونكاية في عذاب الكافرين.\nثم قرأ النبي صلى الله عليه وسلم: \n{وَأَنْذِرْهُمْ يَوْمَ الْحَسْرَةِ إِذْ قُضِيَ الأَمْرُ وَهُمْ فِي غَفْلَةٍ وَهُمْ لا يُؤْمِنُونَ} \nفيوم القيامة يفصل بين أهل الجنة والنار، ودخل كل إلى ما صار إليه مخلدًا فيه، \nفيتحسر المسيء ويندم إذ لم يحسن، والمقصر إذ لم يزدد من الخير.",
     "hints_ar": [
-        "الوعيد بالنار لمن تعلَّم العلم ليفاخر به أو يجادل به أو يتصدَّر به المجالس، ونحو ذلك.",
-        "أهمية إخلاص النية لمن تعلَّم العلم وعلَّمه.",
-        "النية أساس الأعمال وعليها يكون الجزاء."
+        "مصير الإنسان في الآخرة هو الخلود في الجنة أو النار.",
+        "التحذير الشديد من هول يوم القيامة وأنه يوم الحسرة والندم.",
+        "بيان دوام سرور أهل الجنة، ودوام حزن أهل النّار."
     ],
-    "words_meanings_ar": [],
-    "attribution_ar": "رواه ابن ماجه",
+    "words_meanings_ar": [
+        {
+            "word": "كبش",
+            "meaning": " ذكر الضأن."
+        },
+        {
+            "word": "أملح",
+            "meaning": " الأبيض الذي يخالطه السواد."
+        }
+    ],
+    "attribution_ar": "متفق عليه",
     "grade_ar": "صحيح"
 }

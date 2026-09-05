@@ -1,16 +1,17 @@
 {
-    "id": "3716",
-    "title": "”Må Allāh vise barmhjertighed over den mand, som er imødekommende, når han sælger, når han køber, og når han opkræver gæld.”",
-    "hadeeth": "Overleveret af Jābir – må Allāh være tilfreds med ham – som sagde: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: ”Må Allāh vise barmhjertighed over den mand, som er imødekommende, når han sælger, når han køber, og når han opkræver gæld.”",
-    "attribution": "رواه البخاري",
+    "id": "3706",
+    "title": "En muslims rettighed over for en anden muslim er fem: at besvare as-salām (fredshilsenen), at besøge den syge, at følge begravelsen, at svare på en indbydelse, og at sige yarḥamuk-Allāh til den, der nyser",
+    "hadeeth": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige: \"En muslims rettighed over for en anden muslim er fem: at besvare as-salām (fredshilsenen), at besøge den syge, at følge begravelsen, at svare på en indbydelse, og at sige yarḥamuk-Allāh til den, der nyser.\"",
+    "attribution": "متفق عليه",
     "grade": "صحيح",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – bad om barmhjertighed for enhver, der var let at have med at gøre, gavmild og rundhåndet i sin handel; han presser ikke køberen i prisen, og behandler ham med god moral, Han er imødekommende, gavmild og rundhåndet, når han køber; han giver ikke mindre værdi eller nedgør prisen på varen. Når han kræver tilbagebetaling af gæld, gør han det med mildhed og tålmodighed – han er ikke hård over for den fattige eller nødlidende, men beder venligt og giver henstand, hvis skyldneren er ude af stand til at betale.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – forklarer nogle af de mest væsentlige rettigheder, som hver muslim har over for sin bror i islām. Den første af disse pligter er at svare den, der giver dig fredshilsen.\r\n\r\nDen anden ret/pligt: er at besøge og tage sig af den syge.\r\n\r\nDen tredje af disse rettigheder er: at følge begravelsen — fra den afdødes hjem til bønnepladsen, og videre til gravpladsen, indtil vedkommende er lagt i jorden.\r\n\r\nDen fjerde rettighed er: at acceptere indbydelsen — især til bryllupper (walīmah), men også til andre anledninger.\r\n\r\nDen femte rettighed er: at sige ”yarḥamuk-Allāh” (Må Allāh være dig Nådig), til en, der nyser og siger al-Ḥamdulillah (Al lovprisning tilkommer Allāh). ”Yarḥamuk-Allāh” (Må Allāh være dig Nådig). Den, der nyser, bør da svare: ”Yahdīkum Allāh wa yuṣliḥu bālakum” (Må Allāh retlede jer og forbedre jeres tilstand).",
     "hints": [
-        "Et af formålene med sharīʿah er at bevare det, som forbedrer relationerne mellem mennesker.\r",
-        "Opmuntring til at anvende de højeste former for akhlāq (moral og adfærd) i muʿāmalāt (sociale og økonomiske udvekslinger), som fx køb, salg osv."
+        "Islāms storhed ligger i, at den betoner rettighederne mellem muslimer og styrker båndene af ukhuwwah (broderskab) og maḥabbah (kærlighed) mellem dem."
     ],
     "categories": [
-        "282"
+        "286",
+        "296",
+        "297"
     ],
     "translations": [
         "ar",
@@ -19,7 +20,6 @@
         "en",
         "es",
         "fa",
-        "fr",
         "id",
         "ru",
         "tl",
@@ -27,13 +27,14 @@
         "ur",
         "zh",
         "hi",
-        "si",
+        "fr",
         "ug",
         "ku",
         "ha",
         "pt",
         "ml",
         "te",
+        "sw",
         "my",
         "de",
         "ja",
@@ -46,7 +47,7 @@
         "gu",
         "yo",
         "nl",
-        "sw",
+        "si",
         "ta",
         "prs",
         "bg",
@@ -86,15 +87,14 @@
         "kmr",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Jābir – må Allāh være tilfreds med ham – som sagde: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عن جابر رضي الله عنه أن رسول الله صلى الله عليه وسلم قال: «رَحِمَ اللهُ رَجُلًا سَمْحًا إِذَا بَاعَ، وَإِذَا اشْتَرَى، وَإِذَا اقْتَضَى».",
-    "hadeeth_intro_ar": "عن جابر رضي الله عنه أن رسول الله صلى الله عليه وسلم قال:",
-    "explanation_ar": "دعا النبي صلى الله عليه وسلم بالرحمة لكل من كان:\n\nسهلًا جَوَادًا سَخِيًّا في بيعِه، فلا يُشدِّد على المشتري في سعرها ويعامله بخُلُقٍ حَسَن.\n\n\nسهلًا جوادًا سَخِيًّا إذا اشترى، فلا يَبْخَس ويُقَلِّل من قيمة البِضَاعَة.\n\n\nسهلًا جوادًا سخيًا إذا طَالَبَ بقضاءِ الدُّيون التي له، فلا يُشدِّد على الفقير والمُحتاج، بل يُطالِبه برفق ولُطف، ويُنْظِر المُعسر.",
+    "hadeeth_intro": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: Jeg hørte Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sige:",
+    "hadeeth_ar": "عن أبي هريرة رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول: «حَقُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ خَمْسٌ: رَدُّ السَّلَامِ، وَعِيَادَةُ الْمَرِيضِ، وَاتِّبَاعُ الْجَنَائِزِ، وَإِجَابَةُ الدَّعْوَةِ، وَتَشْمِيتُ الْعَاطِسِ».",
+    "hadeeth_intro_ar": "عن أبي هريرة رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول:",
+    "explanation_ar": "يُبيِّنُ النبيُّ صلى الله عليه وسلم بعضَ حقوق المسلم على أخيه المسلم:\n\n\nأول هذه الحقوق: ردُّ السلام لمن ألقى عليك السلام.\n\nالحق الثاني: عيادة المريض وزيارته.\n\n الحق الثالث: اتباع الجنازة من بيته إلى المصلَّى إلى المقبرة حتى تُدفن.\n\n الحق الرابع: إجابة الدعوة إذا دعاه إلى وليمة عرس وغير ذلك.\n\n الحق الخامس: تَشميت العاطس، وهو أن يقول له إذا حَمِدَ الله: يرحمُك الله، ثم يقول العاطسُ: يهديكم الله ويُصلح بالَكم.",
     "hints_ar": [
-        "مِن مَقاصد الشريعة الحِفاظ على ما يُصلِحُ العلاقاتِ بين الناس.",
-        "الترغيب في استعمال معالي الأخلاق في المعاملات بين الناس من البيع والشراء ونحو ذلك."
+        "عظمة الإسلام في تأكيد الحقوق بين المسلمين وتوثيق الأُخوَّة والمحبة بينهم."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "رواه البخاري",
+    "attribution_ar": "متفق عليه",
     "grade_ar": "صحيح"
 }

@@ -22,7 +22,7 @@
 		<a href="#news" class="news">Se Nyheder</a>
 	</div>
 </div>
-<EventCardList />
+<!-- <EventCardList /> TODO: Remove for now, and make it into a table instead -->
 <div id="news">
 	<News />
 </div>

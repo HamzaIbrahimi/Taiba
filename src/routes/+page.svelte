@@ -42,6 +42,11 @@
 		<div class="hadith-container">
 			<blockquote cite="https://hadeethenc.com/da/home">
 				{hadith['hadeeth']}
+				<br />
+				<h4>Forklaring:</h4>
+				<div class="explanation">
+					{hadith['explanation']}
+				</div>
 			</blockquote>
 			<p><cite>{hadith['attribution']}</cite></p>
 			<p>حديث {hadith['grade']}</p>
@@ -146,7 +151,7 @@
 		font-size: 1.2rem;
 		border-left: 3px solid var(--clr-gold);
 		padding-left: 1rem;
-		height: 180px;
+		max-height: 300px;
 		overflow-y: scroll;
 		scrollbar-color: #c9a84c #c9a84c;
 		scrollbar-width: thin;
@@ -155,6 +160,11 @@
 	.hadith-container p {
 		color: var(--clr-gold);
 		text-align: right;
+	}
+
+	.explanation,
+	h4 {
+		font-style: normal;
 	}
 
 	.credits:hover {

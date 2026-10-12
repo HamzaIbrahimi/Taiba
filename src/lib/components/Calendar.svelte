@@ -20,7 +20,7 @@
 			>← {monthsShort[prevMonth]}</button
 		>
 		<div class="selector-curr-date">
-			{monthsLong[currMonth] + ' ' + today.getFullYear()}
+			{monthsLong[currMonth]}
 		</div>
 		<button
 			onclick={() => (currMonth = currMonth + 1)}

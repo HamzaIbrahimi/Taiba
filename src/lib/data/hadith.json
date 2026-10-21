@@ -1,19 +1,16 @@
 {
-    "id": "3350",
-    "title": "”Gør ikke jeres hjem til grave, og gør ikke min grav til en festdag. Men send velsignelser over mig, for jeres velsignelser når mig, uanset hvor I end befinder jer.”",
-    "hadeeth": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: ’Profeten – må Allāhs velsignelser og fred være med ham – sagde: ”Gør ikke jeres hjem til grave, og gør ikke min grav til en festdag. Men send velsignelser over mig, for jeres velsignelser når mig, uanset hvor I end befinder jer.”",
-    "attribution": "رواه أبو داود",
-    "grade": "حسن",
-    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – forbød, at man lader sine hjem stå tomme for Ṣalāh (bøn) og tilbedelse, så de kommer til at ligne grave, hvor der ikke bliver udført Ṣalāh (bøn). Og han forbød at gentage besøget af hans grav og at samles der regelmæssigt, da dette er en vej til shirk (polyteisme). Han opfordrede til at man sender velsignelser og fred over ham, hvor end man befinder sig på jorden. Dette fordi disse velsignelser når ham, hvad enten den troende er nær eller fjern. Derved fjernes behovet for gentagne fysiske besøg ved graven med det formål alene.",
+    "id": "3588",
+    "title": "”As-Siwāk (tandrensende kvist) er en renselse for munden og en kilde til Rabbs (Allāhs) Velbehag.”",
+    "hadeeth": "Overleveret af ‘Ā’ishah – må Allāh være tilfreds med hende. Hun berettede : Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: ”As-Siwāk (tandrensende kvist) er en renselse for munden og en kilde til Rabbs (Allāhs) Velbehag.”",
+    "attribution": "رواه النسائي وأحمد",
+    "grade": "صحيح",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – fortæller os, at rengøring af tænderne med en pind fra arak-træet eller lignende renser munden for urenheder og dårlig lugt. Og at det er en af årsagerne til Allahs velbehag med tjeneren, fordi det indeholder lydighed mod Allah og efterlevelse af Hans befaling, samt fordi det medfører den renlighed, som Allah, Den Ophøjede, elsker.",
     "hints": [
-        "Forbuddet mod at lade hjemmene stå tomme for tilbedelse af Allāh – Den Ophøjede.\r",
-        "Forbuddet mod at rejse for at besøge profetens grav; fordi han (fred være med ham) beordrede, at man skal sende ham velsignelser, og han sagde, at de når ham. Rejsen bør derimod være for at besøge moskeen og bede der.\r",
-        "Det er forbudt at gøre besøget til Profetens – må Allāhs velsignelser og fred være med ham –  grav til en form for festdag ved at gentage det på bestemte tidspunkter med en bestemt form – det samme gælder for andre gravsteder.\r",
-        "Profetens – må Allāhs velsignelser og fred være med ham – ære hos Hans Herre fremgår ved, at det er tilladt og belønnet at sende velsignelser og fred over ham til enhver tid og på ethvert sted.\r",
-        "Da det blandt Ṣaḥābah (de ædle følgere) var fastslået, at ṣalāh (bøn) ikke bør udføres ved gravsteder, forbød Profeten – må Allāhs velsignelser og fred være med ham – at gøre hjemmene til steder uden ṣalāh (bøn), ligesom grave."
+        "Fordelen ved at bruge Siwāk, og Profeten – må Allāhs velsignelser og fred være med ham – tilskyndede sin ummah til at anvende den ofte.\r",
+        "Den bedste måde at udføre siwāk på er med en gren fra arak-træet. Men brugen af tandbørste og tandpasta opfylder den samme funktion og kan træde i stedet."
     ],
     "categories": [
-        "277"
+        "436"
     ],
     "translations": [
         "ar",
@@ -30,18 +27,17 @@
         "ur",
         "zh",
         "hi",
-        "ug",
+        "vi",
+        "si",
         "ku",
         "ha",
         "pt",
         "ml",
         "te",
-        "sw",
         "my",
         "de",
         "ja",
         "ps",
-        "vi",
         "as",
         "sq",
         "sv",
@@ -49,24 +45,25 @@
         "gu",
         "yo",
         "nl",
-        "si",
+        "ug",
+        "sw",
         "ta",
         "prs",
-        "ak",
         "bg",
         "ff",
         "hu",
         "kn",
         "ky",
         "lt",
-        "ne",
         "or",
         "ro",
         "rw",
         "tg",
         "uz",
-        "az",
+        "ak",
+        "ne",
         "mos",
+        "az",
         "wo",
         "om",
         "so",
@@ -74,9 +71,9 @@
         "bm",
         "km",
         "rn",
-        "sr",
         "ka",
         "mk",
+        "sr",
         "el",
         "am",
         "mg",
@@ -89,23 +86,15 @@
         "kmr",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Abū Hurayrah – må Allāh være tilfreds med ham. Han berettede: ’Profeten – må Allāhs velsignelser og fred være med ham – sagde:",
-    "hadeeth_ar": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «لَا تَجْعَلُوا بُيُوتَكُمْ قُبُورًا، وَلَا تَجْعَلُوا قَبْرِي عِيدًا، وَصَلُّوا عَلَيَّ؛ فَإِنَّ صَلَاتَكُمْ تَبْلُغُنِي حَيْثُ كُنْتُمْ».",
-    "hadeeth_intro_ar": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم:",
-    "explanation_ar": "يَنهى النبيُّ صلى الله عليه وسلم عن تعطيل البيوت من الصلاة فتكون كالمقابر التي لا يصلى فيها.\n\nونهى عن تَكرار زيارة قبره والاجتماع عنده على وجهٍ معتاد؛ لأن ذلك وسيلةٌ إلى الشرك.\n\nوأمر بالصلاة والسلام عليه في أي مكان من الأرض؛ لأن ذلك يبلغه من القريب والبعيد على حدٍّ سواء، فلا حاجة إلى التردد إلى قبره.",
+    "hadeeth_intro": "Overleveret af ‘Ā’ishah – må Allāh være tilfreds med hende. Hun berettede : Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
+    "hadeeth_ar": "عن عائشة رضي الله عنها قالت: قال رسول الله صلى الله عليه وسلم: «السِّوَاكُ مَطْهَرَةٌ لِلْفَمِ، مَرْضَاةٌ لِلرَّبِّ».",
+    "hadeeth_intro_ar": "عن عائشة رضي الله عنها قالت: قال رسول الله صلى الله عليه وسلم:",
+    "explanation_ar": "يُخبرنا النبيُّ صلى الله عليه وسلم أنَّ تنظيفَ الأسنانِ بِعُوْدِ شجرةِ الأَرَاك ونحوِه يُطَهِّر الفَمَ من الأوساخ والروائح الكريهة، \nوأنه مِن أسباب رضا الله عن العبد؛ لأن فيه طاعة لله واستجابة لأمره، ولما فيه من النظافة التي يحبها الله تعالى.",
     "hints_ar": [
-        "النهي عن تعطيل البيوت من عبادة الله تعالى.",
-        "المنع من السفر لزيارة قبر النبي عليه الصلاة والسلام؛ لأنه أمر بالصلاة عليه وأخبر أنها تبلغه، وإنما تُشَدُّ الرحال لقصد المسجد والصلاة فيه.",
-        "تحريم جعل زيارة قبر النبي صلى الله عليه وسلم عيدًا، بتكرير زيارته على وجه مخصوص في زمن مخصوص، وكذلك زيارة كل قبر.",
-        "كرامة النبي صلى الله عليه وسلم على ربه، بمشروعية الصلاة والسلام عليه في كل زمان ومكان.",
-        "حيث أن النهي عن الصلاة عند القبور قد تقرر عند الصحابة؛ لذا نهى النبي صلى الله عليه وسلم أن تجعل البيوت مثل المقابر لا يُصلى فيها."
+        "فضيلة التَّسَوُّك، وترغيب النبي صلى الله عليه وسلم أمَّته الإكثار منه.",
+        "الأفضل في التسوُّك استعمال عُوْد شجر الأراك، واستعمل الفرشاة والمعجون يقومُ مقامَه."
     ],
-    "words_meanings_ar": [
-        {
-            "word": "ولا تجعلوا قبري عيدًا",
-            "meaning": " العيد: ما يعتاد مجيئه وقصده من زمان ومكان، أي: لا تتخذوا قبري محل اجتماعٍ تترددون إليه وتعتادونه للصلاة والدعاء وغير ذلك."
-        }
-    ],
-    "attribution_ar": "رواه أبو داود",
-    "grade_ar": "حسن"
+    "words_meanings_ar": [],
+    "attribution_ar": "رواه النسائي وأحمد",
+    "grade_ar": "صحيح"
 }

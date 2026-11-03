@@ -125,6 +125,7 @@
 
 	.background h2 {
 		color: var(--clr-gold);
+		text-align: center;
 	}
 
 	.background h4 {

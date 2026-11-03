@@ -1,16 +1,16 @@
 {
-    "id": "65050",
-    "title": "Der blev åbenbaret til Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – da han var fyrre år",
-    "hadeeth": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede: Der blev åbenbaret til Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – da han var fyrre år. Han forblev i Makkah i tretten år [af sin Profetgerning]. Derefter blev han befalet at udføre emigration, og han emigrerede til Madīnah, hvor han forblev i ti år. Derefter gik han bort – må Allāhs velsignelser og fred være med ham.",
-    "attribution": "متفق عليه",
+    "id": "65040",
+    "title": "Når Allāh bestemmer, at en tjener skal dø i et land, gør Han det nødvendigt for ham at rejse dertil",
+    "hadeeth": "Overleveret af Maṭar ibn ‘Ukāmis – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde: \"Når Allāh bestemmer, at en tjener skal dø i et land, gør Han det nødvendigt for ham at rejse dertil.\"",
+    "attribution": "رواه الترمذي",
     "grade": "صحيح",
-    "explanation": "Ibn ‘Abbās – må Allāh være tilfreds med dem begge – berettede: Åbenbaringen blev sendt ned til Allāhs Sendebud – må Allāhs velsignelser og fred være med ham –  og han blev sendt som Profet, da han var fyrre år. Han opholdte sig i Makkah i tretten år efter åbenbaringens begyndelse. Derefter blev han befalet at emigrere til Madīnah, hvor han opholdt sig i ti år. Han – må Allāhs velsignelser og fred være med ham – gik derefter bort i en alder af treogtres år.",
+    "explanation": "Profeten – må Allāhs velsignelser og fred være med ham – informerer, at når Allāh har bestemt og forudbestemt, at en tjener skal dø i et bestemt land, selvom han ikke befinder sig dér, gør Han det nødvendigt for tjeneren at tage til dette sted, hvor hans sjæl så bliver taget.",
     "hints": [
-        "Ledsagernes omhyggelighed omkring  Profetens – må Allāhs velsignelser og fred være med ham – biografi."
+        "Denne ḥadīth er en bekræftelse af Allāhs – Ærefuld og Ophøjet er Han – Ord: ”Og ingen sjæl ved, på hvilken jord den vil dø.”"
     ],
     "categories": [
-        "81",
-        "367"
+        "64",
+        "492"
     ],
     "translations": [
         "ar",
@@ -50,10 +50,10 @@
         "tg",
         "uz",
         "ne",
-        "ku",
         "mos",
-        "so",
+        "ku",
         "wo",
+        "so",
         "fr",
         "az",
         "tl",
@@ -66,8 +66,8 @@
         "mk",
         "hu",
         "ru",
-        "zh",
         "fa",
+        "zh",
         "km",
         "mg",
         "om",
@@ -79,19 +79,19 @@
         "it",
         "am",
         "da",
-        "kmr",
         "rn",
+        "kmr",
         "ja",
         "ms"
     ],
-    "hadeeth_intro": "Overleveret af Ibn ‘Abbās – må Allāh være tilfreds med dem begge. Han berettede:",
-    "hadeeth_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ: أُنْزِلَ عَلَى رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَهُوَ ابْنُ أَرْبَعِينَ، فَمَكَثَ بِمَكَّةَ ثَلَاثَ عَشْرَةَ سَنَةً، ثُمَّ أُمِرَ بِالْهِجْرَةِ، فَهَاجَرَ إِلَى الْمَدِينَةِ، فَمَكَثَ بِهَا عَشْرَ سِنِينَ، ثُمَّ تُوُفِّيَ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ.",
-    "hadeeth_intro_ar": "عَنِ ‌ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا قَالَ:",
-    "explanation_ar": "يخبر ابن عباس رضي الله عنهما: أن الوحي أنزل على رسول الله صلى الله عليه وسلم وبُعث وعمره أربعون سنة، \nفأقام بمكة ثلاث عشرة سنة بعد الوحي، \nثم أُمِرَ بالهجرة إلى المدينة وأقام بها عشر سنين، \nثم توفي صلى الله عليه وسلم وعمره ثلاثٌ وستون سنة.",
+    "hadeeth_intro": "Overleveret af Maṭar ibn ‘Ukāmis – må Allāh være tilfreds med ham. Han berettede: Allāhs Sendebud – må Allāhs velsignelser og fred være med ham – sagde:",
+    "hadeeth_ar": "عَنْ مَطَرِ بْنِ عُكَامِسٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِذَا قَضَى اللَّهُ لِعَبْدٍ أَنْ يَمُوتَ بِأَرْضٍ جَعَلَ لَهُ إِلَيْهَا حَاجَةً».",
+    "hadeeth_intro_ar": "عَنْ مَطَرِ بْنِ عُكَامِسٍ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:",
+    "explanation_ar": "يخبر النبي صلى الله عليه وسلم: أن الله إذا قضى وقدَّر لعبد أن يموت بأرض وهو غير موجود فيها؛ جعل له إليها حاجة فيأتي إليها، فتقبض روحه فيها.",
     "hints_ar": [
-        "اهتمام الصحابة بسيرة النبي صلى الله عليه وسلم."
+        "الحديث مصداق لقول الله عز وجل: {وما تدري نفس بأي أرض تموت}."
     ],
     "words_meanings_ar": [],
-    "attribution_ar": "متفق عليه",
+    "attribution_ar": "رواه الترمذي",
     "grade_ar": "صحيح"
 }
